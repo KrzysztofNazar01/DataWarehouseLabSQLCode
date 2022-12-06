@@ -1,4 +1,4 @@
--- dwa razy uruchomic
+-- run this code TWO times
 use Trains_3 
 DROP TABLE Czas;
 DROP TABLE Data;

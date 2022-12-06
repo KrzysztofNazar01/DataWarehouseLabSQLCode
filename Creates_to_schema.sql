@@ -3,7 +3,8 @@ use Trains_3_schema
 
 CREATE TABLE Maszyniœci (
 	PESEL varchar(11) CHECK(PESEL LIKE '[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]') PRIMARY KEY,
-    Imie varchar(50) NOT NULL,
+    -- In DW you should concatanate Imie and Nazwisko to one variable called "Imie_naziwsko"
+	Imie varchar(50) NOT NULL,
 	Nazwisko varchar(50) NOT NULL,
     P³eæ varchar(20) CHECK(P³eæ='Kobieta' OR P³eæ='Mezczyzna') NOT NULL,
     

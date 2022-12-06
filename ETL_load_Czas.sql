@@ -1443,3 +1443,6 @@ insert into dbo.Czas("Godzina", Minuta) values (23, 58);
 insert into dbo.Czas("Godzina", Minuta) values (23, 59);
 
 select * from dbo.Czas;
+
+
+

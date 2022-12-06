@@ -14,3 +14,5 @@ BULK INSERT dbo.Maszyniœci
     )
 
 Select * from Maszyniœci
+
+
