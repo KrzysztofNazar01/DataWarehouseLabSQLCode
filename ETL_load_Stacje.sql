@@ -1,8 +1,38 @@
-﻿-- Import the data - it works
+﻿/*
+ladujemy dane do bazy danych
+zaladowac dane dal t1 - pierwszy ETL (dla t1)
+wyczyscic baze danych
+zaladowac nowe dane (dla t2)  --> rok remontu rozny lub nowe stacje sie pojawiają
+robimy etl dla t2
+
+
+*/
+
+
+CREATE TABLE Stacje_0(
+    Id_stacji int PRIMARY KEY,
+	Miejscowość varchar(50) NOT NULL,
+    Nazwa varchar(50) NOT NULL,
+    Rok_remontu int CHECK(Rok_remontu>=1900 AND Rok_remontu<=2022) NOT NULL,
+);
+
+
+
+CREATE TABLE Stacje_1(
+    Id_stacji int PRIMARY KEY,
+	Miejscowość varchar(50) NOT NULL,
+    Nazwa varchar(50) NOT NULL,
+    Rok_remontu int CHECK(Rok_remontu>=1900 AND Rok_remontu<=2022) NOT NULL,
+);
+
+
+-- Import the data - it works
+
+
 use Trains_3_schema
 go
 
-BULK INSERT dbo.Stacje
+BULK INSERT dbo.Stacje_0
     FROM 'C:\Informatyka\5 SEMESTR\DW HD\Task 5\Kod SQL task 5\DataWarehouseLabSQLCode\ETL_data\stations0.csv'
     WITH
     (
@@ -13,7 +43,22 @@ BULK INSERT dbo.Stacje
     TABLOCK
     )
 
-Select * from Stacje
+Select * from Stacje_0
+
+
+BULK INSERT dbo.Stacje_1
+    FROM 'C:\Informatyka\5 SEMESTR\DW HD\Task 5\Kod SQL task 5\DataWarehouseLabSQLCode\ETL_data\stations1.csv'
+    WITH
+    (
+	DATAFILETYPE = 'char',
+    FIRSTROW = 2,
+    FIELDTERMINATOR = ',', --CSV field delimiter
+    ROWTERMINATOR = '0x0a',   --Use to shift the control to next row
+    TABLOCK
+    )
+
+Select * from Stacje_1
+
 
 
 ----- TODO: implement more and update the code below
@@ -28,15 +73,17 @@ SELECT DISTINCT
 	[Miejscowość], 
 	[Nazwa],
 	[Rok_remontu]
-	FROM Trains_3_schema.dbo.Stacje
+	FROM Trains_3_schema.dbo.Stacje_0
 go
 
 --SET IDENTITY_INSERT Stacje ON
 --SET IDENTITY_INSERT vETLDimStacje ON
 
-MERGE INTO Stacje as S1
+MERGE INTO Stacje_0 as S1
 	USING vETLDimStacje as S2
-		ON  S1.Miejscowość = S2.Miejscowość AND S1.Nazwa = S2.Nazwa
+	--porownuj tylko klucz biznesowy
+
+		ON  S1.Id_stacji = S2.Id_stacji
 			WHEN Not Matched
 			THEN
 				INSERT
@@ -52,10 +99,12 @@ MERGE INTO Stacje as S1
 			THEN
 				UPDATE
 				SET S1.Czy_aktualna = 0
-				
+				-- tutaj insert z tabeli wymairow
+				-- from select except
+				-- ten select ma byc z hurtowni, z 
 
 
-			WHEN Not Matched By Source
+			WHEN Not Matched By Source --dane sa w hurtowni, ale ine am tego w bazie danych
 			Then
 				DELETE
 			;
@@ -66,5 +115,7 @@ SELECT * FROM Stacje;
 
 Drop View vETLDimStacje;
 
-USE Trains_3
-DELETE FROM Stacje
+
+
+
+

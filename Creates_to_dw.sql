@@ -2,7 +2,7 @@ use Trains_3
 CREATE TABLE Maszyniœci (
 	Id_maszynisty int identity(1,1) PRIMARY KEY,
     Imiê_nazwisko varchar(50) NOT NULL,
-    P³eæ varchar(9) CHECK(P³eæ='Kobieta' OR P³eæ='Mê¿czyzna') NOT NULL,
+    P³eæ varchar(9) CHECK(P³eæ='Kobieta' OR P³eæ='Mezczyzna') NOT NULL,
     PESEL varchar(11) CHECK(PESEL LIKE '[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]') NOT NULL
 );
 

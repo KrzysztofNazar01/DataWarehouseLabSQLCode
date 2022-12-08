@@ -16,3 +16,51 @@ BULK INSERT dbo.Maszyniœci
 Select * from Maszyniœci
 
 
+----- TODO: implement more and update the code below
+
+USE Trains_3
+GO 
+If (object_id('vETLDimMaszynisci') is not null) Drop View vETLDimMaszynisci;
+go
+CREATE VIEW vETLDimMaszynisci
+AS
+SELECT DISTINCT
+	[PESEL], 
+	[Imie],
+	[Nazwisko],
+	[P³eæ]
+	FROM Trains_3_schema.dbo.Maszyniœci
+go
+
+
+-- drop wszedzie icreate wszedzie
+
+select * from vETLDimMaszynisci
+--SET IDENTITY_INSERT Stacje ON
+--SET IDENTITY_INSERT vETLDimStacje ON
+
+MERGE INTO Maszyniœci as DW
+	USING vETLDimMaszynisci as DB
+		ON  DW.PESEL = DB.PESEL
+			WHEN Not Matched
+			THEN
+				INSERT
+				Values (
+					CONCAT(DB.Imie, ' ' , DB.Nazwisko),
+					DB.P³eæ,
+					DB.PESEL
+				)
+			
+			WHEN Not Matched By Source
+			Then
+				DELETE
+			;
+USE Trains_3_schema
+SELECT * FROM Stacje;
+USE Trains_3
+SELECT * FROM Stacje;
+
+Drop View vETLDimMaszynisci;
+
+USE Trains_3
+DELETE FROM Stacje

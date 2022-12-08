@@ -1,5 +1,7 @@
 Order of excecution:
 INITIAL DATA
+Create the tables in schema
+then:
 1.Daty
 2.Czas
 3.Maszynisci
