@@ -42,13 +42,13 @@ CREATE TABLE Przejazdy(
     Planowanego_czasu_przyjazdu DateTime NOT NULL,
     Rzeczywstego_czasu_przyjazdu DateTime  NOT NULL, 
     Max_liczba_miejsc int NOT NULL,  
-    Max_³adownoœæ int NOT NULL
+    Max_ladownosc int NOT NULL
 );
   
 CREATE TABLE Awarie(
     Id_awarii int PRIMARY KEY,
     Id_przejazdu int FOREIGN KEY REFERENCES Przejazdy(Id_przejazdu) NOT NULL,
-Data_awarii DateTime NOT NULL
+	Data_awarii DateTime NOT NULL
 );
 
 
