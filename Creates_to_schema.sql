@@ -2,7 +2,7 @@
 use Trains_3_schema
 
 CREATE TABLE Maszyniœci (
-	PESEL varchar(11) CHECK(PESEL LIKE '[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]') PRIMARY KEY,
+	PESEL int CHECK(PESEL LIKE '[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]') PRIMARY KEY,
     -- In DW you should concatanate Imie and Nazwisko to one variable called "Imie_naziwsko"
 	Imie varchar(50) NOT NULL,
 	Nazwisko varchar(50) NOT NULL,
@@ -28,7 +28,7 @@ CREATE TABLE Trasy(
 CREATE TABLE Poci¹gi(
     Id_poci¹gu int PRIMARY KEY,
     Typ varchar(10) CHECK(Typ IN ('Intercity','Regio','Arriva','EIP','SKM')) NOT NULL,
-    Typ_towaru varchar(20) CHECK(Typ_towaru In('Elektronika','Wêgiel','Paliwo','Poczta')) NOT NULL,
+    Typ_towaru varchar(20) CHECK(Typ_towaru In('Elektronika','Wegiel','Paliwo','Poczta')) NOT NULL,
 );
   
 --drop table Awarie
@@ -42,7 +42,7 @@ CREATE TABLE Przejazdy(
     Planowanego_czasu_przyjazdu DateTime NOT NULL,
     Rzeczywstego_czasu_przyjazdu DateTime  NOT NULL, 
     Max_liczba_miejsc int NOT NULL,  
-    Max_ladownosc int NOT NULL
+    Max_³adownoœæ int NOT NULL
 );
   
 CREATE TABLE Awarie(

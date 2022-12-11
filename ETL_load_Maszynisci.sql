@@ -1,3 +1,10 @@
+/*
+
+
+use Trains_3_schema
+drop Maszyniœci
+*/
+
 use Trains_3_schema
 go
 
@@ -16,7 +23,6 @@ BULK INSERT dbo.Maszyniœci
 Select * from Maszyniœci
 
 
------ TODO: implement more and update the code below
 
 USE Trains_3
 GO 
@@ -46,9 +52,10 @@ MERGE INTO Maszyniœci as DW
 			THEN
 				INSERT
 				Values (
-					CONCAT(DB.Imie, ' ' , DB.Nazwisko),
-					DB.P³eæ,
-					DB.PESEL
+					--CONCAT(DB.Imie, ' ' , DB.Nazwisko), -- stara wersja
+					Cast(DB.[Imie] + ' ' + DB.[Nazwisko] as nvarchar(128)), -- nowa wersja
+					DB.[P³eæ],
+					DB.[PESEL]
 				)
 			
 			WHEN Not Matched By Source

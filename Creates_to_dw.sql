@@ -23,8 +23,8 @@ CREATE TABLE Trasy(
   
 CREATE TABLE Poci¹gi(
     Id_poci¹gu int identity(1,1) PRIMARY KEY,
-    Typ varchar(10) CHECK(Typ IN ('Intercity','Regio','Arriva','EIP','SKM')) NOT NULL,
-    Typ_towaru varchar(20) CHECK(Typ_towaru In('Elektronika','Wêgiel','Paliwo','Poczta')) NOT NULL,
+    Typ varchar(10) NOT NULL,
+    Typ_towaru varchar(20) NOT NULL,
 );
   
   
@@ -37,7 +37,12 @@ CREATE TABLE Data(
     Dzieñ_tygodnia varchar(15) Check(Dzieñ_tygodnia IN('Poniedzia³ek','Wtorek','Œroda','Czwartek','Pi¹tek','Sobota','Niedziela')) Not NULL,
     Numer_dnia_tygodnia int Check(Numer_dnia_tygodnia>=1 aND Numer_dnia_tygodnia<=7) NOT NULL
 );
-  
+ 
+/*
+use Trains_3
+select * from Czas
+*/
+
 CREATE TABLE Czas(
     Id_czasu int identity(1,1) PRIMARY KEY,
     Godzina int CHECK(Godzina>=0 AND Godzina<=23) not NULL,
