@@ -1,24 +1,6 @@
 ﻿use Trains_3
 go
 
-drop table DimDate
-
-CREATE TABLE DimDate
-(
-    DateKey INTEGER IDENTITY(1,1) PRIMARY KEY,
-    Date datetime unique,
-	Year varchar(4),
-	Month varchar(10),
-	MonthNo int,
-	DayOfWeek varchar(15),
-	DayOfWeekNo int
-)
-GO
-
-
-use Trains_3
-go
-
 -- Fill DimDates Lookup Table
 -- Step a: Declare variables use in processing
 Declare @StartDate date; 
@@ -56,13 +38,6 @@ While @DateInProcess <= @EndDate
 	End
 go
 
-
--- insert into holidays and vacations
--------------------------------------------------------------
-
--- auxiliary tables should be created first!
-
-
 If (object_id('vETLDimDatesData') is not null) Drop View vETLDimDatesData;
 go
 
@@ -78,7 +53,5 @@ SELECT
 	, dd.DayOfWeekNo
 FROM DimDate as dd
 go
-
--- SELECT * from DimDate;
 
 Drop View vETLDimDatesData;

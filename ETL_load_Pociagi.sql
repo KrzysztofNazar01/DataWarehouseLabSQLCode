@@ -1,13 +1,4 @@
-﻿-- Import the data - it works
-
-
-Select * from Pociągi
-
-
------ TODO: implement more and update the code below
-
-
-USE Trains_3
+﻿USE Trains_3
 GO 
 If (object_id('vETLDimPociagi') is not null) Drop View vETLDimPociagi;
 go
@@ -20,12 +11,7 @@ SELECT DISTINCT
 	FROM Trains_3_schema.dbo.Pociągi
 go
 
-
--- drop wszedzie icreate wszedzie
-
-select * from vETLDimPociagi
---SET IDENTITY_INSERT Stacje ON
---SET IDENTITY_INSERT vETLDimStacje ON
+--select * from vETLDimPociagi
 
 MERGE INTO Pociągi as DW
 	USING vETLDimPociagi as DB
@@ -39,8 +25,6 @@ MERGE INTO Pociągi as DW
 				)
 
 			;
-USE Trains_3_schema
-SELECT * FROM Pociągi;
-USE Trains_3
-SELECT * FROM Pociągi;
+
+Drop View vETLDimPociagi;
 

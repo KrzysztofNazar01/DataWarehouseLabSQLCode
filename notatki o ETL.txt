@@ -1,0 +1,16 @@
+ladujemy dane do bazy danych
+zaladowac dane dal t1 - pierwszy ETL (dla t1)
+wyczyscic baze danych
+zaladowac nowe dane (dla t2)  --> rok remontu rozny lub nowe stacje sie pojawiają
+robimy etl dla t2
+
+
+*/
+
+/*
+use Trains_3_schema
+drop table Stacje_0
+drop table Stacje_1
+
+use Trains_3
+delete Stacje

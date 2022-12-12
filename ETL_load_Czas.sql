@@ -1,9 +1,4 @@
-﻿/*
-use Trains_3
-select * from Czas
-*/
-
-use Trains_3
+﻿use Trains_3
 go
 
 insert into dbo.Czas("Godzina", Minuta) values (0, 0);
@@ -1446,8 +1441,6 @@ insert into dbo.Czas("Godzina", Minuta) values (23, 56);
 insert into dbo.Czas("Godzina", Minuta) values (23, 57);
 insert into dbo.Czas("Godzina", Minuta) values (23, 58);
 insert into dbo.Czas("Godzina", Minuta) values (23, 59);
-
-select * from dbo.Czas;
 
 
 
