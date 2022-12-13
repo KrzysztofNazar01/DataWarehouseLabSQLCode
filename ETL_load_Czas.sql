@@ -1442,5 +1442,4 @@ insert into dbo.Czas("Godzina", Minuta) values (23, 57);
 insert into dbo.Czas("Godzina", Minuta) values (23, 58);
 insert into dbo.Czas("Godzina", Minuta) values (23, 59);
 
-
-
+-- select * from Czas

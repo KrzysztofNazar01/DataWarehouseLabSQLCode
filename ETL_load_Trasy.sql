@@ -5,24 +5,24 @@ go
 CREATE VIEW vETLDimTrasy
 AS
 SELECT DISTINCT 
-	[Id_stacji_początkowej],
-	[Id_stacji_końcowej]
+	[Id_stacji_poczatkowej],
+	[Id_stacji_koncowej]
 	FROM Trains_3_schema.dbo.Trasy
 go
 
 
---select * from vETLDimTrasy
+--select * from Trains_3_schema.dbo.Trasy
 
 MERGE INTO Trasy as DW
 	USING vETLDimTrasy as DB
-		ON  DW.Id_stacji_początkowej = DB.Id_stacji_początkowej
-		AND DW.Id_stacji_końcowej = DB.Id_stacji_końcowej
+		ON  DW.Id_stacji_poczatkowej = DB.Id_stacji_poczatkowej
+		AND DW.Id_stacji_koncowej = DB.Id_stacji_koncowej
 			WHEN Not Matched
 			THEN
 				INSERT
 				Values (
-					Id_stacji_początkowej
-					, Id_stacji_końcowej
+					DB.Id_stacji_poczatkowej
+					, DB.Id_stacji_koncowej
 				)
 			
 			WHEN Not Matched By Source
@@ -33,12 +33,12 @@ MERGE INTO Trasy as DW
 
 /*
 USE Trains_3_schema
-SELECT * FROM Trasy;
-Select * from Stacje
+SELECT * FROM Trasy order by Id_stacji_koncowej
+Select * from Stacje order by Id_stacji
 
 USE Trains_3
-SELECT * FROM Trasy;
-Select * from Stacje
+SELECT * FROM Trasy order by Id_stacji_koncowej
+Select * from Stacje order by Id_stacji_bd
 Drop View vETLDimTrasy;
 
 */

@@ -8,11 +8,11 @@ SELECT DISTINCT
 	[PESEL], 
 	[Imie],
 	[Nazwisko],
-	[P³eæ]
-	FROM Trains_3_schema.dbo.Maszyniœci
+	[Plec]
+	FROM Trains_3_schema.dbo.Maszynisci
 go
 
-MERGE INTO Maszyniœci as DW
+MERGE INTO Maszynisci as DW
 	USING vETLDimMaszynisci as DB
 		ON  DW.PESEL = DB.PESEL
 			WHEN Not Matched
@@ -20,8 +20,8 @@ MERGE INTO Maszyniœci as DW
 				INSERT
 				Values (
 					--CONCAT(DB.Imie, ' ' , DB.Nazwisko), -- stara wersja
-					Cast(DB.[Imie] + ' ' + DB.[Nazwisko] as nvarchar(128)), -- nowa wersja
-					DB.[P³eæ],
+					Cast(DB.[Imie] + ' ' + DB.[Nazwisko] as nvarchar(50)), -- nowa wersja
+					DB.[Plec],
 					DB.[PESEL]
 				)
 			
@@ -32,3 +32,7 @@ MERGE INTO Maszyniœci as DW
 
 Drop View vETLDimMaszynisci;
 
+/*
+USE Trains_3
+select * from Maszynisci
+*/

@@ -1,13 +1,31 @@
 Order of excecution:
-INITIAL DATA
-Create the tables in schema
-then:
-1.Daty
-2.Czas
-3.Maszynisci
-4.Stacje
-5.Trasy
-6.Awarie
+
+DATABASE
+- create schema tables
+	- Stacje
+	- Trasy
+	- Maszynisci
+	- Pociagi
+	- Awarie
+	- Przejazdy
+- insert to schema
+
+
+DATAWAREHOUSE
+- Create DW tables:
+	- Czas
+	- Daty
+- inserts to Czas na Daty
+	- Czas (ETL)
+	- Daty (ETL)
+- Create the rest of the DW tables:
+	- Stacje
+	- Trasy
+	- Maszynisci
+	- Pociagi
+	- Przejazdy
+	- Awarie
+
 
 
 TODO:

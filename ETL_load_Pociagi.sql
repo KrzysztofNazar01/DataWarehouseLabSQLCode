@@ -5,26 +5,34 @@ go
 CREATE VIEW vETLDimPociagi
 AS
 SELECT DISTINCT
-	[Id_pociągu],
+	[Id_pociagu],
 	[Typ], 
 	[Typ_towaru]
-	FROM Trains_3_schema.dbo.Pociągi
+	FROM Trains_3_schema.dbo.Pociagi
 go
 
---select * from vETLDimPociagi
+--   select * from Trains_3_schema.dbo.Pociagi
 
-MERGE INTO Pociągi as DW
+MERGE INTO Pociagi as DW
 	USING vETLDimPociagi as DB
-		ON  DW.Typ = DB.Typ AND DW.Typ_towaru = DB.Typ_towaru
+		ON  DW.Typ = DB.Typ
+		AND DW.Typ_towaru = DB.Typ_towaru
 			WHEN Not Matched
 			THEN
 				INSERT
 				Values (
-					Typ,
-					Typ_towaru
+					DB.Typ,
+					DB.Typ_towaru
 				)
 
 			;
 
 Drop View vETLDimPociagi;
 
+
+/*
+
+USE Trains_3
+select * from Pociagi
+
+*/

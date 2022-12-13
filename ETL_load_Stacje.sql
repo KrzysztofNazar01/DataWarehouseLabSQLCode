@@ -1,26 +1,30 @@
 ﻿USE Trains_3
 GO 
 If (object_id('vETLDimStacje') is not null) Drop View vETLDimStacje;
-go
+GO
 CREATE VIEW vETLDimStacje
 AS
 SELECT DISTINCT
-	[Miejscowość], 
+	[Id_stacji],
+	[Miejscowosc], 
 	[Nazwa],
 	[Rok_remontu]
 	FROM Trains_3_schema.dbo.Stacje
-go
+	--	FROM Trains_3_schema.dbo.Stacje1
+GO
+
+--select * from  vETLDimStacje
 
 MERGE INTO Stacje as S1
 	USING vETLDimStacje as S2
-	--porownuj tylko klucz biznesowy
-
-		ON  S1.Miejscowość = S1.Miejscowość AND  S1.Nazwa = S2.Nazwa
+		ON S1.Miejscowosc = S1.Miejscowosc
+			AND  S1.Nazwa = S2.Nazwa
 			WHEN Not Matched
 			THEN
 				INSERT
-				Values (
-					S2.Miejscowość,
+				VALUES (
+					S2.Id_stacji,
+					S2.Miejscowosc,
 					S2.Nazwa,
 					S2.Rok_remontu,
 					1
@@ -31,72 +35,38 @@ MERGE INTO Stacje as S1
 			THEN
 				UPDATE
 				SET S1.Czy_aktualna = 0
-				-- tutaj insert z tabeli wymairow
-				-- from select except
-				-- ten select ma byc z hurtowni, z 
-
-
-			WHEN Not Matched By Source --dane sa w hurtowni, ale nie ma tego w bazie danych
-			Then
-				UPDATE
-				SET S1.Czy_aktualna = 0
 			;
-
-Drop View vETLDimStacje;
-
-/*
-USE Trains_3_schema
-SELECT * FROM Stacje_0;
-SELECT * FROM Stacje_1;
-
-USE Trains_3
-SELECT * FROM Stacje;
-
-USE Trains_3
-delete Stacje;
-
-*/
-
-
-
-
-
 
 -- INSERTING CHANGED ROWS TO THE DIMSELLER TABLE
 INSERT INTO Stacje(
-	--Id_stacji,
-	Miejscowość, 
+	Id_stacji_bd,
+	Miejscowosc, 
 	Nazwa, 
 	Rok_remontu,
 	Czy_aktualna
 	)
 	SELECT 
-		--Id_stacji,
-		Miejscowość, 
+		Id_stacji,
+		Miejscowosc, 
 		Nazwa, 
 		Rok_remontu,
 		1
 	FROM vETLDimStacje
 	EXCEPT
 	SELECT 
-		--Id_stacji.
-		Miejscowość, 
+		Id_stacji_bd,
+		Miejscowosc, 
 		Nazwa, 
 		Rok_remontu,
 		1
 	FROM Stacje;
 
 
-
-
-
-USE Trains_3_schema
-SELECT * FROM Stacje_1;
-USE Trains_3
-SELECT * FROM Stacje;
-
-
 Drop View vETLDimStacje;
 
+/*
+Use Trains_3
+Select * from Stacje order by Id_stacji_bd
+*/
 
 
