@@ -1,18 +1,29 @@
 ﻿/*
 
+Use Trains_3_schema
+Select * from PrzejazdyDB
+Select * from PrzejazdySheet
+
+Use Trains_3
+Select * from Przejazdy
+
 Use Trains_3
 Select * from Maszynisci
 
+Use Trains_3_schema
+Select * from Pociagi
+
+Use Trains_3_schema
+Select * from PrzejazdyDB
+order by Id_pociagu desc
 
 Use Trains_3
-Select * from vETLDimPrzejazdy
-
+Select * from Pociagi
 
 */
 
 
 USE Trains_3
-GO 
 If (object_id('vETLDimPrzejazdy') is not null) Drop View vETLDimPrzejazdy;
 go
 CREATE VIEW vETLDimPrzejazdy
@@ -23,10 +34,10 @@ SELECT DISTINCT
 	table1.[Id_pociagu],
 	table1.[Id_trasy],
 	RW.[Id_daty] as Id_daty_rzeczywistego_wyjazdu,
-	RW_G.[Id_czasu] as Id_czasu_rzeczywistego_wyjazdu,
-	PP.[Id_daty] as Id_daty_planowanego_przyjazdu,
+	--RW_G.[Id_czasu] as Id_czasu_rzeczywistego_wyjazdu,
+	--PP.[Id_daty] as Id_daty_planowanego_przyjazdu,
 	PP_G.[Id_czasu] as Id_czasu_planowanego_przyjazdu,
-	RP.[Id_daty] as Id_daty_rzeczywstego_przyjazdu,
+	--RP.[Id_daty] as Id_daty_rzeczywstego_przyjazdu,
 	RP_G.[Id_czasu] as Id_czasu_rzeczywistego_przyjazdu,
 	table2.[Opoznienie],
 	table2.[Czy_wystapila_awaria],
@@ -41,10 +52,10 @@ SELECT DISTINCT
 	JOIN dbo.Data as RW ON CONVERT(VARCHAR(10), RW.Data, 111) = CONVERT(VARCHAR(10), table1.[Data_rzeczywisty_wyjazd], 111)
 	JOIN dbo.Czas as RW_G ON RW_G.Godzina = DATEPART(HOUR, table1.[Data_rzeczywisty_wyjazd])
 	JOIN dbo.Czas as RW_M ON RW_M.Minuta = DATEPART(MINUTE, table1.[Data_rzeczywisty_wyjazd])
-	JOIN dbo.Data as PP ON CONVERT(VARCHAR(10), PP.Data, 111) = CONVERT(VARCHAR(10), table1.[Data_planowany_przyjazd], 111)
+	--JOIN dbo.Data as PP ON CONVERT(VARCHAR(10), PP.Data, 111) = CONVERT(VARCHAR(10), table1.[Data_planowany_przyjazd], 111)
 	JOIN dbo.Czas as PP_G ON PP_G.Godzina = DATEPART(HOUR, table1.[Data_planowany_przyjazd])
 	JOIN dbo.Czas as PP_M ON PP_M.Minuta = DATEPART(MINUTE, table1.[Data_planowany_przyjazd])
-	JOIN dbo.Data as RP ON CONVERT(VARCHAR(10), RP.Data, 111) = CONVERT(VARCHAR(10), table1.[Data_rzeczywisty_przyjazd], 111)
+	--JOIN dbo.Data as RP ON CONVERT(VARCHAR(10), RP.Data, 111) = CONVERT(VARCHAR(10), table1.[Data_rzeczywisty_przyjazd], 111)
 	JOIN dbo.Czas as RP_G ON RP_G.Godzina = DATEPART(HOUR, table1.[Data_rzeczywisty_przyjazd])
 	JOIN dbo.Czas as RP_M ON RP_M.Minuta = DATEPART(MINUTE, table1.[Data_rzeczywisty_przyjazd])
 
@@ -58,13 +69,11 @@ Where
 go
 
 Select * from vETLDimPrzejazdy
-
+order by Id_pociagu desc
 
 
 MERGE INTO Przejazdy as DW
 	USING vETLDimPrzejazdy as DB
-
-	--TODO
 		ON  DW.Id_maszynisty = DB.Id_maszynisty
 			AND DW.Id_pociagu = DB.Id_pociagu
 			AND DW.Id_trasy = DB.Id_trasy
@@ -72,17 +81,19 @@ MERGE INTO Przejazdy as DW
 			AND DW.Id_planowanego_czasu_przyjazdu = DB.Id_czasu_planowanego_przyjazdu
 			AND DW.Id_rzeczywstego_czasu_przyjazdu = DB.Id_czasu_rzeczywistego_przyjazdu
 			AND DW.Opoznienie = DB.Opoznienie
+			/*
 			AND DW.Czy_wystapila_awaria = DB.Czy_wystapila_awaria
 			AND DW.Liczba_zajetych_miejsc = DB.Liczba_zajetych_miejsc
 			AND DW.Max_liczba_miejsc = DB.Max_liczba_miejsc
 			AND DW.Procent_zajetych_miejsc = DB.Procent_zajetych_miejsc
 			AND DW.Masa_towaru = DB.Masa_przewozonego_towaru
 			AND DW.Max_ladownosc = DB.Max_ladownosc
+			*/
 			WHEN Not Matched
 			THEN
 				INSERT
 				Values (
-					DB.Id_maszynisty
+					  DB.Id_maszynisty
 					, DB.Id_pociagu
 					, DB.Id_trasy
 					, DB.Id_daty_rzeczywistego_wyjazdu
@@ -96,11 +107,14 @@ MERGE INTO Przejazdy as DW
 					, DB.Masa_przewozonego_towaru
 					, DB.Max_ladownosc
 				)
-			
-			WHEN Not Matched By Source
-			Then
-				DELETE
 			;
 
 
 Drop View vETLDimPrzejazdy;
+
+/*
+
+Use Trains_3
+Select * from Przejazdy
+
+*/

@@ -30,7 +30,7 @@ MERGE INTO Trasy as DW
 				DELETE
 			;
 
-
+Drop View vETLDimTrasy;
 /*
 USE Trains_3_schema
 SELECT * FROM Trasy order by Id_stacji_koncowej

@@ -1,4 +1,9 @@
-﻿use Trains_3
+﻿--
+-- IMPORTANT!!!!
+-- run every command individually
+-- otherwise does not work
+
+use Trains_3
 go
 
 -- table needed to convert English month and weekday names to Polish names

@@ -18,22 +18,17 @@ SELECT DISTINCT
 	JOIN dbo.Data as SD ON CONVERT(VARCHAR(10), SD.Data, 111) = CONVERT(VARCHAR(10), table1.[Data_awarii], 111)
 Where
 	G.[Id_czasu] = M.[Id_czasu]
-
 go
 
 
 /*
 
-USE Trains_3
-select * from Czas
+select * from vETLDimAwarie
 
 */
 
-
 MERGE INTO Awarie as DW
 	USING vETLDimAwarie as DB
-
-	--TODO
 		ON  DW.Id_przejazdu = DB.Id_przejazdu
 			AND DW.Id_daty_awarii = DB.Id_daty
 			AND DW.Id_czasu_awarii = DB.Id_czasu
@@ -57,3 +52,10 @@ MERGE INTO Awarie as DW
 
 
 Drop View vETLDimAwarie;
+
+/*
+
+use Trains_3
+select * from Awarie
+
+*/

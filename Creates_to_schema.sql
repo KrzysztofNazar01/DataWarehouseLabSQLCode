@@ -85,6 +85,12 @@ go
 
 
 /*
+delete AwarieSheet
+delete AwarieDB
+*/
+
+
+/*
 
 -- to chyba mozna usunac
 If (object_id('dbo.Przejazdy') is not null) DROP TABLE dbo.Przejazdy;
