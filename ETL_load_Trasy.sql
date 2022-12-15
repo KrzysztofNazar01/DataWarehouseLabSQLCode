@@ -39,7 +39,6 @@ Select * from Stacje order by Id_stacji
 USE Trains_3
 SELECT * FROM Trasy order by Id_stacji_koncowej
 Select * from Stacje order by Id_stacji_bd
-Drop View vETLDimTrasy;
 
 */
 

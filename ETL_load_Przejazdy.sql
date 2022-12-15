@@ -69,7 +69,7 @@ Where
 go
 
 Select * from vETLDimPrzejazdy
-order by Id_pociagu desc
+order by Id_maszynisty desc
 
 
 MERGE INTO Przejazdy as DW

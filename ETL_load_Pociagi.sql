@@ -32,6 +32,10 @@ Drop View vETLDimPociagi;
 
 /*
 
+
+USE Trains_3_schema
+select * from Pociagi
+
 USE Trains_3
 select * from Pociagi
 

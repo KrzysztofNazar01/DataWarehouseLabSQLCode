@@ -59,9 +59,9 @@ While @DateInProcess <= @EndDate
 		Set @DateInProcess = DateAdd(d, 1, @DateInProcess);
 	End
 
-
+GO
 If (object_id('vETLDimDatesData') is not null) Drop View vETLDimDatesData;
-go
+GO
 CREATE VIEW vETLDimDatesData
 AS
 SELECT 
@@ -95,6 +95,9 @@ SELECT
 	END AS Nazwa_dnia_tygodnia
 	, dd.Numer_dnia_tygodnia
 FROM Data_temp as dd;
+
+GO
+
 
 MERGE INTO Data as DW
 	USING vETLDimDatesData as DB

@@ -127,4 +127,3 @@ BULK INSERT dbo.PrzejazdySheet
     ROWTERMINATOR = '\n',   --Use to shift the control to next row
     TABLOCK
     )
-

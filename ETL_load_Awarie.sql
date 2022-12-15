@@ -44,10 +44,7 @@ MERGE INTO Awarie as DW
 					, DB.Czy_naprawiono_na_miejscu
 					, DB.Czas_naprawy
 				)
-			
-			WHEN Not Matched By Source
-			Then
-				DELETE
+		
 			;
 
 
