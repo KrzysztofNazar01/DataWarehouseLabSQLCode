@@ -30,7 +30,7 @@ BULK INSERT dbo.Stacje1
     )
 
 
-select * from Stacje1
+select * from Stacje1;
 
 UPDATE
     Stacje
