@@ -5,21 +5,25 @@ go
 CREATE VIEW vETLDimAwarie
 AS
 SELECT DISTINCT
-	table1.[Id_awarii], 
-	table1.[Id_przejazdu],
+	A_DB.[Id_awarii], 
+	A_DB.[Id_przejazdu],
 	SD.[Id_daty],
 	G.[Id_czasu] as Id_czasu,
-	table2.[Czy_naprawiono_na_miejscu],
-	table2.[Czas_naprawy]
-	FROM Trains_3_schema.dbo.AwarieDB as table1
-	JOIN Trains_3_schema.dbo.AwarieSheet as table2 ON table1.Id_awarii = table2.Id_awarii
-	JOIN dbo.Czas as G ON G.Godzina = DATEPART(HOUR, table1.Data_awarii)
-	JOIN dbo.Czas as M ON M.Minuta = DATEPART(MINUTE, table1.Data_awarii)
-	JOIN dbo.Data as SD ON CONVERT(VARCHAR(10), SD.Data, 111) = CONVERT(VARCHAR(10), table1.[Data_awarii], 111)
+	A_SH.[Czy_naprawiono_na_miejscu],
+	A_SH.[Czas_naprawy]
+	FROM Trains_3_schema.dbo.AwarieDB as A_DB
+	JOIN Trains_3_schema.dbo.AwarieSheet as A_SH ON A_DB.Id_awarii = A_SH.Id_awarii
+	JOIN dbo.Czas as G ON G.Godzina = DATEPART(HOUR, A_DB.Data_awarii)
+	JOIN dbo.Czas as M ON M.Minuta = DATEPART(MINUTE, A_DB.Data_awarii)
+	JOIN dbo.Data as SD ON CONVERT(VARCHAR(10), SD.Data, 111) = CONVERT(VARCHAR(10), A_DB.[Data_awarii], 111)
+
+	JOIN dbo.Awarie AS A_DW ON A_DW.Id_awarii = A_DB.Id_awarii
+
 Where
 	G.[Id_czasu] = M.[Id_czasu]
 go
 
+select * from vETLDimAwarie
 
 /*
 

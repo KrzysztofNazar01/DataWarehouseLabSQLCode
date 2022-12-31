@@ -10,7 +10,6 @@ SELECT DISTINCT
 	[Nazwa],
 	[Rok_remontu]
 	FROM Trains_3_schema.dbo.Stacje
-	--	FROM Trains_3_schema.dbo.Stacje1
 GO
 
 --select * from  vETLDimStacje

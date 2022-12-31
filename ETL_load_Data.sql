@@ -121,10 +121,7 @@ MERGE INTO Data as DW
 					, DB.Nazwa_dnia_tygodnia
 					, DB.Numer_dnia_tygodnia
 				)
-			
-			WHEN Not Matched By Source
-			Then
-				DELETE
+
 			;
 
 Drop View vETLDimDatesData;

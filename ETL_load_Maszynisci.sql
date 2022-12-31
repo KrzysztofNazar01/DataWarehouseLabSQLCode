@@ -24,10 +24,6 @@ MERGE INTO Maszynisci as DW
 					DB.[Plec],
 					DB.[PESEL]
 				)
-			
-			WHEN Not Matched By Source
-			Then
-				DELETE
 			;
 
 Drop View vETLDimMaszynisci;

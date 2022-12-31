@@ -1,6 +1,11 @@
 use Trains_3_schema
 go
 
+/*
+use Trains_3
+select * from Data
+go
+*/
 
 /*
 
@@ -12,7 +17,7 @@ CREATE TABLE Stacje1(
     Nazwa varchar(50) NOT NULL,
     Rok_remontu int CHECK(Rok_remontu>=1900 AND Rok_remontu<=2022) NOT NULL,
 );
--- drop table Stacje1
+
 BULK INSERT dbo.Stacje1
     FROM 'C:\Informatyka\5 SEMESTR\DW HD\Task 5\Kod SQL task 5\DataWarehouseLabSQLCode\ETL_data\stations1.csv'
     WITH
@@ -25,9 +30,30 @@ BULK INSERT dbo.Stacje1
     )
 
 
+select * from Stacje1
+
+UPDATE
+    Stacje
+SET
+    Stacje.Rok_remontu = Stacje1.Rok_remontu
+FROM
+    Stacje 
+INNER JOIN
+    Stacje1 
+ON 
+    Stacje.Id_stacji = Stacje1.Id_stacji;
+
+-----
+use Trains_3_schema
+select * from Stacje
+drop table Stacje1
+
+
+-----
+use Trains_3_schema
+select * from Stacje
 */
 
--- drop table Stacje
 use Trains_3_schema
 BULK INSERT dbo.Stacje
     FROM 'C:\Informatyka\5 SEMESTR\DW HD\Task 5\Kod SQL task 5\DataWarehouseLabSQLCode\ETL_data\stations0.csv'

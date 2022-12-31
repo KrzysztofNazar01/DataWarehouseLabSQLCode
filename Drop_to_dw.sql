@@ -9,7 +9,6 @@ DROP TABLE Maszynisci;
 DROP TABLE Awarie;
 DROP TABLE Przejazdy;
 
-
 /*
 use Trains_3 
 select * from Data

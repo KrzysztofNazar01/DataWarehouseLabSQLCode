@@ -6,8 +6,10 @@ CREATE TABLE Czas(
     Godzina int CHECK(Godzina>=0 AND Godzina<=23) not NULL,
     Minuta int CHECK(Minuta>=0 AND Minuta<=59) not NULL,
   );
--- SELECT * FROM Czas
 
+
+/*use Trains_3 SELECT * FROM Awarie
+*/
 use Trains_3
 CREATE TABLE Data(
     Id_daty int identity(1,1) PRIMARY KEY,
@@ -62,6 +64,8 @@ CREATE TABLE Pociagi(
     Id_pociagu int identity(1,1) PRIMARY KEY,
     Typ varchar(10) NOT NULL,
     Typ_towaru varchar(20) NOT NULL,
+	Ladownosc int NOT NULL,
+	Miejsca int NOT NULL,
 );
  
 

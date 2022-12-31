@@ -22,42 +22,44 @@ Select * from Pociagi
 
 */
 
-
+/*
 USE Trains_3
 If (object_id('vETLDimPrzejazdy') is not null) Drop View vETLDimPrzejazdy;
 go
 CREATE VIEW vETLDimPrzejazdy
 AS
 SELECT DISTINCT
-	table1.[Id_przejazdu],
-	table1.[Id_maszynisty],
-	table1.[Id_pociagu],
-	table1.[Id_trasy],
+	P_DW.[Id_przejazdu],
+	P_DB.[Id_maszynisty],
+	P_DB.[Id_pociagu],
+	P_DB.[Id_trasy],
 	RW.[Id_daty] as Id_daty_rzeczywistego_wyjazdu,
 	--RW_G.[Id_czasu] as Id_czasu_rzeczywistego_wyjazdu,
 	--PP.[Id_daty] as Id_daty_planowanego_przyjazdu,
 	PP_G.[Id_czasu] as Id_czasu_planowanego_przyjazdu,
 	--RP.[Id_daty] as Id_daty_rzeczywstego_przyjazdu,
 	RP_G.[Id_czasu] as Id_czasu_rzeczywistego_przyjazdu,
-	table2.[Opoznienie],
-	table2.[Czy_wystapila_awaria],
-	table2.[Liczba_zajetych_miejsc],
-	table2.[Max_liczba_miejsc],
-	Procent_zajetych_miejsc = CAST(100*table2.[Liczba_zajetych_miejsc]/table2.[Max_liczba_miejsc] AS INT),
-	table2.[Masa_przewozonego_towaru],
-	table2.[Max_ladownosc]
+	P_SH.[Opoznienie],
+	P_SH.[Czy_wystapila_awaria],
+	P_SH.[Liczba_zajetych_miejsc],
+	P_SH.[Max_liczba_miejsc],
+	Procent_zajetych_miejsc = CAST(100*P_SH.[Liczba_zajetych_miejsc]/P_SH.[Max_liczba_miejsc] AS INT),
+	P_SH.[Masa_przewozonego_towaru],
+	P_SH.[Max_ladownosc]
 
-	FROM Trains_3_schema.dbo.PrzejazdyDB as table1
-	JOIN Trains_3_schema.dbo.PrzejazdySheet as table2 ON table1.Id_przejazdu = table2.Id_przejazdu
-	JOIN dbo.Data as RW ON CONVERT(VARCHAR(10), RW.Data, 111) = CONVERT(VARCHAR(10), table1.[Data_rzeczywisty_wyjazd], 111)
-	JOIN dbo.Czas as RW_G ON RW_G.Godzina = DATEPART(HOUR, table1.[Data_rzeczywisty_wyjazd])
-	JOIN dbo.Czas as RW_M ON RW_M.Minuta = DATEPART(MINUTE, table1.[Data_rzeczywisty_wyjazd])
-	--JOIN dbo.Data as PP ON CONVERT(VARCHAR(10), PP.Data, 111) = CONVERT(VARCHAR(10), table1.[Data_planowany_przyjazd], 111)
-	JOIN dbo.Czas as PP_G ON PP_G.Godzina = DATEPART(HOUR, table1.[Data_planowany_przyjazd])
-	JOIN dbo.Czas as PP_M ON PP_M.Minuta = DATEPART(MINUTE, table1.[Data_planowany_przyjazd])
-	--JOIN dbo.Data as RP ON CONVERT(VARCHAR(10), RP.Data, 111) = CONVERT(VARCHAR(10), table1.[Data_rzeczywisty_przyjazd], 111)
-	JOIN dbo.Czas as RP_G ON RP_G.Godzina = DATEPART(HOUR, table1.[Data_rzeczywisty_przyjazd])
-	JOIN dbo.Czas as RP_M ON RP_M.Minuta = DATEPART(MINUTE, table1.[Data_rzeczywisty_przyjazd])
+	FROM Trains_3_schema.dbo.PrzejazdyDB as P_DB
+	JOIN Trains_3_schema.dbo.PrzejazdySheet as P_SH ON P_DB.Id_przejazdu = P_SH.Id_przejazdu
+	JOIN dbo.Data as RW ON CONVERT(VARCHAR(10), RW.Data, 111) = CONVERT(VARCHAR(10), P_DB.[Data_rzeczywisty_wyjazd], 111)
+	JOIN dbo.Czas as RW_G ON RW_G.Godzina = DATEPART(HOUR, P_DB.[Data_rzeczywisty_wyjazd])
+	JOIN dbo.Czas as RW_M ON RW_M.Minuta = DATEPART(MINUTE, P_DB.[Data_rzeczywisty_wyjazd])
+	--JOIN dbo.Data as PP ON CONVERT(VARCHAR(10), PP.Data, 111) = CONVERT(VARCHAR(10), P_DB.[Data_planowany_przyjazd], 111)
+	JOIN dbo.Czas as PP_G ON PP_G.Godzina = DATEPART(HOUR, P_DB.[Data_planowany_przyjazd])
+	JOIN dbo.Czas as PP_M ON PP_M.Minuta = DATEPART(MINUTE, P_DB.[Data_planowany_przyjazd])
+	--JOIN dbo.Data as RP ON CONVERT(VARCHAR(10), RP.Data, 111) = CONVERT(VARCHAR(10), P_DB.[Data_rzeczywisty_przyjazd], 111)
+	JOIN dbo.Czas as RP_G ON RP_G.Godzina = DATEPART(HOUR, P_DB.[Data_rzeczywisty_przyjazd])
+	JOIN dbo.Czas as RP_M ON RP_M.Minuta = DATEPART(MINUTE, P_DB.[Data_rzeczywisty_przyjazd])
+	
+	JOIN dbo.Przejazdy AS P_DW ON P_DW.Id_przejazdu = P_DB.Id_przejazdu
 
 Where
 	RW_G.[Id_czasu] = RW_M.[Id_czasu]
@@ -66,10 +68,61 @@ Where
 	AND 
 	RP_G.[Id_czasu] = RP_M.[Id_czasu]
 
+go*/
+
+USE Trains_3
+If (object_id('vETLDimPrzejazdy') is not null) Drop View vETLDimPrzejazdy;
+go
+CREATE VIEW vETLDimPrzejazdy
+AS
+SELECT DISTINCT
+	M_DW.[Id_maszynisty],
+	Poc_DW.[Id_pociagu],
+	T_DW.[Id_trasy],
+
+	RW.[Id_daty] as Id_daty_rzeczywistego_wyjazdu,
+	PP_G.[Id_czasu] as Id_czasu_planowanego_przyjazdu,
+	RP_G.[Id_czasu] as Id_czasu_rzeczywistego_przyjazdu,
+
+	P_SH.[Opoznienie],
+	P_SH.[Czy_wystapila_awaria],
+	P_SH.[Liczba_zajetych_miejsc],
+	P_SH.[Max_liczba_miejsc],
+	Procent_zajetych_miejsc = CAST(100*P_SH.[Liczba_zajetych_miejsc]/P_SH.[Max_liczba_miejsc] AS INT),
+	P_SH.[Masa_przewozonego_towaru],
+	P_SH.[Max_ladownosc]
+	
+
+	FROM Trains_3_schema.dbo.PrzejazdyDB as P_DB
+	JOIN Trains_3_schema.dbo.PrzejazdySheet as P_SH ON P_DB.Id_przejazdu = P_SH.Id_przejazdu
+JOIN Trains_3_schema.[dbo].[Maszynisci] as M_DB ON P_DB.Id_maszynisty = M_DB.PESEL --wyszukc masyzniste w bazie danych
+	JOIN [Trains_3].[dbo].[Maszynisci] as M_DW ON M_DW.PESEL = M_DB.PESEL  -- a tutaj wyszukac masyzniste po atrubtyach ktore nie sa kluczem glownym, a na koniec pobrac jego klucz glowny
+	
+	JOIN Trains_3_schema.[dbo].[Pociagi] as Poc_DB ON P_DB.Id_pociagu = Poc_DB.Id_pociagu --wyszukc masyzniste w bazie danych
+	JOIN [Trains_3].[dbo].[Pociagi] as Poc_DW ON Poc_DW.Typ = Poc_DB.Typ AND Poc_DW.Typ_towaru = Poc_DB.Typ_towaru AND Poc_DW.Ladownosc = Poc_DB.Ladownosc AND Poc_DW.Miejsca = Poc_DB.Miejsca -- a tutaj wyszukac masyzniste po atrubtyach ktore nie sa kluczem glowny, a na koniec pobrac jego klucz glowny
+	
+	JOIN Trains_3_schema.[dbo].[Trasy] as T_DB ON P_DB.Id_trasy = T_DB.Id_trasy --wyszukc masyzniste w bazie danych
+	JOIN [Trains_3].[dbo].[Trasy] as T_DW ON T_DW.Id_stacji_koncowej = T_DB.Id_stacji_koncowej AND T_DW.Id_stacji_poczatkowej = T_DB.Id_stacji_poczatkowej  -- a tutaj wyszukac masyzniste po atrubtyach ktore nie sa kluczem glowny, a na koniec pobrac jego klucz glowny
+
+	JOIN dbo.Data as RW ON CONVERT(VARCHAR(10), RW.Data, 111) = CONVERT(VARCHAR(10), P_DB.[Data_rzeczywisty_wyjazd], 111)
+	JOIN dbo.Czas as RW_G ON RW_G.Godzina = DATEPART(HOUR, P_DB.[Data_rzeczywisty_wyjazd])
+	JOIN dbo.Czas as RW_M ON RW_M.Minuta = DATEPART(MINUTE, P_DB.[Data_rzeczywisty_wyjazd])
+	
+	JOIN dbo.Czas as PP_G ON PP_G.Godzina = DATEPART(HOUR, P_DB.[Data_planowany_przyjazd])
+	JOIN dbo.Czas as PP_M ON PP_M.Minuta = DATEPART(MINUTE, P_DB.[Data_planowany_przyjazd])
+
+	JOIN dbo.Czas as RP_G ON RP_G.Godzina = DATEPART(HOUR, P_DB.[Data_rzeczywisty_przyjazd])
+	JOIN dbo.Czas as RP_M ON RP_M.Minuta = DATEPART(MINUTE, P_DB.[Data_rzeczywisty_przyjazd])
+
+Where
+	RW_G.[Id_czasu] = RW_M.[Id_czasu]
+	AND 
+	PP_G.[Id_czasu] = PP_M.[Id_czasu]
+	AND 
+	RP_G.[Id_czasu] = RP_M.[Id_czasu]
 go
 
 Select * from vETLDimPrzejazdy
-order by Id_maszynisty desc
 
 
 MERGE INTO Przejazdy as DW

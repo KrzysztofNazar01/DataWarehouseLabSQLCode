@@ -5,9 +5,13 @@ go
 CREATE VIEW vETLDimTrasy
 AS
 SELECT DISTINCT 
-	[Id_stacji_poczatkowej],
-	[Id_stacji_koncowej]
-	FROM Trains_3_schema.dbo.Trasy
+	S_pocz_DW.[Id_stacji] AS [Id_stacji_poczatkowej],
+	S_kon_DW.[Id_stacji] AS [Id_stacji_koncowej]
+	FROM Trains_3_schema.dbo.Trasy AS T
+	JOIN Trains_3_schema.dbo.Stacje AS S_pocz ON T.[Id_stacji_poczatkowej] = S_pocz.[Id_stacji]
+	JOIN Trains_3_schema.dbo.Stacje AS S_kon ON T.[Id_stacji_koncowej] = S_kon.[Id_stacji]
+	JOIN [dbo].[Stacje] AS S_pocz_DW ON S_pocz_DW.[Id_stacji_bd] = S_pocz.[Id_stacji] AND S_pocz_DW.[Czy_aktualna] = 1
+	JOIN [dbo].[Stacje] AS S_kon_DW ON S_kon_DW.[Id_stacji_bd] = S_kon.[Id_stacji] AND S_kon_DW.[Czy_aktualna] = 1;
 go
 
 
@@ -24,10 +28,7 @@ MERGE INTO Trasy as DW
 					DB.Id_stacji_poczatkowej
 					, DB.Id_stacji_koncowej
 				)
-			
-			WHEN Not Matched By Source
-			Then
-				DELETE
+
 			;
 
 Drop View vETLDimTrasy;

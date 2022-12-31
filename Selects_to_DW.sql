@@ -2,7 +2,8 @@ use Trains_3
 SELECT * FROM Maszynisci;
 
 use Trains_3 
-SELECT * FROM Stacje;
+SELECT * FROM Stacje
+order by Id_stacji_bd
 
 use Trains_3 
 SELECT * FROM Trasy;

@@ -1,919 +1,919 @@
 id,station_name,city,renovation_year
-1,boleslawiec dolnoslaskie Glowny,boleslawiec dolnoslaskie,1936
-2,nowogrodziec dolnoslaskie Lesny,nowogrodziec dolnoslaskie,1904
-3,bielawa dolnoslaskie Polnoc,bielawa dolnoslaskie,1926
-4,dzierzoniow dolnoslaskie Miasto,dzierzoniow dolnoslaskie,1944
-5,pieszyce dolnoslaskie Zachod,pieszyce dolnoslaskie,2012
-6,pilawa gorna dolnoslaskie Polnoc,pilawa gorna dolnoslaskie,1996
-7,niemcza dolnoslaskie Lesny,niemcza dolnoslaskie,1979
-8,glogow dolnoslaskie Glowny,glogow dolnoslaskie,1935
-9,gora dolnoslaskie Polnoc,gora dolnoslaskie,1974
-10,wasosz dolnoslaskie Miasto,wasosz dolnoslaskie,1995
-11,jawor dolnoslaskie Lesny,jawor dolnoslaskie,1999
-12,bolkow dolnoslaskie Lesny,bolkow dolnoslaskie,1981
-13,karpacz dolnoslaskie Zachod,karpacz dolnoslaskie,1931
-14,kowary dolnoslaskie Poludnie,kowary dolnoslaskie,1923
-15,piechowice dolnoslaskie Polnoc,piechowice dolnoslaskie,1925
-16,szklarska poreba dolnoslaskie Wschod,szklarska poreba dolnoslaskie,1956
-17,kamienna gora dolnoslaskie Miasto,kamienna gora dolnoslaskie,1964
-18,lubawka dolnoslaskie Zachod,lubawka dolnoslaskie,1949
-19,duszniki-zdroj dolnoslaskie Zachod,duszniki-zdroj dolnoslaskie,1991
-20,klodzko dolnoslaskie Polnoc,klodzko dolnoslaskie,1984
-21,kudowa-zdroj dolnoslaskie Poludnie,kudowa-zdroj dolnoslaskie,1989
-22,nowa ruda dolnoslaskie Miasto,nowa ruda dolnoslaskie,1904
-23,polanica-zdroj dolnoslaskie Miasto,polanica-zdroj dolnoslaskie,1938
-24,bystrzyca klodzka dolnoslaskie Polnoc,bystrzyca klodzka dolnoslaskie,1986
-25,ladek-zdroj dolnoslaskie Glowny,ladek-zdroj dolnoslaskie,1963
-26,miedzylesie dolnoslaskie Miasto,miedzylesie dolnoslaskie,1909
-27,radkow dolnoslaskie Poludnie,radkow dolnoslaskie,1966
-28,stronie slaskie dolnoslaskie Zachod,stronie slaskie dolnoslaskie,2016
-29,szczytna dolnoslaskie Zachod,szczytna dolnoslaskie,2018
-30,chojnow dolnoslaskie Poludnie,chojnow dolnoslaskie,1968
-31,prochowice dolnoslaskie Lesny,prochowice dolnoslaskie,1902
-32,luban dolnoslaskie Zachod,luban dolnoslaskie,1994
-33,swieradow-zdroj dolnoslaskie Miasto,swieradow-zdroj dolnoslaskie,1941
-34,lesna dolnoslaskie Glowny,lesna dolnoslaskie,1936
-35,olszyna dolnoslaskie Poludnie,olszyna dolnoslaskie,1949
-36,lubin dolnoslaskie Miasto,lubin dolnoslaskie,1989
-37,scinawa dolnoslaskie Wschod,scinawa dolnoslaskie,2020
-38,gryfow slaski dolnoslaskie Zachod,gryfow slaski dolnoslaskie,1931
-39,lubomierz dolnoslaskie Wschod,lubomierz dolnoslaskie,1974
-40,lwowek slaski dolnoslaskie Glowny,lwowek slaski dolnoslaskie,1967
-41,mirsk dolnoslaskie Glowny,mirsk dolnoslaskie,1996
-42,wlen dolnoslaskie Glowny,wlen dolnoslaskie,1914
-43,milicz dolnoslaskie Polnoc,milicz dolnoslaskie,1908
-44,olesnica dolnoslaskie Lesny,olesnica dolnoslaskie,2018
-45,bierutow dolnoslaskie Miasto,bierutow dolnoslaskie,1997
-46,miedzyborz dolnoslaskie Miasto,miedzyborz dolnoslaskie,2011
-47,sycow dolnoslaskie Lesny,sycow dolnoslaskie,1928
-48,twardogora dolnoslaskie Polnoc,twardogora dolnoslaskie,1969
-49,olawa dolnoslaskie Miasto,olawa dolnoslaskie,1993
-50,jelcz-laskowice dolnoslaskie Poludnie,jelcz-laskowice dolnoslaskie,1952
-51,chocianow dolnoslaskie Wschod,chocianow dolnoslaskie,1988
-52,polkowice dolnoslaskie Poludnie,polkowice dolnoslaskie,1934
-53,przemkow dolnoslaskie Zachod,przemkow dolnoslaskie,1935
-54,strzelin dolnoslaskie Glowny,strzelin dolnoslaskie,1911
-55,wiazow dolnoslaskie Poludnie,wiazow dolnoslaskie,2018
-56,sroda slaska dolnoslaskie Poludnie,sroda slaska dolnoslaskie,2020
-57,swidnica dolnoslaskie Polnoc,swidnica dolnoslaskie,1986
-58,swiebodzice dolnoslaskie Zachod,swiebodzice dolnoslaskie,1979
-59,jaworzyna slaska dolnoslaskie Miasto,jaworzyna slaska dolnoslaskie,1962
-60,strzegom dolnoslaskie Lesny,strzegom dolnoslaskie,1911
-61,zarow dolnoslaskie Miasto,zarow dolnoslaskie,1909
-62,oborniki slaskie dolnoslaskie Lesny,oborniki slaskie dolnoslaskie,1969
-63,prusice dolnoslaskie Miasto,prusice dolnoslaskie,1913
-64,trzebnica dolnoslaskie Miasto,trzebnica dolnoslaskie,1972
-65,zmigrod dolnoslaskie Lesny,zmigrod dolnoslaskie,1978
-66,boguszow-gorce dolnoslaskie Wschod,boguszow-gorce dolnoslaskie,1958
-67,jedlina-zdroj dolnoslaskie Lesny,jedlina-zdroj dolnoslaskie,1974
-68,szczawno-zdroj dolnoslaskie Lesny,szczawno-zdroj dolnoslaskie,1946
-69,gluszyca dolnoslaskie Miasto,gluszyca dolnoslaskie,1953
-70,mieroszow dolnoslaskie Poludnie,mieroszow dolnoslaskie,1968
-71,brzeg dolny dolnoslaskie Polnoc,brzeg dolny dolnoslaskie,1942
-72,wolow dolnoslaskie Poludnie,wolow dolnoslaskie,2015
-73,katy wroclawskie dolnoslaskie Zachod,katy wroclawskie dolnoslaskie,1934
-74,sobotka dolnoslaskie Zachod,sobotka dolnoslaskie,1958
-75,siechnice dolnoslaskie Lesny,siechnice dolnoslaskie,1995
-76,bardo dolnoslaskie Zachod,bardo dolnoslaskie,1906
-77,zabkowice slaskie dolnoslaskie Wschod,zabkowice slaskie dolnoslaskie,1927
-78,ziebice dolnoslaskie Poludnie,ziebice dolnoslaskie,1953
-79,zloty stok dolnoslaskie Lesny,zloty stok dolnoslaskie,1989
-80,zawidow dolnoslaskie Miasto,zawidow dolnoslaskie,1910
-81,zgorzelec dolnoslaskie Wschod,zgorzelec dolnoslaskie,2001
-82,bogatynia dolnoslaskie Wschod,bogatynia dolnoslaskie,1936
-83,piensk dolnoslaskie Lesny,piensk dolnoslaskie,1956
-84,wegliniec dolnoslaskie Glowny,wegliniec dolnoslaskie,1972
-85,wojcieszow dolnoslaskie Wschod,wojcieszow dolnoslaskie,1972
-86,zlotoryja dolnoslaskie Lesny,zlotoryja dolnoslaskie,1913
-87,swierzawa dolnoslaskie Miasto,swierzawa dolnoslaskie,1966
-88,jelenia gora dolnoslaskie Wschod,jelenia gora dolnoslaskie,1944
-89,legnica dolnoslaskie Lesny,legnica dolnoslaskie,1995
-90,wroclaw dolnoslaskie Lesny,wroclaw dolnoslaskie,1944
-91,walbrzych dolnoslaskie Wschod,walbrzych dolnoslaskie,1928
-92,aleksandrow kujawski kujawsko-pomorskie Polnoc,aleksandrow kujawski kujawsko-pomorskie,1980
-93,ciechocinek kujawsko-pomorskie Polnoc,ciechocinek kujawsko-pomorskie,1965
-94,nieszawa kujawsko-pomorskie Miasto,nieszawa kujawsko-pomorskie,1933
-95,brodnica kujawsko-pomorskie Glowny,brodnica kujawsko-pomorskie,1908
-96,gorzno kujawsko-pomorskie Miasto,gorzno kujawsko-pomorskie,1969
-97,jablonowo pomorskie kujawsko-pomorskie Lesny,jablonowo pomorskie kujawsko-pomorskie,1964
-98,koronowo kujawsko-pomorskie Miasto,koronowo kujawsko-pomorskie,2009
-99,solec kujawski kujawsko-pomorskie Wschod,solec kujawski kujawsko-pomorskie,1951
-100,chelmno kujawsko-pomorskie Glowny,chelmno kujawsko-pomorskie,1948
-101,golub-dobrzyn kujawsko-pomorskie Polnoc,golub-dobrzyn kujawsko-pomorskie,1916
-102,kowalewo pomorskie kujawsko-pomorskie Zachod,kowalewo pomorskie kujawsko-pomorskie,1957
-103,lasin kujawsko-pomorskie Poludnie,lasin kujawsko-pomorskie,1938
-104,radzyn chelminski kujawsko-pomorskie Poludnie,radzyn chelminski kujawsko-pomorskie,2011
-105,inowroclaw kujawsko-pomorskie Polnoc,inowroclaw kujawsko-pomorskie,1935
-106,gniewkowo kujawsko-pomorskie Miasto,gniewkowo kujawsko-pomorskie,2003
-107,janikowo kujawsko-pomorskie Zachod,janikowo kujawsko-pomorskie,1916
-108,kruszwica kujawsko-pomorskie Lesny,kruszwica kujawsko-pomorskie,1931
-109,pakosc kujawsko-pomorskie Miasto,pakosc kujawsko-pomorskie,1915
-110,lipno kujawsko-pomorskie Poludnie,lipno kujawsko-pomorskie,1951
-111,dobrzyn nad wisla kujawsko-pomorskie Zachod,dobrzyn nad wisla kujawsko-pomorskie,1931
-112,skepe kujawsko-pomorskie Miasto,skepe kujawsko-pomorskie,1995
-113,mogilno kujawsko-pomorskie Lesny,mogilno kujawsko-pomorskie,1935
-114,strzelno kujawsko-pomorskie Miasto,strzelno kujawsko-pomorskie,2015
-115,kcynia kujawsko-pomorskie Wschod,kcynia kujawsko-pomorskie,1982
-116,mrocza kujawsko-pomorskie Polnoc,mrocza kujawsko-pomorskie,1905
-117,naklo nad notecia kujawsko-pomorskie Lesny,naklo nad notecia kujawsko-pomorskie,1917
-118,szubin kujawsko-pomorskie Zachod,szubin kujawsko-pomorskie,1951
-119,radziejow kujawsko-pomorskie Wschod,radziejow kujawsko-pomorskie,1975
-120,piotrkow kujawski kujawsko-pomorskie Lesny,piotrkow kujawski kujawsko-pomorskie,2010
-121,rypin kujawsko-pomorskie Lesny,rypin kujawsko-pomorskie,1959
-122,kamien krajenski kujawsko-pomorskie Zachod,kamien krajenski kujawsko-pomorskie,1908
-123,sepolno krajenskie kujawsko-pomorskie Zachod,sepolno krajenskie kujawsko-pomorskie,1920
-124,wiecbork kujawsko-pomorskie Polnoc,wiecbork kujawsko-pomorskie,1904
-125,nowe kujawsko-pomorskie Miasto,nowe kujawsko-pomorskie,1984
-126,swiecie kujawsko-pomorskie Wschod,swiecie kujawsko-pomorskie,1933
-127,chelmza kujawsko-pomorskie Polnoc,chelmza kujawsko-pomorskie,1938
-128,tuchola kujawsko-pomorskie Wschod,tuchola kujawsko-pomorskie,2009
-129,wabrzezno kujawsko-pomorskie Glowny,wabrzezno kujawsko-pomorskie,1957
-130,kowal kujawsko-pomorskie Glowny,kowal kujawsko-pomorskie,1995
-131,brzesc kujawski kujawsko-pomorskie Wschod,brzesc kujawski kujawsko-pomorskie,1959
-132,chodecz kujawsko-pomorskie Miasto,chodecz kujawsko-pomorskie,1915
-133,izbica kujawska kujawsko-pomorskie Miasto,izbica kujawska kujawsko-pomorskie,1909
-134,lubien kujawski kujawsko-pomorskie Poludnie,lubien kujawski kujawsko-pomorskie,1909
-135,lubraniec kujawsko-pomorskie Lesny,lubraniec kujawsko-pomorskie,1949
-136,barcin kujawsko-pomorskie Polnoc,barcin kujawsko-pomorskie,2007
-137,janowiec wielkopolski kujawsko-pomorskie Poludnie,janowiec wielkopolski kujawsko-pomorskie,2006
-138,labiszyn kujawsko-pomorskie Glowny,labiszyn kujawsko-pomorskie,1938
-139,znin kujawsko-pomorskie Lesny,znin kujawsko-pomorskie,1958
-140,bydgoszcz kujawsko-pomorskie Glowny,bydgoszcz kujawsko-pomorskie,1980
-141,grudziadz kujawsko-pomorskie Lesny,grudziadz kujawsko-pomorskie,1910
-142,torun kujawsko-pomorskie Polnoc,torun kujawsko-pomorskie,2002
-143,wloclawek kujawsko-pomorskie Zachod,wloclawek kujawsko-pomorskie,2012
-144,miedzyrzec podlaski lubelskie Poludnie,miedzyrzec podlaski lubelskie,1980
-145,terespol lubelskie Polnoc,terespol lubelskie,1992
-146,bilgoraj lubelskie Zachod,bilgoraj lubelskie,1974
-147,frampol lubelskie Zachod,frampol lubelskie,1993
-148,jozefow lubelskie Wschod,jozefow lubelskie,1977
-149,tarnogrod lubelskie Wschod,tarnogrod lubelskie,1990
-150,rejowiec fabryczny lubelskie Lesny,rejowiec fabryczny lubelskie,2015
-151,siedliszcze lubelskie Zachod,siedliszcze lubelskie,1926
-152,hrubieszow lubelskie Wschod,hrubieszow lubelskie,1903
-153,janow lubelski lubelskie Miasto,janow lubelski lubelskie,1935
-154,modliborzyce lubelskie Wschod,modliborzyce lubelskie,1928
-155,krasnystaw lubelskie Wschod,krasnystaw lubelskie,1970
-156,krasnik lubelskie Glowny,krasnik lubelskie,1973
-157,annopol lubelskie Lesny,annopol lubelskie,1948
-158,urzedow lubelskie Zachod,urzedow lubelskie,2000
-159,lubartow lubelskie Polnoc,lubartow lubelskie,1995
-160,kock lubelskie Poludnie,kock lubelskie,1991
-161,ostrow lubelski lubelskie Miasto,ostrow lubelski lubelskie,1950
-162,belzyce lubelskie Lesny,belzyce lubelskie,2007
-163,bychawa lubelskie Zachod,bychawa lubelskie,2007
-164,leczna lubelskie Wschod,leczna lubelskie,1979
-165,lukow lubelskie Miasto,lukow lubelskie,2007
-166,stoczek lukowski lubelskie Lesny,stoczek lukowski lubelskie,1936
-167,opole lubelskie lubelskie Polnoc,opole lubelskie lubelskie,1987
-168,poniatowa lubelskie Miasto,poniatowa lubelskie,1929
-169,parczew lubelskie Polnoc,parczew lubelskie,2019
-170,pulawy lubelskie Glowny,pulawy lubelskie,1995
-171,kazimierz dolny lubelskie Lesny,kazimierz dolny lubelskie,2014
-172,naleczow lubelskie Glowny,naleczow lubelskie,1961
-173,radzyn podlaski lubelskie Glowny,radzyn podlaski lubelskie,2013
-174,deblin lubelskie Poludnie,deblin lubelskie,1964
-175,ryki lubelskie Poludnie,ryki lubelskie,1903
-176,swidnik lubelskie Poludnie,swidnik lubelskie,1913
-177,piaski lubelskie Lesny,piaski lubelskie,1957
-178,tomaszow lubelski lubelskie Lesny,tomaszow lubelski lubelskie,2004
-179,lubycza krolewska lubelskie Polnoc,lubycza krolewska lubelskie,2020
-180,laszczow lubelskie Miasto,laszczow lubelskie,1910
-181,tyszowce lubelskie Lesny,tyszowce lubelskie,1921
-182,wlodawa lubelskie Lesny,wlodawa lubelskie,1956
-183,krasnobrod lubelskie Wschod,krasnobrod lubelskie,1947
-184,szczebrzeszyn lubelskie Glowny,szczebrzeszyn lubelskie,1939
-185,zwierzyniec lubelskie Polnoc,zwierzyniec lubelskie,1901
-186,biala podlaska lubelskie Lesny,biala podlaska lubelskie,1934
-187,chelm lubelskie Polnoc,chelm lubelskie,1940
-188,lublin lubelskie Miasto,lublin lubelskie,2015
-189,zamosc lubelskie Wschod,zamosc lubelskie,1970
-190,kostrzyn nad odra lubuskie Poludnie,kostrzyn nad odra lubuskie,2000
-191,witnica lubuskie Lesny,witnica lubuskie,1928
-192,gubin lubuskie Polnoc,gubin lubuskie,1981
-193,krosno odrzanskie lubuskie Poludnie,krosno odrzanskie lubuskie,1953
-194,miedzyrzecz lubuskie Glowny,miedzyrzecz lubuskie,1947
-195,skwierzyna lubuskie Poludnie,skwierzyna lubuskie,1907
-196,trzciel lubuskie Zachod,trzciel lubuskie,1997
-197,nowa sol lubuskie Zachod,nowa sol lubuskie,1955
-198,bytom odrzanski lubuskie Zachod,bytom odrzanski lubuskie,1973
-199,kozuchow lubuskie Miasto,kozuchow lubuskie,1935
-200,nowe miasteczko lubuskie Poludnie,nowe miasteczko lubuskie,2006
-201,cybinka lubuskie Glowny,cybinka lubuskie,1975
-202,osno lubuskie lubuskie Lesny,osno lubuskie lubuskie,1958
-203,rzepin lubuskie Lesny,rzepin lubuskie,2015
-204,slubice lubuskie Miasto,slubice lubuskie,2009
-205,dobiegniew lubuskie Zachod,dobiegniew lubuskie,1944
-206,drezdenko lubuskie Miasto,drezdenko lubuskie,1930
-207,strzelce krajenskie lubuskie Polnoc,strzelce krajenskie lubuskie,1999
-208,lubniewice lubuskie Poludnie,lubniewice lubuskie,1998
-209,sulecin lubuskie Poludnie,sulecin lubuskie,1964
-210,torzym lubuskie Glowny,torzym lubuskie,1942
-211,swiebodzin lubuskie Wschod,swiebodzin lubuskie,1945
-212,zbaszynek lubuskie Glowny,zbaszynek lubuskie,1998
-213,babimost lubuskie Wschod,babimost lubuskie,1991
-214,czerwiensk lubuskie Poludnie,czerwiensk lubuskie,2008
-215,kargowa lubuskie Lesny,kargowa lubuskie,1984
-216,nowogrod bobrzanski lubuskie Miasto,nowogrod bobrzanski lubuskie,1988
-217,sulechow lubuskie Miasto,sulechow lubuskie,1931
-218,gozdnica lubuskie Glowny,gozdnica lubuskie,1919
-219,zagan lubuskie Lesny,zagan lubuskie,1975
-220,ilowa lubuskie Glowny,ilowa lubuskie,1979
-221,malomice lubuskie Zachod,malomice lubuskie,1922
-222,szprotawa lubuskie Polnoc,szprotawa lubuskie,1993
-223,leknica lubuskie Poludnie,leknica lubuskie,1908
-224,zary lubuskie Miasto,zary lubuskie,1925
-225,jasien lubuskie Glowny,jasien lubuskie,2017
-226,lubsko lubuskie Wschod,lubsko lubuskie,1954
-227,slawa lubuskie Polnoc,slawa lubuskie,1971
-228,szlichtyngowa lubuskie Miasto,szlichtyngowa lubuskie,1955
-229,wschowa lubuskie Zachod,wschowa lubuskie,1914
-230,gorzow wielkopolski lubuskie Wschod,gorzow wielkopolski lubuskie,2017
-231,zielona gora lubuskie Zachod,zielona gora lubuskie,1938
-232,belchatow lodzkie Wschod,belchatow lodzkie,1931
-233,zelow lodzkie Lesny,zelow lodzkie,2015
-234,kutno lodzkie Zachod,kutno lodzkie,1947
-235,krosniewice lodzkie Glowny,krosniewice lodzkie,2010
-236,zychlin lodzkie Lesny,zychlin lodzkie,1923
-237,lask lodzkie Lesny,lask lodzkie,2014
-238,leczyca lodzkie Polnoc,leczyca lodzkie,1998
-239,lowicz lodzkie Lesny,lowicz lodzkie,1922
-240,koluszki lodzkie Lesny,koluszki lodzkie,2016
-241,rzgow lodzkie Miasto,rzgow lodzkie,2018
-242,tuszyn lodzkie Lesny,tuszyn lodzkie,1961
-243,drzewica lodzkie Polnoc,drzewica lodzkie,1987
-244,opoczno lodzkie Zachod,opoczno lodzkie,1905
-245,konstantynow lodzki lodzkie Zachod,konstantynow lodzki lodzkie,1988
-246,pabianice lodzkie Glowny,pabianice lodzkie,1956
-247,dzialoszyn lodzkie Polnoc,dzialoszyn lodzkie,1949
-248,pajeczno lodzkie Zachod,pajeczno lodzkie,2020
-249,sulejow lodzkie Poludnie,sulejow lodzkie,2017
-250,wolborz lodzkie Lesny,wolborz lodzkie,1995
-251,poddebice lodzkie Polnoc,poddebice lodzkie,1997
-252,uniejow lodzkie Zachod,uniejow lodzkie,1902
-253,radomsko lodzkie Poludnie,radomsko lodzkie,1915
-254,kamiensk lodzkie Glowny,kamiensk lodzkie,1969
-255,przedborz lodzkie Lesny,przedborz lodzkie,1919
-256,rawa mazowiecka lodzkie Glowny,rawa mazowiecka lodzkie,2000
-257,biala rawska lodzkie Miasto,biala rawska lodzkie,1938
-258,sieradz lodzkie Poludnie,sieradz lodzkie,1997
-259,blaszki lodzkie Polnoc,blaszki lodzkie,1995
-260,warta lodzkie Lesny,warta lodzkie,1919
-261,zloczew lodzkie Glowny,zloczew lodzkie,1941
-262,tomaszow mazowiecki lodzkie Glowny,tomaszow mazowiecki lodzkie,1974
-263,wielun lodzkie Lesny,wielun lodzkie,1927
-264,wieruszow lodzkie Glowny,wieruszow lodzkie,1966
-265,zdunska wola lodzkie Zachod,zdunska wola lodzkie,2017
-266,szadek lodzkie Wschod,szadek lodzkie,1948
-267,glowno lodzkie Poludnie,glowno lodzkie,1933
-268,ozorkow lodzkie Wschod,ozorkow lodzkie,1972
-269,zgierz lodzkie Wschod,zgierz lodzkie,2011
-270,aleksandrow lodzki lodzkie Lesny,aleksandrow lodzki lodzkie,1900
-271,strykow lodzkie Wschod,strykow lodzkie,1953
-272,brzeziny lodzkie Glowny,brzeziny lodzkie,1993
-273,lodz lodzkie Wschod,lodz lodzkie,2014
-274,piotrkow trybunalski lodzkie Polnoc,piotrkow trybunalski lodzkie,1951
-275,skierniewice lodzkie Lesny,skierniewice lodzkie,2014
-276,bochnia malopolskie Glowny,bochnia malopolskie,2007
-277,nowy wisnicz malopolskie Lesny,nowy wisnicz malopolskie,1907
-278,brzesko malopolskie Zachod,brzesko malopolskie,2003
-279,czchow malopolskie Lesny,czchow malopolskie,1944
-280,alwernia malopolskie Poludnie,alwernia malopolskie,1982
-281,chrzanow malopolskie Miasto,chrzanow malopolskie,1932
-282,libiaz malopolskie Lesny,libiaz malopolskie,1939
-283,trzebinia malopolskie Poludnie,trzebinia malopolskie,1958
-284,dabrowa tarnowska malopolskie Glowny,dabrowa tarnowska malopolskie,1919
-285,szczucin malopolskie Miasto,szczucin malopolskie,1962
-286,gorlice malopolskie Glowny,gorlice malopolskie,1925
-287,biecz malopolskie Miasto,biecz malopolskie,1910
-288,bobowa malopolskie Zachod,bobowa malopolskie,1977
-289,krzeszowice malopolskie Lesny,krzeszowice malopolskie,2006
-290,skala malopolskie Polnoc,skala malopolskie,1940
-291,skawina malopolskie Lesny,skawina malopolskie,2010
-292,slomniki malopolskie Glowny,slomniki malopolskie,1911
-293,swiatniki gorne malopolskie Polnoc,swiatniki gorne malopolskie,2010
-294,limanowa malopolskie Miasto,limanowa malopolskie,2019
-295,mszana dolna malopolskie Miasto,mszana dolna malopolskie,2016
-296,miechow malopolskie Polnoc,miechow malopolskie,1994
-297,dobczyce malopolskie Miasto,dobczyce malopolskie,1946
-298,myslenice malopolskie Lesny,myslenice malopolskie,2017
-299,sulkowice malopolskie Wschod,sulkowice malopolskie,1971
-300,grybow malopolskie Glowny,grybow malopolskie,1981
-301,krynica-zdroj malopolskie Zachod,krynica-zdroj malopolskie,2005
-302,muszyna malopolskie Polnoc,muszyna malopolskie,1983
-303,piwniczna-zdroj malopolskie Zachod,piwniczna-zdroj malopolskie,1932
-304,stary sacz malopolskie Glowny,stary sacz malopolskie,1969
-305,nowy targ malopolskie Miasto,nowy targ malopolskie,2011
-306,szczawnica malopolskie Zachod,szczawnica malopolskie,1935
-307,rabka-zdroj malopolskie Miasto,rabka-zdroj malopolskie,1944
-308,bukowno malopolskie Polnoc,bukowno malopolskie,1974
-309,olkusz malopolskie Miasto,olkusz malopolskie,1987
-310,wolbrom malopolskie Miasto,wolbrom malopolskie,2019
-311,oswiecim malopolskie Polnoc,oswiecim malopolskie,1925
-312,brzeszcze malopolskie Glowny,brzeszcze malopolskie,2000
-313,chelmek malopolskie Miasto,chelmek malopolskie,1948
-314,kety malopolskie Glowny,kety malopolskie,1962
-315,zator malopolskie Glowny,zator malopolskie,1970
-316,nowe brzesko malopolskie Poludnie,nowe brzesko malopolskie,1900
-317,proszowice malopolskie Zachod,proszowice malopolskie,1965
-318,jordanow malopolskie Lesny,jordanow malopolskie,1928
-319,sucha beskidzka malopolskie Zachod,sucha beskidzka malopolskie,1956
-320,makow podhalanski malopolskie Poludnie,makow podhalanski malopolskie,1980
-321,ciezkowice malopolskie Lesny,ciezkowice malopolskie,1947
-322,radlow malopolskie Wschod,radlow malopolskie,2014
-323,ryglice malopolskie Poludnie,ryglice malopolskie,2018
-324,tuchow malopolskie Wschod,tuchow malopolskie,1929
-325,wojnicz malopolskie Miasto,wojnicz malopolskie,1968
-326,zakliczyn malopolskie Wschod,zakliczyn malopolskie,2015
-327,zabno malopolskie Glowny,zabno malopolskie,1947
-328,zakopane malopolskie Zachod,zakopane malopolskie,1956
-329,andrychow malopolskie Zachod,andrychow malopolskie,1915
-330,kalwaria zebrzydowska malopolskie Poludnie,kalwaria zebrzydowska malopolskie,1984
-331,wadowice malopolskie Miasto,wadowice malopolskie,1946
-332,niepolomice malopolskie Lesny,niepolomice malopolskie,2009
-333,wieliczka malopolskie Wschod,wieliczka malopolskie,1908
-334,krakow malopolskie Zachod,krakow malopolskie,1946
-335,nowy sacz malopolskie Wschod,nowy sacz malopolskie,2010
-336,tarnow malopolskie Miasto,tarnow malopolskie,1934
-337,bialobrzegi mazowieckie Wschod,bialobrzegi mazowieckie,2007
-338,wysmierzyce mazowieckie Glowny,wysmierzyce mazowieckie,1996
-339,ciechanow mazowieckie Wschod,ciechanow mazowieckie,1937
-340,glinojeck mazowieckie Zachod,glinojeck mazowieckie,2020
-341,garwolin mazowieckie Polnoc,garwolin mazowieckie,1955
-342,laskarzew mazowieckie Miasto,laskarzew mazowieckie,1925
-343,pilawa mazowieckie Glowny,pilawa mazowieckie,1977
-344,zelechow mazowieckie Zachod,zelechow mazowieckie,1992
-345,gostynin mazowieckie Glowny,gostynin mazowieckie,1985
-346,milanowek mazowieckie Glowny,milanowek mazowieckie,1904
-347,podkowa lesna mazowieckie Miasto,podkowa lesna mazowieckie,1986
-348,grodzisk mazowiecki mazowieckie Miasto,grodzisk mazowiecki mazowieckie,1969
-349,grojec mazowieckie Polnoc,grojec mazowieckie,2011
-350,mogielnica mazowieckie Polnoc,mogielnica mazowieckie,1990
-351,nowe miasto nad pilica mazowieckie Glowny,nowe miasto nad pilica mazowieckie,1961
-352,warka mazowieckie Lesny,warka mazowieckie,2006
-353,kozienice mazowieckie Wschod,kozienice mazowieckie,1994
-354,legionowo mazowieckie Wschod,legionowo mazowieckie,2018
-355,serock mazowieckie Zachod,serock mazowieckie,1962
-356,lipsko mazowieckie Wschod,lipsko mazowieckie,2011
-357,losice mazowieckie Wschod,losice mazowieckie,1965
-358,makow mazowiecki mazowieckie Miasto,makow mazowiecki mazowieckie,1981
-359,rozan mazowieckie Wschod,rozan mazowieckie,2008
-360,minsk mazowiecki mazowieckie Polnoc,minsk mazowiecki mazowieckie,1990
-361,halinow mazowieckie Lesny,halinow mazowieckie,1937
-362,kaluszyn mazowieckie Miasto,kaluszyn mazowieckie,1940
-363,mrozy mazowieckie Wschod,mrozy mazowieckie,1979
-364,sulejowek mazowieckie Miasto,sulejowek mazowieckie,1967
-365,mlawa mazowieckie Zachod,mlawa mazowieckie,1964
-366,nowy dwor mazowiecki mazowieckie Lesny,nowy dwor mazowiecki mazowieckie,1955
-367,nasielsk mazowieckie Wschod,nasielsk mazowieckie,1961
-368,zakroczym mazowieckie Wschod,zakroczym mazowieckie,1952
-369,myszyniec mazowieckie Glowny,myszyniec mazowieckie,1907
-370,ostrow mazowiecka mazowieckie Poludnie,ostrow mazowiecka mazowieckie,1928
-371,brok mazowieckie Lesny,brok mazowieckie,1930
-372,jozefow mazowieckie Glowny,jozefow mazowieckie,1910
-373,otwock mazowieckie Poludnie,otwock mazowieckie,2009
-374,karczew mazowieckie Zachod,karczew mazowieckie,2018
-375,gora kalwaria mazowieckie Zachod,gora kalwaria mazowieckie,1972
-376,konstancin-jeziorna mazowieckie Wschod,konstancin-jeziorna mazowieckie,1957
-377,piaseczno mazowieckie Poludnie,piaseczno mazowieckie,2019
-378,tarczyn mazowieckie Polnoc,tarczyn mazowieckie,1916
-379,drobin mazowieckie Zachod,drobin mazowieckie,1929
-380,gabin mazowieckie Poludnie,gabin mazowieckie,1953
-381,wyszogrod mazowieckie Poludnie,wyszogrod mazowieckie,1957
-382,plonsk mazowieckie Lesny,plonsk mazowieckie,2002
-383,raciaz mazowieckie Poludnie,raciaz mazowieckie,1998
-384,piastow mazowieckie Miasto,piastow mazowieckie,1979
-385,pruszkow mazowieckie Zachod,pruszkow mazowieckie,1924
-386,brwinow mazowieckie Miasto,brwinow mazowieckie,1975
-387,przasnysz mazowieckie Wschod,przasnysz mazowieckie,1932
-388,chorzele mazowieckie Glowny,chorzele mazowieckie,1999
-389,przysucha mazowieckie Lesny,przysucha mazowieckie,1998
-390,pultusk mazowieckie Miasto,pultusk mazowieckie,1982
-391,pionki mazowieckie Miasto,pionki mazowieckie,1909
-392,ilza mazowieckie Polnoc,ilza mazowieckie,1958
-393,skaryszew mazowieckie Lesny,skaryszew mazowieckie,1936
-394,mordy mazowieckie Poludnie,mordy mazowieckie,1929
-395,sierpc mazowieckie Glowny,sierpc mazowieckie,1987
-396,sochaczew mazowieckie Lesny,sochaczew mazowieckie,1964
-397,sokolow podlaski mazowieckie Poludnie,sokolow podlaski mazowieckie,1965
-398,kosow lacki mazowieckie Poludnie,kosow lacki mazowieckie,2002
-399,szydlowiec mazowieckie Miasto,szydlowiec mazowieckie,2000
-400,blonie mazowieckie Poludnie,blonie mazowieckie,1923
-401,lomianki mazowieckie Polnoc,lomianki mazowieckie,1930
-402,ozarow mazowiecki mazowieckie Polnoc,ozarow mazowiecki mazowieckie,1925
-403,wegrow mazowieckie Poludnie,wegrow mazowieckie,2003
-404,lochow mazowieckie Zachod,lochow mazowieckie,2016
-405,kobylka mazowieckie Wschod,kobylka mazowieckie,1982
-406,marki mazowieckie Poludnie,marki mazowieckie,1973
-407,zabki mazowieckie Lesny,zabki mazowieckie,1963
-408,zielonka mazowieckie Poludnie,zielonka mazowieckie,2017
-409,radzymin mazowieckie Lesny,radzymin mazowieckie,1901
-410,tluszcz mazowieckie Poludnie,tluszcz mazowieckie,1913
-411,wolomin mazowieckie Glowny,wolomin mazowieckie,2010
-412,wyszkow mazowieckie Lesny,wyszkow mazowieckie,1952
-413,zwolen mazowieckie Miasto,zwolen mazowieckie,1929
-414,biezun mazowieckie Glowny,biezun mazowieckie,1906
-415,zuromin mazowieckie Lesny,zuromin mazowieckie,1984
-416,zyrardow mazowieckie Lesny,zyrardow mazowieckie,1971
-417,mszczonow mazowieckie Glowny,mszczonow mazowieckie,1981
-418,ostroleka mazowieckie Polnoc,ostroleka mazowieckie,1953
-419,plock mazowieckie Glowny,plock mazowieckie,1968
-420,radom mazowieckie Miasto,radom mazowieckie,1938
-421,siedlce mazowieckie Lesny,siedlce mazowieckie,1915
-422,brzeg opolskie Lesny,brzeg opolskie,1918
-423,grodkow opolskie Poludnie,grodkow opolskie,1955
-424,lewin brzeski opolskie Zachod,lewin brzeski opolskie,1938
-425,baborow opolskie Wschod,baborow opolskie,1919
-426,glubczyce opolskie Miasto,glubczyce opolskie,2002
-427,kietrz opolskie Lesny,kietrz opolskie,2018
-428,kedzierzyn-kozle opolskie Lesny,kedzierzyn-kozle opolskie,1917
-429,byczyna opolskie Poludnie,byczyna opolskie,1989
-430,kluczbork opolskie Wschod,kluczbork opolskie,1920
-431,wolczyn opolskie Lesny,wolczyn opolskie,1939
-432,gogolin opolskie Lesny,gogolin opolskie,1901
-433,krapkowice opolskie Zachod,krapkowice opolskie,1966
-434,zdzieszowice opolskie Lesny,zdzieszowice opolskie,1955
-435,namyslow opolskie Miasto,namyslow opolskie,1957
-436,glucholazy opolskie Miasto,glucholazy opolskie,1934
-437,korfantow opolskie Lesny,korfantow opolskie,1924
-438,nysa opolskie Polnoc,nysa opolskie,1952
-439,otmuchow opolskie Polnoc,otmuchow opolskie,1990
-440,paczkow opolskie Miasto,paczkow opolskie,1971
-441,dobrodzien opolskie Poludnie,dobrodzien opolskie,1962
-442,gorzow slaski opolskie Poludnie,gorzow slaski opolskie,1958
-443,olesno opolskie Zachod,olesno opolskie,1909
-444,praszka opolskie Lesny,praszka opolskie,2016
-445,niemodlin opolskie Zachod,niemodlin opolskie,2000
-446,ozimek opolskie Glowny,ozimek opolskie,2019
-447,proszkow opolskie Lesny,proszkow opolskie,1994
-448,biala opolskie Poludnie,biala opolskie,1903
-449,glogowek opolskie Glowny,glogowek opolskie,1950
-450,prudnik opolskie Wschod,prudnik opolskie,1984
-451,kolonowskie opolskie Poludnie,kolonowskie opolskie,2016
-452,lesnica opolskie Miasto,lesnica opolskie,1917
-453,strzelce opolskie opolskie Wschod,strzelce opolskie opolskie,1997
-454,ujazd opolskie Poludnie,ujazd opolskie,1950
-455,zawadzkie opolskie Polnoc,zawadzkie opolskie,1964
-456,opole opolskie Lesny,opole opolskie,1955
-457,ustrzyki dolne podkarpackie Zachod,ustrzyki dolne podkarpackie,1928
-458,brzozow podkarpackie Poludnie,brzozow podkarpackie,1931
-459,debica podkarpackie Miasto,debica podkarpackie,2010
-460,brzostek podkarpackie Polnoc,brzostek podkarpackie,1984
-461,pilzno podkarpackie Zachod,pilzno podkarpackie,1961
-462,jaroslaw podkarpackie Wschod,jaroslaw podkarpackie,1928
-463,radymno podkarpackie Glowny,radymno podkarpackie,2018
-464,pruchnik podkarpackie Wschod,pruchnik podkarpackie,1936
-465,jaslo podkarpackie Polnoc,jaslo podkarpackie,1923
-466,kolaczyce podkarpackie Lesny,kolaczyce podkarpackie,1953
-467,kolbuszowa podkarpackie Lesny,kolbuszowa podkarpackie,1901
-468,dukla podkarpackie Polnoc,dukla podkarpackie,1978
-469,iwonicz-zdroj podkarpackie Poludnie,iwonicz-zdroj podkarpackie,2008
-470,jedlicze podkarpackie Lesny,jedlicze podkarpackie,1960
-471,rymanow podkarpackie Poludnie,rymanow podkarpackie,1965
-472,lezajsk podkarpackie Wschod,lezajsk podkarpackie,1952
-473,nowa sarzyna podkarpackie Zachod,nowa sarzyna podkarpackie,2009
-474,lubaczow podkarpackie Glowny,lubaczow podkarpackie,1963
-475,cieszanow podkarpackie Zachod,cieszanow podkarpackie,1935
-476,narol podkarpackie Poludnie,narol podkarpackie,1933
-477,oleszyce podkarpackie Wschod,oleszyce podkarpackie,1940
-478,lancut podkarpackie Poludnie,lancut podkarpackie,1939
-479,mielec podkarpackie Miasto,mielec podkarpackie,1996
-480,przeclaw podkarpackie Lesny,przeclaw podkarpackie,1948
-481,radomysl wielki podkarpackie Polnoc,radomysl wielki podkarpackie,1901
-482,nisko podkarpackie Glowny,nisko podkarpackie,1985
-483,rudnik nad sanem podkarpackie Polnoc,rudnik nad sanem podkarpackie,1932
-484,ulanow podkarpackie Miasto,ulanow podkarpackie,1998
-485,przeworsk podkarpackie Wschod,przeworsk podkarpackie,1900
-486,kanczuga podkarpackie Miasto,kanczuga podkarpackie,1972
-487,sieniawa podkarpackie Zachod,sieniawa podkarpackie,2015
-488,ropczyce podkarpackie Polnoc,ropczyce podkarpackie,1992
-489,sedziszow malopolski podkarpackie Poludnie,sedziszow malopolski podkarpackie,1973
-490,dynow podkarpackie Wschod,dynow podkarpackie,1978
-491,blazowa podkarpackie Zachod,blazowa podkarpackie,1938
-492,boguchwala podkarpackie Wschod,boguchwala podkarpackie,2010
-493,glogow malopolski podkarpackie Wschod,glogow malopolski podkarpackie,1991
-494,sokolow malopolski podkarpackie Polnoc,sokolow malopolski podkarpackie,1945
-495,tyczyn podkarpackie Zachod,tyczyn podkarpackie,1915
-496,sanok podkarpackie Wschod,sanok podkarpackie,1976
-497,zagorz podkarpackie Wschod,zagorz podkarpackie,1923
-498,stalowa wola podkarpackie Poludnie,stalowa wola podkarpackie,1944
-499,zaklikow podkarpackie Miasto,zaklikow podkarpackie,1958
-500,strzyzow podkarpackie Miasto,strzyzow podkarpackie,1935
-501,baranow sandomierski podkarpackie Poludnie,baranow sandomierski podkarpackie,1928
-502,nowa deba podkarpackie Miasto,nowa deba podkarpackie,1905
-503,lesko podkarpackie Lesny,lesko podkarpackie,2009
-504,krosno podkarpackie Zachod,krosno podkarpackie,1997
-505,przemysl podkarpackie Miasto,przemysl podkarpackie,2017
-506,rzeszow podkarpackie Zachod,rzeszow podkarpackie,2012
-507,tarnobrzeg podkarpackie Poludnie,tarnobrzeg podkarpackie,1913
-508,augustow podlaskie Glowny,augustow podlaskie,1973
-509,lipsk podlaskie Zachod,lipsk podlaskie,1939
-510,choroszcz podlaskie Polnoc,choroszcz podlaskie,1949
-511,czarna bialostocka podlaskie Poludnie,czarna bialostocka podlaskie,1981
-512,lapy podlaskie Polnoc,lapy podlaskie,1961
-513,michalowo podlaskie Polnoc,michalowo podlaskie,2013
-514,suprasl podlaskie Glowny,suprasl podlaskie,1943
-515,suraz podlaskie Zachod,suraz podlaskie,1927
-516,tykocin podlaskie Poludnie,tykocin podlaskie,1927
-517,wasilkow podlaskie Polnoc,wasilkow podlaskie,1940
-518,zabludow podlaskie Miasto,zabludow podlaskie,2000
-519,bielsk podlaski podlaskie Miasto,bielsk podlaski podlaskie,1939
-520,bransk podlaskie Polnoc,bransk podlaskie,1984
-521,grajewo podlaskie Miasto,grajewo podlaskie,1993
-522,rajgrod podlaskie Lesny,rajgrod podlaskie,1914
-523,szczuczyn podlaskie Poludnie,szczuczyn podlaskie,2016
-524,hajnowka podlaskie Zachod,hajnowka podlaskie,1911
-525,kleszczele podlaskie Lesny,kleszczele podlaskie,1900
-526,kolno podlaskie Zachod,kolno podlaskie,1956
-527,stawiski podlaskie Wschod,stawiski podlaskie,1949
-528,jedwabne podlaskie Miasto,jedwabne podlaskie,1911
-529,nowogrod podlaskie Polnoc,nowogrod podlaskie,2013
-530,goniadz podlaskie Lesny,goniadz podlaskie,1980
-531,knyszyn podlaskie Glowny,knyszyn podlaskie,1944
-532,monki podlaskie Polnoc,monki podlaskie,2017
-533,sejny podlaskie Wschod,sejny podlaskie,1904
-534,siemiatycze podlaskie Wschod,siemiatycze podlaskie,1925
-535,drohiczyn podlaskie Miasto,drohiczyn podlaskie,1968
-536,dabrowa bialostocka podlaskie Poludnie,dabrowa bialostocka podlaskie,1911
-537,krynki podlaskie Glowny,krynki podlaskie,1920
-538,sokolka podlaskie Miasto,sokolka podlaskie,1994
-539,suchowola podlaskie Polnoc,suchowola podlaskie,1941
-540,wysokie mazowieckie podlaskie Polnoc,wysokie mazowieckie podlaskie,1972
-541,ciechanowiec podlaskie Miasto,ciechanowiec podlaskie,2006
-542,czyzew podlaskie Polnoc,czyzew podlaskie,1986
-543,szepietowo podlaskie Lesny,szepietowo podlaskie,1931
-544,zambrow podlaskie Wschod,zambrow podlaskie,2020
-545,bialystok podlaskie Zachod,bialystok podlaskie,1976
-546,lomza podlaskie Poludnie,lomza podlaskie,1979
-547,suwalki podlaskie Miasto,suwalki podlaskie,1988
-548,bytow pomorskie Miasto,bytow pomorskie,1909
-549,miastko pomorskie Lesny,miastko pomorskie,1908
-550,chojnice pomorskie Poludnie,chojnice pomorskie,1941
-551,brusy pomorskie Miasto,brusy pomorskie,1980
-552,czersk pomorskie Zachod,czersk pomorskie,2014
-553,czluchow pomorskie Zachod,czluchow pomorskie,2019
-554,czarne pomorskie Zachod,czarne pomorskie,1936
-555,debrzno pomorskie Glowny,debrzno pomorskie,1913
-556,pruszcz gdanski pomorskie Zachod,pruszcz gdanski pomorskie,1904
-557,kartuzy pomorskie Poludnie,kartuzy pomorskie,1907
-558,zukowo pomorskie Polnoc,zukowo pomorskie,1914
-559,koscierzyna pomorskie Polnoc,koscierzyna pomorskie,1969
-560,kwidzyn pomorskie Polnoc,kwidzyn pomorskie,1975
-561,prabuty pomorskie Poludnie,prabuty pomorskie,1927
-562,lebork pomorskie Wschod,lebork pomorskie,1975
-563,leba pomorskie Poludnie,leba pomorskie,1908
-564,malbork pomorskie Zachod,malbork pomorskie,1906
-565,nowy staw pomorskie Poludnie,nowy staw pomorskie,1976
-566,krynica morska pomorskie Glowny,krynica morska pomorskie,1926
-567,nowy dwor gdanski pomorskie Poludnie,nowy dwor gdanski pomorskie,1926
-568,hel pomorskie Polnoc,hel pomorskie,1903
-569,jastarnia pomorskie Zachod,jastarnia pomorskie,1905
-570,puck pomorskie Lesny,puck pomorskie,1933
-571,wladyslawowo pomorskie Miasto,wladyslawowo pomorskie,1997
-572,ustka pomorskie Miasto,ustka pomorskie,1998
-573,kepice pomorskie Lesny,kepice pomorskie,2014
-574,czarna woda pomorskie Polnoc,czarna woda pomorskie,1924
-575,skorcz pomorskie Lesny,skorcz pomorskie,1984
-576,starogard gdanski pomorskie Lesny,starogard gdanski pomorskie,1975
-577,skarszewy pomorskie Polnoc,skarszewy pomorskie,1944
-578,tczew pomorskie Zachod,tczew pomorskie,1906
-579,gniew pomorskie Polnoc,gniew pomorskie,1999
-580,pelplin pomorskie Miasto,pelplin pomorskie,2016
-581,reda pomorskie Glowny,reda pomorskie,1917
-582,rumia pomorskie Poludnie,rumia pomorskie,1942
-583,wejherowo pomorskie Zachod,wejherowo pomorskie,1960
-584,dzierzgon pomorskie Lesny,dzierzgon pomorskie,1933
-585,sztum pomorskie Wschod,sztum pomorskie,1999
-586,gdansk pomorskie Wschod,gdansk pomorskie,1943
-587,gdynia pomorskie Miasto,gdynia pomorskie,1987
-588,slupsk pomorskie Polnoc,slupsk pomorskie,2008
-589,sopot pomorskie Wschod,sopot pomorskie,1906
-590,bedzin slaskie Miasto,bedzin slaskie,2007
-591,czeladz slaskie Lesny,czeladz slaskie,1974
-592,wojkowice slaskie Zachod,wojkowice slaskie,1963
-593,siewierz slaskie Glowny,siewierz slaskie,1986
-594,slawkow slaskie Wschod,slawkow slaskie,1933
-595,szczyrk slaskie Zachod,szczyrk slaskie,1970
-596,czechowice-dziedzice slaskie Lesny,czechowice-dziedzice slaskie,1915
-597,wilamowice slaskie Glowny,wilamowice slaskie,1963
-598,cieszyn slaskie Glowny,cieszyn slaskie,2019
-599,ustron slaskie Polnoc,ustron slaskie,1960
-600,wisla slaskie Lesny,wisla slaskie,1977
-601,skoczow slaskie Wschod,skoczow slaskie,1906
-602,strumien slaskie Wschod,strumien slaskie,1952
-603,blachownia slaskie Glowny,blachownia slaskie,2015
-604,koniecpol slaskie Lesny,koniecpol slaskie,1964
-605,knurow slaskie Lesny,knurow slaskie,1953
-606,pyskowice slaskie Polnoc,pyskowice slaskie,1911
-607,sosnicowice slaskie Glowny,sosnicowice slaskie,1909
-608,toszek slaskie Polnoc,toszek slaskie,1992
-609,klobuck slaskie Glowny,klobuck slaskie,2017
-610,krzepice slaskie Glowny,krzepice slaskie,1976
-611,lubliniec slaskie Lesny,lubliniec slaskie,1982
-612,wozniki slaskie Wschod,wozniki slaskie,1911
-613,laziska gorne slaskie Wschod,laziska gorne slaskie,1986
-614,mikolow slaskie Wschod,mikolow slaskie,2015
-615,orzesze slaskie Glowny,orzesze slaskie,1901
-616,myszkow slaskie Glowny,myszkow slaskie,1902
-617,kozieglowy slaskie Wschod,kozieglowy slaskie,2020
-618,zarki slaskie Glowny,zarki slaskie,2003
-619,pszczyna slaskie Lesny,pszczyna slaskie,2016
-620,raciborz slaskie Zachod,raciborz slaskie,1976
-621,krzanowice slaskie Zachod,krzanowice slaskie,1977
-622,kuznia raciborska slaskie Poludnie,kuznia raciborska slaskie,1950
-623,czerwionka-leszczyny slaskie Zachod,czerwionka-leszczyny slaskie,1931
-624,kalety slaskie Zachod,kalety slaskie,1938
-625,miasteczko slaskie slaskie Lesny,miasteczko slaskie slaskie,1919
-626,radzionkow slaskie Polnoc,radzionkow slaskie,1937
-627,tarnowskie gory slaskie Lesny,tarnowskie gory slaskie,1963
-628,bierun slaskie Wschod,bierun slaskie,1939
-629,imielin slaskie Wschod,imielin slaskie,1939
-630,ledziny slaskie Zachod,ledziny slaskie,1999
-631,pszow slaskie Wschod,pszow slaskie,1990
-632,radlin slaskie Wschod,radlin slaskie,1943
-633,rydultowy slaskie Polnoc,rydultowy slaskie,1935
-634,wodzislaw slaski slaskie Zachod,wodzislaw slaski slaskie,2018
-635,poreba slaskie Miasto,poreba slaskie,1971
-636,zawiercie slaskie Glowny,zawiercie slaskie,2006
-637,lazy slaskie Lesny,lazy slaskie,1913
-638,ogrodzieniec slaskie Lesny,ogrodzieniec slaskie,2020
-639,pilica slaskie Glowny,pilica slaskie,2016
-640,szczekociny slaskie Glowny,szczekociny slaskie,1907
-641,zywiec slaskie Glowny,zywiec slaskie,1987
-642,bielsko-biala slaskie Zachod,bielsko-biala slaskie,1900
-643,bytom slaskie Miasto,bytom slaskie,1926
-644,chorzow slaskie Miasto,chorzow slaskie,1962
-645,czestochowa slaskie Miasto,czestochowa slaskie,1974
-646,dabrowa gornicza slaskie Poludnie,dabrowa gornicza slaskie,1958
-647,gliwice slaskie Zachod,gliwice slaskie,1927
-648,jastrzebie-zdroj slaskie Miasto,jastrzebie-zdroj slaskie,1946
-649,jaworzno slaskie Lesny,jaworzno slaskie,2007
-650,katowice slaskie Lesny,katowice slaskie,1955
-651,myslowice slaskie Polnoc,myslowice slaskie,1931
-652,piekary slaskie slaskie Miasto,piekary slaskie slaskie,1953
-653,ruda slaska slaskie Zachod,ruda slaska slaskie,1929
-654,rybnik slaskie Glowny,rybnik slaskie,2015
-655,siemianowice slaskie slaskie Lesny,siemianowice slaskie slaskie,2013
-656,sosnowiec slaskie Lesny,sosnowiec slaskie,1928
-657,swietochlowice slaskie Miasto,swietochlowice slaskie,2009
-658,tychy slaskie Miasto,tychy slaskie,1946
-659,zabrze slaskie Wschod,zabrze slaskie,1918
-660,zory slaskie Lesny,zory slaskie,1900
-661,busko-zdroj swietokrzyskie Poludnie,busko-zdroj swietokrzyskie,1975
-662,stopnica swietokrzyskie Wschod,stopnica swietokrzyskie,1981
-663,jedrzejow swietokrzyskie Polnoc,jedrzejow swietokrzyskie,1957
-664,malogoszcz swietokrzyskie Wschod,malogoszcz swietokrzyskie,1919
-665,sedziszow swietokrzyskie Glowny,sedziszow swietokrzyskie,2001
-666,kazimierza wielka swietokrzyskie Wschod,kazimierza wielka swietokrzyskie,1942
-667,skalbmierz swietokrzyskie Polnoc,skalbmierz swietokrzyskie,2005
-668,bodzentyn swietokrzyskie Glowny,bodzentyn swietokrzyskie,1939
-669,checiny swietokrzyskie Zachod,checiny swietokrzyskie,1926
-670,chmielnik swietokrzyskie Polnoc,chmielnik swietokrzyskie,1900
-671,daleszyce swietokrzyskie Miasto,daleszyce swietokrzyskie,1941
-672,konskie swietokrzyskie Poludnie,konskie swietokrzyskie,1904
-673,staporkow swietokrzyskie Glowny,staporkow swietokrzyskie,1942
-674,opatow swietokrzyskie Miasto,opatow swietokrzyskie,1954
-675,ozarow swietokrzyskie Miasto,ozarow swietokrzyskie,1984
-676,ostrowiec swietokrzyski swietokrzyskie Wschod,ostrowiec swietokrzyski swietokrzyskie,1942
-677,cmielow swietokrzyskie Miasto,cmielow swietokrzyskie,1958
-678,kunow swietokrzyskie Poludnie,kunow swietokrzyskie,1932
-679,dzialoszyce swietokrzyskie Wschod,dzialoszyce swietokrzyskie,2007
-680,pinczow swietokrzyskie Miasto,pinczow swietokrzyskie,1954
-681,sandomierz swietokrzyskie Lesny,sandomierz swietokrzyskie,1901
-682,koprzywnica swietokrzyskie Miasto,koprzywnica swietokrzyskie,1926
-683,zawichost swietokrzyskie Glowny,zawichost swietokrzyskie,1945
-684,skarzysko-kamienna swietokrzyskie Zachod,skarzysko-kamienna swietokrzyskie,2012
-685,suchedniow swietokrzyskie Wschod,suchedniow swietokrzyskie,1925
-686,starachowice swietokrzyskie Polnoc,starachowice swietokrzyskie,2006
-687,wachock swietokrzyskie Lesny,wachock swietokrzyskie,1920
-688,osiek swietokrzyskie Miasto,osiek swietokrzyskie,1943
-689,polaniec swietokrzyskie Miasto,polaniec swietokrzyskie,1955
-690,staszow swietokrzyskie Glowny,staszow swietokrzyskie,1980
-691,wloszczowa swietokrzyskie Poludnie,wloszczowa swietokrzyskie,1997
-692,kielce swietokrzyskie Wschod,kielce swietokrzyskie,1962
-693,bartoszyce warminsko-mazurskie Polnoc,bartoszyce warminsko-mazurskie,2016
-694,gorowo ilaweckie warminsko-mazurskie Lesny,gorowo ilaweckie warminsko-mazurskie,1923
-695,bisztynek warminsko-mazurskie Poludnie,bisztynek warminsko-mazurskie,1954
-696,sepopol warminsko-mazurskie Lesny,sepopol warminsko-mazurskie,1906
-697,braniewo warminsko-mazurskie Lesny,braniewo warminsko-mazurskie,1989
-698,frombork warminsko-mazurskie Miasto,frombork warminsko-mazurskie,2007
-699,pieniezno warminsko-mazurskie Lesny,pieniezno warminsko-mazurskie,1929
-700,dzialdowo warminsko-mazurskie Wschod,dzialdowo warminsko-mazurskie,2020
-701,lidzbark warminsko-mazurskie Glowny,lidzbark warminsko-mazurskie,1935
-702,mlynary warminsko-mazurskie Lesny,mlynary warminsko-mazurskie,1963
-703,paslek warminsko-mazurskie Lesny,paslek warminsko-mazurskie,1955
-704,tolkmicko warminsko-mazurskie Miasto,tolkmicko warminsko-mazurskie,2016
-705,elk warminsko-mazurskie Miasto,elk warminsko-mazurskie,1990
-706,gizycko warminsko-mazurskie Miasto,gizycko warminsko-mazurskie,1974
-707,ryn warminsko-mazurskie Polnoc,ryn warminsko-mazurskie,1928
-708,ilawa warminsko-mazurskie Poludnie,ilawa warminsko-mazurskie,1978
-709,lubawa warminsko-mazurskie Polnoc,lubawa warminsko-mazurskie,2004
-710,kisielice warminsko-mazurskie Wschod,kisielice warminsko-mazurskie,1942
-711,susz warminsko-mazurskie Polnoc,susz warminsko-mazurskie,1921
-712,zalewo warminsko-mazurskie Poludnie,zalewo warminsko-mazurskie,1907
-713,ketrzyn warminsko-mazurskie Miasto,ketrzyn warminsko-mazurskie,1987
-714,korsze warminsko-mazurskie Wschod,korsze warminsko-mazurskie,1940
-715,reszel warminsko-mazurskie Poludnie,reszel warminsko-mazurskie,1983
-716,lidzbark warminski warminsko-mazurskie Glowny,lidzbark warminski warminsko-mazurskie,1937
-717,orneta warminsko-mazurskie Polnoc,orneta warminsko-mazurskie,1986
-718,mragowo warminsko-mazurskie Lesny,mragowo warminsko-mazurskie,1917
-719,mikolajki warminsko-mazurskie Lesny,mikolajki warminsko-mazurskie,1942
-720,nidzica warminsko-mazurskie Miasto,nidzica warminsko-mazurskie,1961
-721,nowe miasto lubawskie warminsko-mazurskie Miasto,nowe miasto lubawskie warminsko-mazurskie,1969
-722,olecko warminsko-mazurskie Polnoc,olecko warminsko-mazurskie,1975
-723,barczewo warminsko-mazurskie Wschod,barczewo warminsko-mazurskie,1938
-724,biskupiec warminsko-mazurskie Polnoc,biskupiec warminsko-mazurskie,1919
-725,dobre miasto warminsko-mazurskie Wschod,dobre miasto warminsko-mazurskie,2002
-726,jeziorany warminsko-mazurskie Wschod,jeziorany warminsko-mazurskie,1967
-727,olsztynek warminsko-mazurskie Lesny,olsztynek warminsko-mazurskie,1991
-728,ostroda warminsko-mazurskie Lesny,ostroda warminsko-mazurskie,1963
-729,milakowo warminsko-mazurskie Wschod,milakowo warminsko-mazurskie,1934
-730,milomlyn warminsko-mazurskie Glowny,milomlyn warminsko-mazurskie,1967
-731,morag warminsko-mazurskie Polnoc,morag warminsko-mazurskie,1903
-732,biala piska warminsko-mazurskie Zachod,biala piska warminsko-mazurskie,2015
-733,orzysz warminsko-mazurskie Wschod,orzysz warminsko-mazurskie,1965
-734,pisz warminsko-mazurskie Lesny,pisz warminsko-mazurskie,1979
-735,ruciane-nida warminsko-mazurskie Miasto,ruciane-nida warminsko-mazurskie,2010
-736,szczytno warminsko-mazurskie Miasto,szczytno warminsko-mazurskie,2003
-737,pasym warminsko-mazurskie Poludnie,pasym warminsko-mazurskie,2004
-738,goldap warminsko-mazurskie Wschod,goldap warminsko-mazurskie,2006
-739,wegorzewo warminsko-mazurskie Wschod,wegorzewo warminsko-mazurskie,2010
-740,elblag warminsko-mazurskie Zachod,elblag warminsko-mazurskie,1905
-741,olsztyn warminsko-mazurskie Glowny,olsztyn warminsko-mazurskie,1907
-742,chodziez wielkopolskie Zachod,chodziez wielkopolskie,1981
-743,margonin wielkopolskie Zachod,margonin wielkopolskie,1956
-744,szamocin wielkopolskie Polnoc,szamocin wielkopolskie,1998
-745,czarnkow wielkopolskie Wschod,czarnkow wielkopolskie,1936
-746,krzyz wielkopolski wielkopolskie Wschod,krzyz wielkopolski wielkopolskie,1971
-747,trzcianka wielkopolskie Lesny,trzcianka wielkopolskie,1943
-748,wielen wielkopolskie Lesny,wielen wielkopolskie,1904
-749,gniezno wielkopolskie Glowny,gniezno wielkopolskie,1906
-750,czerniejewo wielkopolskie Lesny,czerniejewo wielkopolskie,1944
-751,klecko wielkopolskie Miasto,klecko wielkopolskie,1944
-752,trzemeszno wielkopolskie Poludnie,trzemeszno wielkopolskie,1901
-753,witkowo wielkopolskie Poludnie,witkowo wielkopolskie,1905
-754,borek wielkopolski wielkopolskie Zachod,borek wielkopolski wielkopolskie,1994
-755,gostyn wielkopolskie Polnoc,gostyn wielkopolskie,2012
-756,krobia wielkopolskie Zachod,krobia wielkopolskie,1953
-757,pogorzela wielkopolskie Poludnie,pogorzela wielkopolskie,1933
-758,poniec wielkopolskie Lesny,poniec wielkopolskie,1952
-759,grodzisk wielkopolski wielkopolskie Poludnie,grodzisk wielkopolski wielkopolskie,1993
-760,rakoniewice wielkopolskie Zachod,rakoniewice wielkopolskie,1900
-761,wielichowo wielkopolskie Wschod,wielichowo wielkopolskie,2004
-762,jaraczewo wielkopolskie Miasto,jaraczewo wielkopolskie,2013
-763,jarocin wielkopolskie Miasto,jarocin wielkopolskie,1986
-764,zerkow wielkopolskie Miasto,zerkow wielkopolskie,1923
-765,stawiszyn wielkopolskie Wschod,stawiszyn wielkopolskie,1939
-766,kepno wielkopolskie Polnoc,kepno wielkopolskie,1962
-767,kolo wielkopolskie Glowny,kolo wielkopolskie,1953
-768,dabie wielkopolskie Zachod,dabie wielkopolskie,1951
-769,klodawa wielkopolskie Miasto,klodawa wielkopolskie,1998
-770,przedecz wielkopolskie Miasto,przedecz wielkopolskie,2002
-771,golina wielkopolskie Miasto,golina wielkopolskie,1908
-772,kleczew wielkopolskie Poludnie,kleczew wielkopolskie,1984
-773,rychwal wielkopolskie Glowny,rychwal wielkopolskie,1906
-774,sompolno wielkopolskie Glowny,sompolno wielkopolskie,2005
-775,slesin wielkopolskie Wschod,slesin wielkopolskie,1904
-776,koscian wielkopolskie Miasto,koscian wielkopolskie,1920
-777,czempin wielkopolskie Lesny,czempin wielkopolskie,2012
-778,krzywin wielkopolskie Wschod,krzywin wielkopolskie,1935
-779,smigiel wielkopolskie Poludnie,smigiel wielkopolskie,1977
-780,sulmierzyce wielkopolskie Lesny,sulmierzyce wielkopolskie,1993
-781,kobylin wielkopolskie Glowny,kobylin wielkopolskie,1902
-782,kozmin wielkopolski wielkopolskie Polnoc,kozmin wielkopolski wielkopolskie,1985
-783,krotoszyn wielkopolskie Wschod,krotoszyn wielkopolskie,1996
-784,zduny wielkopolskie Wschod,zduny wielkopolskie,1985
-785,osieczna wielkopolskie Lesny,osieczna wielkopolskie,1946
-786,rydzyna wielkopolskie Poludnie,rydzyna wielkopolskie,1969
-787,miedzychod wielkopolskie Poludnie,miedzychod wielkopolskie,1978
-788,sierakow wielkopolskie Wschod,sierakow wielkopolskie,1965
-789,lwowek wielkopolskie Polnoc,lwowek wielkopolskie,1959
-790,nowy tomysl wielkopolskie Glowny,nowy tomysl wielkopolskie,1963
-791,opalenica wielkopolskie Glowny,opalenica wielkopolskie,1942
-792,zbaszyn wielkopolskie Glowny,zbaszyn wielkopolskie,2003
-793,oborniki wielkopolskie Wschod,oborniki wielkopolskie,1913
-794,rogozno wielkopolskie Miasto,rogozno wielkopolskie,1911
-795,ostrow wielkopolski wielkopolskie Polnoc,ostrow wielkopolski wielkopolskie,1956
-796,nowe skalmierzyce wielkopolskie Miasto,nowe skalmierzyce wielkopolskie,1936
-797,odolanow wielkopolskie Miasto,odolanow wielkopolskie,1990
-798,raszkow wielkopolskie Polnoc,raszkow wielkopolskie,1983
-799,grabow nad prosna wielkopolskie Polnoc,grabow nad prosna wielkopolskie,1908
-800,mikstat wielkopolskie Wschod,mikstat wielkopolskie,1987
-801,ostrzeszow wielkopolskie Wschod,ostrzeszow wielkopolskie,1924
-802,pila wielkopolskie Polnoc,pila wielkopolskie,1907
-803,lobzenica wielkopolskie Miasto,lobzenica wielkopolskie,1917
-804,ujscie wielkopolskie Polnoc,ujscie wielkopolskie,1935
-805,wyrzysk wielkopolskie Zachod,wyrzysk wielkopolskie,2018
-806,wysoka wielkopolskie Glowny,wysoka wielkopolskie,1992
-807,chocz wielkopolskie Lesny,chocz wielkopolskie,1982
-808,dobrzyca wielkopolskie Polnoc,dobrzyca wielkopolskie,1965
-809,pleszew wielkopolskie Polnoc,pleszew wielkopolskie,1980
-810,lubon wielkopolskie Lesny,lubon wielkopolskie,1973
-811,puszczykowo wielkopolskie Glowny,puszczykowo wielkopolskie,1910
-812,buk wielkopolskie Lesny,buk wielkopolskie,1917
-813,kostrzyn wielkopolskie Lesny,kostrzyn wielkopolskie,1974
-814,kornik wielkopolskie Glowny,kornik wielkopolskie,1968
-815,mosina wielkopolskie Wschod,mosina wielkopolskie,1931
-816,murowana goslina wielkopolskie Polnoc,murowana goslina wielkopolskie,1906
-817,pobiedziska wielkopolskie Polnoc,pobiedziska wielkopolskie,1903
-818,steszew wielkopolskie Wschod,steszew wielkopolskie,1978
-819,swarzedz wielkopolskie Wschod,swarzedz wielkopolskie,1993
-820,bojanowo wielkopolskie Miasto,bojanowo wielkopolskie,1981
-821,jutrosin wielkopolskie Zachod,jutrosin wielkopolskie,1982
-822,miejska gorka wielkopolskie Polnoc,miejska gorka wielkopolskie,1931
-823,rawicz wielkopolskie Miasto,rawicz wielkopolskie,2020
-824,slupca wielkopolskie Wschod,slupca wielkopolskie,1975
-825,zagorow wielkopolskie Wschod,zagorow wielkopolskie,1946
-826,obrzycko wielkopolskie Lesny,obrzycko wielkopolskie,1972
-827,ostrorog wielkopolskie Poludnie,ostrorog wielkopolskie,1978
-828,pniewy wielkopolskie Wschod,pniewy wielkopolskie,1971
-829,szamotuly wielkopolskie Lesny,szamotuly wielkopolskie,1935
-830,wronki wielkopolskie Lesny,wronki wielkopolskie,1962
-831,sroda wielkopolska wielkopolskie Polnoc,sroda wielkopolska wielkopolskie,1916
-832,dolsk wielkopolskie Lesny,dolsk wielkopolskie,1948
-833,ksiaz wielkopolski wielkopolskie Zachod,ksiaz wielkopolski wielkopolskie,2005
-834,srem wielkopolskie Lesny,srem wielkopolskie,1940
-835,turek wielkopolskie Zachod,turek wielkopolskie,1973
-836,dobra wielkopolskie Zachod,dobra wielkopolskie,1958
-837,tuliszkow wielkopolskie Lesny,tuliszkow wielkopolskie,2008
-838,wagrowiec wielkopolskie Glowny,wagrowiec wielkopolskie,1941
-839,golancz wielkopolskie Miasto,golancz wielkopolskie,1909
-840,skoki wielkopolskie Poludnie,skoki wielkopolskie,2017
-841,wolsztyn wielkopolskie Lesny,wolsztyn wielkopolskie,1950
-842,miloslaw wielkopolskie Wschod,miloslaw wielkopolskie,1995
-843,nekla wielkopolskie Lesny,nekla wielkopolskie,1976
-844,pyzdry wielkopolskie Wschod,pyzdry wielkopolskie,1910
-845,wrzesnia wielkopolskie Poludnie,wrzesnia wielkopolskie,1984
-846,zlotow wielkopolskie Glowny,zlotow wielkopolskie,1968
-847,jastrowie wielkopolskie Polnoc,jastrowie wielkopolskie,1963
-848,krajenka wielkopolskie Zachod,krajenka wielkopolskie,1917
-849,okonek wielkopolskie Polnoc,okonek wielkopolskie,1945
-850,kalisz wielkopolskie Wschod,kalisz wielkopolskie,2012
-851,konin wielkopolskie Zachod,konin wielkopolskie,1972
-852,leszno wielkopolskie Polnoc,leszno wielkopolskie,1916
-853,poznan wielkopolskie Poludnie,poznan wielkopolskie,1986
-854,bialogard zachodniopomorskie Wschod,bialogard zachodniopomorskie,1944
-855,karlino zachodniopomorskie Lesny,karlino zachodniopomorskie,1925
-856,tychowo zachodniopomorskie Polnoc,tychowo zachodniopomorskie,1981
-857,choszczno zachodniopomorskie Lesny,choszczno zachodniopomorskie,1923
-858,drawno zachodniopomorskie Miasto,drawno zachodniopomorskie,1981
-859,pelczyce zachodniopomorskie Zachod,pelczyce zachodniopomorskie,1957
-860,recz zachodniopomorskie Glowny,recz zachodniopomorskie,1937
-861,czaplinek zachodniopomorskie Lesny,czaplinek zachodniopomorskie,1912
-862,drawsko pomorskie zachodniopomorskie Glowny,drawsko pomorskie zachodniopomorskie,1921
-863,kalisz pomorski zachodniopomorskie Glowny,kalisz pomorski zachodniopomorskie,1900
-864,zlocieniec zachodniopomorskie Poludnie,zlocieniec zachodniopomorskie,1999
-865,goleniow zachodniopomorskie Zachod,goleniow zachodniopomorskie,2000
-866,maszewo zachodniopomorskie Miasto,maszewo zachodniopomorskie,1900
-867,nowogard zachodniopomorskie Poludnie,nowogard zachodniopomorskie,2002
-868,stepnica zachodniopomorskie Zachod,stepnica zachodniopomorskie,1919
-869,gryfice zachodniopomorskie Zachod,gryfice zachodniopomorskie,1980
-870,ploty zachodniopomorskie Wschod,ploty zachodniopomorskie,1922
-871,trzebiatow zachodniopomorskie Zachod,trzebiatow zachodniopomorskie,1985
-872,cedynia zachodniopomorskie Wschod,cedynia zachodniopomorskie,1909
-873,chojna zachodniopomorskie Zachod,chojna zachodniopomorskie,1983
-874,gryfino zachodniopomorskie Zachod,gryfino zachodniopomorskie,1968
-875,mieszkowice zachodniopomorskie Wschod,mieszkowice zachodniopomorskie,1918
-876,moryn zachodniopomorskie Polnoc,moryn zachodniopomorskie,1962
-877,trzcinsko-zdroj zachodniopomorskie Polnoc,trzcinsko-zdroj zachodniopomorskie,1914
-878,dziwnow zachodniopomorskie Lesny,dziwnow zachodniopomorskie,1912
-879,golczewo zachodniopomorskie Poludnie,golczewo zachodniopomorskie,1931
-880,kamien pomorski zachodniopomorskie Zachod,kamien pomorski zachodniopomorskie,1926
-881,miedzyzdroje zachodniopomorskie Poludnie,miedzyzdroje zachodniopomorskie,1935
-882,wolin zachodniopomorskie Zachod,wolin zachodniopomorskie,1921
-883,kolobrzeg zachodniopomorskie Miasto,kolobrzeg zachodniopomorskie,1921
-884,goscino zachodniopomorskie Glowny,goscino zachodniopomorskie,1994
-885,bobolice zachodniopomorskie Miasto,bobolice zachodniopomorskie,1984
-886,polanow zachodniopomorskie Poludnie,polanow zachodniopomorskie,2004
-887,sianow zachodniopomorskie Polnoc,sianow zachodniopomorskie,2007
-888,barlinek zachodniopomorskie Glowny,barlinek zachodniopomorskie,2008
-889,debno zachodniopomorskie Lesny,debno zachodniopomorskie,1989
-890,mysliborz zachodniopomorskie Wschod,mysliborz zachodniopomorskie,1913
-891,nowe warpno zachodniopomorskie Zachod,nowe warpno zachodniopomorskie,1900
-892,police zachodniopomorskie Poludnie,police zachodniopomorskie,2003
-893,lipiany zachodniopomorskie Glowny,lipiany zachodniopomorskie,2015
-894,pyrzyce zachodniopomorskie Polnoc,pyrzyce zachodniopomorskie,1965
-895,darlowo zachodniopomorskie Wschod,darlowo zachodniopomorskie,1936
-896,slawno zachodniopomorskie Zachod,slawno zachodniopomorskie,1958
-897,stargard zachodniopomorskie Lesny,stargard zachodniopomorskie,1961
-898,chociwel zachodniopomorskie Wschod,chociwel zachodniopomorskie,1949
-899,dobrzany zachodniopomorskie Poludnie,dobrzany zachodniopomorskie,1944
-900,insko zachodniopomorskie Glowny,insko zachodniopomorskie,1931
-901,suchan zachodniopomorskie Polnoc,suchan zachodniopomorskie,2001
-902,szczecinek zachodniopomorskie Zachod,szczecinek zachodniopomorskie,1996
-903,barwice zachodniopomorskie Zachod,barwice zachodniopomorskie,2005
-904,bialy bor zachodniopomorskie Polnoc,bialy bor zachodniopomorskie,1912
-905,borne sulinowo zachodniopomorskie Poludnie,borne sulinowo zachodniopomorskie,1911
-906,swidwin zachodniopomorskie Polnoc,swidwin zachodniopomorskie,1971
-907,polczyn-zdroj zachodniopomorskie Zachod,polczyn-zdroj zachodniopomorskie,1909
-908,walcz zachodniopomorskie Polnoc,walcz zachodniopomorskie,1907
-909,czlopa zachodniopomorskie Lesny,czlopa zachodniopomorskie,1903
-910,miroslawiec zachodniopomorskie Miasto,miroslawiec zachodniopomorskie,1927
-911,tuczno zachodniopomorskie Miasto,tuczno zachodniopomorskie,2016
-912,dobra zachodniopomorskie Lesny,dobra zachodniopomorskie,1923
-913,lobez zachodniopomorskie Zachod,lobez zachodniopomorskie,1994
-914,resko zachodniopomorskie Miasto,resko zachodniopomorskie,1919
-915,wegorzyno zachodniopomorskie Poludnie,wegorzyno zachodniopomorskie,1995
-916,koszalin zachodniopomorskie Wschod,koszalin zachodniopomorskie,2017
-917,szczecin zachodniopomorskie Lesny,szczecin zachodniopomorskie,1969
-918,swinoujscie zachodniopomorskie Lesny,swinoujscie zachodniopomorskie,1906
+1,boleslawiec dolnoslaskie Lesny,boleslawiec dolnoslaskie,1979
+2,nowogrodziec dolnoslaskie Poludnie,nowogrodziec dolnoslaskie,1907
+3,bielawa dolnoslaskie Wschod,bielawa dolnoslaskie,2000
+4,dzierzoniow dolnoslaskie Polnoc,dzierzoniow dolnoslaskie,1971
+5,pieszyce dolnoslaskie Lesny,pieszyce dolnoslaskie,1905
+6,pilawa gorna dolnoslaskie Polnoc,pilawa gorna dolnoslaskie,1902
+7,niemcza dolnoslaskie Miasto,niemcza dolnoslaskie,1951
+8,glogow dolnoslaskie Polnoc,glogow dolnoslaskie,1928
+9,gora dolnoslaskie Zachod,gora dolnoslaskie,1950
+10,wasosz dolnoslaskie Zachod,wasosz dolnoslaskie,1979
+11,jawor dolnoslaskie Poludnie,jawor dolnoslaskie,1929
+12,bolkow dolnoslaskie Miasto,bolkow dolnoslaskie,1935
+13,karpacz dolnoslaskie Polnoc,karpacz dolnoslaskie,1943
+14,kowary dolnoslaskie Wschod,kowary dolnoslaskie,1918
+15,piechowice dolnoslaskie Polnoc,piechowice dolnoslaskie,1994
+16,szklarska poreba dolnoslaskie Glowny,szklarska poreba dolnoslaskie,1949
+17,kamienna gora dolnoslaskie Glowny,kamienna gora dolnoslaskie,1951
+18,lubawka dolnoslaskie Polnoc,lubawka dolnoslaskie,1969
+19,duszniki-zdroj dolnoslaskie Lesny,duszniki-zdroj dolnoslaskie,1947
+20,klodzko dolnoslaskie Wschod,klodzko dolnoslaskie,1932
+21,kudowa-zdroj dolnoslaskie Miasto,kudowa-zdroj dolnoslaskie,2009
+22,nowa ruda dolnoslaskie Lesny,nowa ruda dolnoslaskie,1991
+23,polanica-zdroj dolnoslaskie Miasto,polanica-zdroj dolnoslaskie,1922
+24,bystrzyca klodzka dolnoslaskie Wschod,bystrzyca klodzka dolnoslaskie,2008
+25,ladek-zdroj dolnoslaskie Polnoc,ladek-zdroj dolnoslaskie,1972
+26,miedzylesie dolnoslaskie Miasto,miedzylesie dolnoslaskie,2018
+27,radkow dolnoslaskie Polnoc,radkow dolnoslaskie,1959
+28,stronie slaskie dolnoslaskie Zachod,stronie slaskie dolnoslaskie,1971
+29,szczytna dolnoslaskie Miasto,szczytna dolnoslaskie,1928
+30,chojnow dolnoslaskie Poludnie,chojnow dolnoslaskie,1904
+31,prochowice dolnoslaskie Miasto,prochowice dolnoslaskie,1955
+32,luban dolnoslaskie Glowny,luban dolnoslaskie,1971
+33,swieradow-zdroj dolnoslaskie Miasto,swieradow-zdroj dolnoslaskie,1917
+34,lesna dolnoslaskie Wschod,lesna dolnoslaskie,1980
+35,olszyna dolnoslaskie Poludnie,olszyna dolnoslaskie,1931
+36,lubin dolnoslaskie Glowny,lubin dolnoslaskie,1934
+37,scinawa dolnoslaskie Miasto,scinawa dolnoslaskie,2000
+38,gryfow slaski dolnoslaskie Zachod,gryfow slaski dolnoslaskie,2013
+39,lubomierz dolnoslaskie Polnoc,lubomierz dolnoslaskie,1920
+40,lwowek slaski dolnoslaskie Wschod,lwowek slaski dolnoslaskie,1915
+41,mirsk dolnoslaskie Wschod,mirsk dolnoslaskie,1910
+42,wlen dolnoslaskie Poludnie,wlen dolnoslaskie,1925
+43,milicz dolnoslaskie Miasto,milicz dolnoslaskie,1951
+44,olesnica dolnoslaskie Wschod,olesnica dolnoslaskie,1931
+45,bierutow dolnoslaskie Glowny,bierutow dolnoslaskie,2007
+46,miedzyborz dolnoslaskie Polnoc,miedzyborz dolnoslaskie,1977
+47,sycow dolnoslaskie Polnoc,sycow dolnoslaskie,1913
+48,twardogora dolnoslaskie Wschod,twardogora dolnoslaskie,1921
+49,olawa dolnoslaskie Miasto,olawa dolnoslaskie,1916
+50,jelcz-laskowice dolnoslaskie Glowny,jelcz-laskowice dolnoslaskie,1959
+51,chocianow dolnoslaskie Glowny,chocianow dolnoslaskie,1913
+52,polkowice dolnoslaskie Glowny,polkowice dolnoslaskie,1928
+53,przemkow dolnoslaskie Poludnie,przemkow dolnoslaskie,1978
+54,strzelin dolnoslaskie Zachod,strzelin dolnoslaskie,1912
+55,wiazow dolnoslaskie Wschod,wiazow dolnoslaskie,1970
+56,sroda slaska dolnoslaskie Poludnie,sroda slaska dolnoslaskie,2003
+57,swidnica dolnoslaskie Glowny,swidnica dolnoslaskie,1959
+58,swiebodzice dolnoslaskie Lesny,swiebodzice dolnoslaskie,1980
+59,jaworzyna slaska dolnoslaskie Poludnie,jaworzyna slaska dolnoslaskie,1949
+60,strzegom dolnoslaskie Zachod,strzegom dolnoslaskie,1917
+61,zarow dolnoslaskie Poludnie,zarow dolnoslaskie,1983
+62,oborniki slaskie dolnoslaskie Zachod,oborniki slaskie dolnoslaskie,1920
+63,prusice dolnoslaskie Glowny,prusice dolnoslaskie,1968
+64,trzebnica dolnoslaskie Miasto,trzebnica dolnoslaskie,1948
+65,zmigrod dolnoslaskie Miasto,zmigrod dolnoslaskie,2012
+66,boguszow-gorce dolnoslaskie Wschod,boguszow-gorce dolnoslaskie,1956
+67,jedlina-zdroj dolnoslaskie Lesny,jedlina-zdroj dolnoslaskie,1979
+68,szczawno-zdroj dolnoslaskie Zachod,szczawno-zdroj dolnoslaskie,1904
+69,gluszyca dolnoslaskie Wschod,gluszyca dolnoslaskie,2016
+70,mieroszow dolnoslaskie Glowny,mieroszow dolnoslaskie,2020
+71,brzeg dolny dolnoslaskie Polnoc,brzeg dolny dolnoslaskie,1969
+72,wolow dolnoslaskie Glowny,wolow dolnoslaskie,1927
+73,katy wroclawskie dolnoslaskie Lesny,katy wroclawskie dolnoslaskie,1915
+74,sobotka dolnoslaskie Wschod,sobotka dolnoslaskie,1967
+75,siechnice dolnoslaskie Poludnie,siechnice dolnoslaskie,1975
+76,bardo dolnoslaskie Lesny,bardo dolnoslaskie,1937
+77,zabkowice slaskie dolnoslaskie Lesny,zabkowice slaskie dolnoslaskie,1931
+78,ziebice dolnoslaskie Glowny,ziebice dolnoslaskie,1911
+79,zloty stok dolnoslaskie Glowny,zloty stok dolnoslaskie,1937
+80,zawidow dolnoslaskie Miasto,zawidow dolnoslaskie,2019
+81,zgorzelec dolnoslaskie Poludnie,zgorzelec dolnoslaskie,1910
+82,bogatynia dolnoslaskie Polnoc,bogatynia dolnoslaskie,1955
+83,piensk dolnoslaskie Polnoc,piensk dolnoslaskie,2008
+84,wegliniec dolnoslaskie Zachod,wegliniec dolnoslaskie,1979
+85,wojcieszow dolnoslaskie Lesny,wojcieszow dolnoslaskie,1908
+86,zlotoryja dolnoslaskie Miasto,zlotoryja dolnoslaskie,2001
+87,swierzawa dolnoslaskie Miasto,swierzawa dolnoslaskie,1968
+88,jelenia gora dolnoslaskie Poludnie,jelenia gora dolnoslaskie,1910
+89,legnica dolnoslaskie Lesny,legnica dolnoslaskie,1932
+90,wroclaw dolnoslaskie Zachod,wroclaw dolnoslaskie,1978
+91,walbrzych dolnoslaskie Glowny,walbrzych dolnoslaskie,1965
+92,aleksandrow kujawski kujawsko-pomorskie Poludnie,aleksandrow kujawski kujawsko-pomorskie,2009
+93,ciechocinek kujawsko-pomorskie Glowny,ciechocinek kujawsko-pomorskie,1991
+94,nieszawa kujawsko-pomorskie Poludnie,nieszawa kujawsko-pomorskie,2005
+95,brodnica kujawsko-pomorskie Polnoc,brodnica kujawsko-pomorskie,1914
+96,gorzno kujawsko-pomorskie Wschod,gorzno kujawsko-pomorskie,2018
+97,jablonowo pomorskie kujawsko-pomorskie Lesny,jablonowo pomorskie kujawsko-pomorskie,1980
+98,koronowo kujawsko-pomorskie Poludnie,koronowo kujawsko-pomorskie,1934
+99,solec kujawski kujawsko-pomorskie Polnoc,solec kujawski kujawsko-pomorskie,1935
+100,chelmno kujawsko-pomorskie Zachod,chelmno kujawsko-pomorskie,1924
+101,golub-dobrzyn kujawsko-pomorskie Wschod,golub-dobrzyn kujawsko-pomorskie,1945
+102,kowalewo pomorskie kujawsko-pomorskie Lesny,kowalewo pomorskie kujawsko-pomorskie,1990
+103,lasin kujawsko-pomorskie Miasto,lasin kujawsko-pomorskie,1983
+104,radzyn chelminski kujawsko-pomorskie Zachod,radzyn chelminski kujawsko-pomorskie,1971
+105,inowroclaw kujawsko-pomorskie Polnoc,inowroclaw kujawsko-pomorskie,1939
+106,gniewkowo kujawsko-pomorskie Glowny,gniewkowo kujawsko-pomorskie,1975
+107,janikowo kujawsko-pomorskie Lesny,janikowo kujawsko-pomorskie,1916
+108,kruszwica kujawsko-pomorskie Miasto,kruszwica kujawsko-pomorskie,2007
+109,pakosc kujawsko-pomorskie Miasto,pakosc kujawsko-pomorskie,2008
+110,lipno kujawsko-pomorskie Zachod,lipno kujawsko-pomorskie,1970
+111,dobrzyn nad wisla kujawsko-pomorskie Miasto,dobrzyn nad wisla kujawsko-pomorskie,1929
+112,skepe kujawsko-pomorskie Miasto,skepe kujawsko-pomorskie,1987
+113,mogilno kujawsko-pomorskie Wschod,mogilno kujawsko-pomorskie,2016
+114,strzelno kujawsko-pomorskie Polnoc,strzelno kujawsko-pomorskie,1946
+115,kcynia kujawsko-pomorskie Glowny,kcynia kujawsko-pomorskie,1904
+116,mrocza kujawsko-pomorskie Zachod,mrocza kujawsko-pomorskie,1950
+117,naklo nad notecia kujawsko-pomorskie Poludnie,naklo nad notecia kujawsko-pomorskie,2012
+118,szubin kujawsko-pomorskie Poludnie,szubin kujawsko-pomorskie,1919
+119,radziejow kujawsko-pomorskie Glowny,radziejow kujawsko-pomorskie,1907
+120,piotrkow kujawski kujawsko-pomorskie Lesny,piotrkow kujawski kujawsko-pomorskie,1997
+121,rypin kujawsko-pomorskie Glowny,rypin kujawsko-pomorskie,1960
+122,kamien krajenski kujawsko-pomorskie Wschod,kamien krajenski kujawsko-pomorskie,1978
+123,sepolno krajenskie kujawsko-pomorskie Miasto,sepolno krajenskie kujawsko-pomorskie,1924
+124,wiecbork kujawsko-pomorskie Lesny,wiecbork kujawsko-pomorskie,1942
+125,nowe kujawsko-pomorskie Zachod,nowe kujawsko-pomorskie,1993
+126,swiecie kujawsko-pomorskie Polnoc,swiecie kujawsko-pomorskie,1994
+127,chelmza kujawsko-pomorskie Wschod,chelmza kujawsko-pomorskie,2003
+128,tuchola kujawsko-pomorskie Zachod,tuchola kujawsko-pomorskie,1908
+129,wabrzezno kujawsko-pomorskie Wschod,wabrzezno kujawsko-pomorskie,2002
+130,kowal kujawsko-pomorskie Lesny,kowal kujawsko-pomorskie,1953
+131,brzesc kujawski kujawsko-pomorskie Glowny,brzesc kujawski kujawsko-pomorskie,1990
+132,chodecz kujawsko-pomorskie Wschod,chodecz kujawsko-pomorskie,1962
+133,izbica kujawska kujawsko-pomorskie Poludnie,izbica kujawska kujawsko-pomorskie,2014
+134,lubien kujawski kujawsko-pomorskie Polnoc,lubien kujawski kujawsko-pomorskie,1973
+135,lubraniec kujawsko-pomorskie Lesny,lubraniec kujawsko-pomorskie,1960
+136,barcin kujawsko-pomorskie Polnoc,barcin kujawsko-pomorskie,1907
+137,janowiec wielkopolski kujawsko-pomorskie Lesny,janowiec wielkopolski kujawsko-pomorskie,2005
+138,labiszyn kujawsko-pomorskie Glowny,labiszyn kujawsko-pomorskie,1913
+139,znin kujawsko-pomorskie Glowny,znin kujawsko-pomorskie,1983
+140,bydgoszcz kujawsko-pomorskie Miasto,bydgoszcz kujawsko-pomorskie,1987
+141,grudziadz kujawsko-pomorskie Zachod,grudziadz kujawsko-pomorskie,2017
+142,torun kujawsko-pomorskie Zachod,torun kujawsko-pomorskie,1993
+143,wloclawek kujawsko-pomorskie Glowny,wloclawek kujawsko-pomorskie,1940
+144,miedzyrzec podlaski lubelskie Miasto,miedzyrzec podlaski lubelskie,1939
+145,terespol lubelskie Glowny,terespol lubelskie,1950
+146,bilgoraj lubelskie Lesny,bilgoraj lubelskie,1985
+147,frampol lubelskie Polnoc,frampol lubelskie,1943
+148,jozefow lubelskie Miasto,jozefow lubelskie,1985
+149,tarnogrod lubelskie Poludnie,tarnogrod lubelskie,1969
+150,rejowiec fabryczny lubelskie Polnoc,rejowiec fabryczny lubelskie,1977
+151,siedliszcze lubelskie Lesny,siedliszcze lubelskie,1997
+152,hrubieszow lubelskie Glowny,hrubieszow lubelskie,2003
+153,janow lubelski lubelskie Glowny,janow lubelski lubelskie,1957
+154,modliborzyce lubelskie Poludnie,modliborzyce lubelskie,1967
+155,krasnystaw lubelskie Poludnie,krasnystaw lubelskie,1948
+156,krasnik lubelskie Zachod,krasnik lubelskie,1974
+157,annopol lubelskie Zachod,annopol lubelskie,1942
+158,urzedow lubelskie Poludnie,urzedow lubelskie,1975
+159,lubartow lubelskie Lesny,lubartow lubelskie,1956
+160,kock lubelskie Glowny,kock lubelskie,2010
+161,ostrow lubelski lubelskie Miasto,ostrow lubelski lubelskie,1901
+162,belzyce lubelskie Polnoc,belzyce lubelskie,2005
+163,bychawa lubelskie Wschod,bychawa lubelskie,1952
+164,leczna lubelskie Wschod,leczna lubelskie,1919
+165,lukow lubelskie Polnoc,lukow lubelskie,1943
+166,stoczek lukowski lubelskie Polnoc,stoczek lukowski lubelskie,1967
+167,opole lubelskie lubelskie Miasto,opole lubelskie lubelskie,2015
+168,poniatowa lubelskie Poludnie,poniatowa lubelskie,1976
+169,parczew lubelskie Polnoc,parczew lubelskie,1994
+170,pulawy lubelskie Glowny,pulawy lubelskie,1953
+171,kazimierz dolny lubelskie Glowny,kazimierz dolny lubelskie,1955
+172,naleczow lubelskie Zachod,naleczow lubelskie,1986
+173,radzyn podlaski lubelskie Poludnie,radzyn podlaski lubelskie,1918
+174,deblin lubelskie Polnoc,deblin lubelskie,2012
+175,ryki lubelskie Glowny,ryki lubelskie,1968
+176,swidnik lubelskie Wschod,swidnik lubelskie,1904
+177,piaski lubelskie Glowny,piaski lubelskie,1921
+178,tomaszow lubelski lubelskie Glowny,tomaszow lubelski lubelskie,1973
+179,lubycza krolewska lubelskie Glowny,lubycza krolewska lubelskie,1919
+180,laszczow lubelskie Poludnie,laszczow lubelskie,1946
+181,tyszowce lubelskie Lesny,tyszowce lubelskie,1930
+182,wlodawa lubelskie Poludnie,wlodawa lubelskie,1921
+183,krasnobrod lubelskie Lesny,krasnobrod lubelskie,1966
+184,szczebrzeszyn lubelskie Polnoc,szczebrzeszyn lubelskie,1971
+185,zwierzyniec lubelskie Zachod,zwierzyniec lubelskie,1908
+186,biala podlaska lubelskie Glowny,biala podlaska lubelskie,1915
+187,chelm lubelskie Lesny,chelm lubelskie,1932
+188,lublin lubelskie Wschod,lublin lubelskie,1972
+189,zamosc lubelskie Lesny,zamosc lubelskie,1973
+190,kostrzyn nad odra lubuskie Poludnie,kostrzyn nad odra lubuskie,2020
+191,witnica lubuskie Wschod,witnica lubuskie,1926
+192,gubin lubuskie Polnoc,gubin lubuskie,1971
+193,krosno odrzanskie lubuskie Glowny,krosno odrzanskie lubuskie,2009
+194,miedzyrzecz lubuskie Polnoc,miedzyrzecz lubuskie,1984
+195,skwierzyna lubuskie Polnoc,skwierzyna lubuskie,1957
+196,trzciel lubuskie Glowny,trzciel lubuskie,1952
+197,nowa sol lubuskie Poludnie,nowa sol lubuskie,1991
+198,bytom odrzanski lubuskie Glowny,bytom odrzanski lubuskie,1930
+199,kozuchow lubuskie Miasto,kozuchow lubuskie,2013
+200,nowe miasteczko lubuskie Zachod,nowe miasteczko lubuskie,1938
+201,cybinka lubuskie Lesny,cybinka lubuskie,1931
+202,osno lubuskie lubuskie Glowny,osno lubuskie lubuskie,1994
+203,rzepin lubuskie Wschod,rzepin lubuskie,1950
+204,slubice lubuskie Lesny,slubice lubuskie,1986
+205,dobiegniew lubuskie Poludnie,dobiegniew lubuskie,1941
+206,drezdenko lubuskie Wschod,drezdenko lubuskie,2002
+207,strzelce krajenskie lubuskie Miasto,strzelce krajenskie lubuskie,1946
+208,lubniewice lubuskie Poludnie,lubniewice lubuskie,1911
+209,sulecin lubuskie Wschod,sulecin lubuskie,2012
+210,torzym lubuskie Wschod,torzym lubuskie,1987
+211,swiebodzin lubuskie Polnoc,swiebodzin lubuskie,1976
+212,zbaszynek lubuskie Polnoc,zbaszynek lubuskie,1950
+213,babimost lubuskie Lesny,babimost lubuskie,1901
+214,czerwiensk lubuskie Lesny,czerwiensk lubuskie,2020
+215,kargowa lubuskie Wschod,kargowa lubuskie,1926
+216,nowogrod bobrzanski lubuskie Polnoc,nowogrod bobrzanski lubuskie,2006
+217,sulechow lubuskie Zachod,sulechow lubuskie,1905
+218,gozdnica lubuskie Zachod,gozdnica lubuskie,1974
+219,zagan lubuskie Poludnie,zagan lubuskie,2005
+220,ilowa lubuskie Zachod,ilowa lubuskie,1908
+221,malomice lubuskie Glowny,malomice lubuskie,2019
+222,szprotawa lubuskie Zachod,szprotawa lubuskie,1930
+223,leknica lubuskie Polnoc,leknica lubuskie,1983
+224,zary lubuskie Glowny,zary lubuskie,1909
+225,jasien lubuskie Miasto,jasien lubuskie,2019
+226,lubsko lubuskie Wschod,lubsko lubuskie,1996
+227,slawa lubuskie Polnoc,slawa lubuskie,1988
+228,szlichtyngowa lubuskie Zachod,szlichtyngowa lubuskie,1906
+229,wschowa lubuskie Miasto,wschowa lubuskie,2006
+230,gorzow wielkopolski lubuskie Poludnie,gorzow wielkopolski lubuskie,1920
+231,zielona gora lubuskie Glowny,zielona gora lubuskie,1963
+232,belchatow lodzkie Miasto,belchatow lodzkie,1940
+233,zelow lodzkie Glowny,zelow lodzkie,1937
+234,kutno lodzkie Zachod,kutno lodzkie,1953
+235,krosniewice lodzkie Wschod,krosniewice lodzkie,1938
+236,zychlin lodzkie Glowny,zychlin lodzkie,1902
+237,lask lodzkie Lesny,lask lodzkie,2016
+238,leczyca lodzkie Polnoc,leczyca lodzkie,2014
+239,lowicz lodzkie Zachod,lowicz lodzkie,2019
+240,koluszki lodzkie Zachod,koluszki lodzkie,1926
+241,rzgow lodzkie Zachod,rzgow lodzkie,1935
+242,tuszyn lodzkie Lesny,tuszyn lodzkie,1983
+243,drzewica lodzkie Lesny,drzewica lodzkie,1910
+244,opoczno lodzkie Lesny,opoczno lodzkie,2007
+245,konstantynow lodzki lodzkie Wschod,konstantynow lodzki lodzkie,1935
+246,pabianice lodzkie Zachod,pabianice lodzkie,1909
+247,dzialoszyn lodzkie Wschod,dzialoszyn lodzkie,1929
+248,pajeczno lodzkie Glowny,pajeczno lodzkie,1950
+249,sulejow lodzkie Wschod,sulejow lodzkie,1994
+250,wolborz lodzkie Lesny,wolborz lodzkie,1917
+251,poddebice lodzkie Glowny,poddebice lodzkie,2018
+252,uniejow lodzkie Miasto,uniejow lodzkie,1937
+253,radomsko lodzkie Glowny,radomsko lodzkie,1929
+254,kamiensk lodzkie Zachod,kamiensk lodzkie,1983
+255,przedborz lodzkie Polnoc,przedborz lodzkie,2019
+256,rawa mazowiecka lodzkie Wschod,rawa mazowiecka lodzkie,1956
+257,biala rawska lodzkie Zachod,biala rawska lodzkie,1947
+258,sieradz lodzkie Polnoc,sieradz lodzkie,1992
+259,blaszki lodzkie Polnoc,blaszki lodzkie,1933
+260,warta lodzkie Zachod,warta lodzkie,1910
+261,zloczew lodzkie Glowny,zloczew lodzkie,1937
+262,tomaszow mazowiecki lodzkie Polnoc,tomaszow mazowiecki lodzkie,1900
+263,wielun lodzkie Poludnie,wielun lodzkie,1974
+264,wieruszow lodzkie Lesny,wieruszow lodzkie,1924
+265,zdunska wola lodzkie Wschod,zdunska wola lodzkie,1996
+266,szadek lodzkie Zachod,szadek lodzkie,1941
+267,glowno lodzkie Poludnie,glowno lodzkie,1989
+268,ozorkow lodzkie Glowny,ozorkow lodzkie,1957
+269,zgierz lodzkie Lesny,zgierz lodzkie,1917
+270,aleksandrow lodzki lodzkie Zachod,aleksandrow lodzki lodzkie,2018
+271,strykow lodzkie Miasto,strykow lodzkie,1960
+272,brzeziny lodzkie Miasto,brzeziny lodzkie,1912
+273,lodz lodzkie Wschod,lodz lodzkie,1999
+274,piotrkow trybunalski lodzkie Wschod,piotrkow trybunalski lodzkie,1946
+275,skierniewice lodzkie Polnoc,skierniewice lodzkie,1943
+276,bochnia malopolskie Polnoc,bochnia malopolskie,1965
+277,nowy wisnicz malopolskie Polnoc,nowy wisnicz malopolskie,1984
+278,brzesko malopolskie Glowny,brzesko malopolskie,1925
+279,czchow malopolskie Wschod,czchow malopolskie,1997
+280,alwernia malopolskie Lesny,alwernia malopolskie,1922
+281,chrzanow malopolskie Wschod,chrzanow malopolskie,2000
+282,libiaz malopolskie Wschod,libiaz malopolskie,1955
+283,trzebinia malopolskie Zachod,trzebinia malopolskie,1933
+284,dabrowa tarnowska malopolskie Miasto,dabrowa tarnowska malopolskie,1929
+285,szczucin malopolskie Lesny,szczucin malopolskie,1909
+286,gorlice malopolskie Glowny,gorlice malopolskie,1938
+287,biecz malopolskie Wschod,biecz malopolskie,1975
+288,bobowa malopolskie Wschod,bobowa malopolskie,2012
+289,krzeszowice malopolskie Miasto,krzeszowice malopolskie,2013
+290,skala malopolskie Zachod,skala malopolskie,1983
+291,skawina malopolskie Glowny,skawina malopolskie,1959
+292,slomniki malopolskie Lesny,slomniki malopolskie,1991
+293,swiatniki gorne malopolskie Glowny,swiatniki gorne malopolskie,1946
+294,limanowa malopolskie Polnoc,limanowa malopolskie,1977
+295,mszana dolna malopolskie Polnoc,mszana dolna malopolskie,1932
+296,miechow malopolskie Glowny,miechow malopolskie,1959
+297,dobczyce malopolskie Wschod,dobczyce malopolskie,1916
+298,myslenice malopolskie Poludnie,myslenice malopolskie,2014
+299,sulkowice malopolskie Polnoc,sulkowice malopolskie,2008
+300,grybow malopolskie Zachod,grybow malopolskie,1923
+301,krynica-zdroj malopolskie Lesny,krynica-zdroj malopolskie,1926
+302,muszyna malopolskie Zachod,muszyna malopolskie,1907
+303,piwniczna-zdroj malopolskie Polnoc,piwniczna-zdroj malopolskie,2018
+304,stary sacz malopolskie Miasto,stary sacz malopolskie,1963
+305,nowy targ malopolskie Poludnie,nowy targ malopolskie,1942
+306,szczawnica malopolskie Poludnie,szczawnica malopolskie,2009
+307,rabka-zdroj malopolskie Polnoc,rabka-zdroj malopolskie,1925
+308,bukowno malopolskie Lesny,bukowno malopolskie,1911
+309,olkusz malopolskie Glowny,olkusz malopolskie,1946
+310,wolbrom malopolskie Wschod,wolbrom malopolskie,1989
+311,oswiecim malopolskie Poludnie,oswiecim malopolskie,1958
+312,brzeszcze malopolskie Lesny,brzeszcze malopolskie,1985
+313,chelmek malopolskie Glowny,chelmek malopolskie,2017
+314,kety malopolskie Miasto,kety malopolskie,1928
+315,zator malopolskie Poludnie,zator malopolskie,1935
+316,nowe brzesko malopolskie Polnoc,nowe brzesko malopolskie,1933
+317,proszowice malopolskie Miasto,proszowice malopolskie,1979
+318,jordanow malopolskie Wschod,jordanow malopolskie,1919
+319,sucha beskidzka malopolskie Zachod,sucha beskidzka malopolskie,1990
+320,makow podhalanski malopolskie Poludnie,makow podhalanski malopolskie,1979
+321,ciezkowice malopolskie Lesny,ciezkowice malopolskie,1910
+322,radlow malopolskie Lesny,radlow malopolskie,1981
+323,ryglice malopolskie Zachod,ryglice malopolskie,2004
+324,tuchow malopolskie Wschod,tuchow malopolskie,1939
+325,wojnicz malopolskie Zachod,wojnicz malopolskie,1915
+326,zakliczyn malopolskie Polnoc,zakliczyn malopolskie,1902
+327,zabno malopolskie Miasto,zabno malopolskie,1907
+328,zakopane malopolskie Polnoc,zakopane malopolskie,1914
+329,andrychow malopolskie Poludnie,andrychow malopolskie,1908
+330,kalwaria zebrzydowska malopolskie Glowny,kalwaria zebrzydowska malopolskie,1929
+331,wadowice malopolskie Lesny,wadowice malopolskie,1915
+332,niepolomice malopolskie Wschod,niepolomice malopolskie,1927
+333,wieliczka malopolskie Glowny,wieliczka malopolskie,1950
+334,krakow malopolskie Glowny,krakow malopolskie,1931
+335,nowy sacz malopolskie Glowny,nowy sacz malopolskie,1968
+336,tarnow malopolskie Glowny,tarnow malopolskie,1917
+337,bialobrzegi mazowieckie Lesny,bialobrzegi mazowieckie,1973
+338,wysmierzyce mazowieckie Glowny,wysmierzyce mazowieckie,1952
+339,ciechanow mazowieckie Wschod,ciechanow mazowieckie,1919
+340,glinojeck mazowieckie Zachod,glinojeck mazowieckie,1925
+341,garwolin mazowieckie Miasto,garwolin mazowieckie,1918
+342,laskarzew mazowieckie Lesny,laskarzew mazowieckie,1970
+343,pilawa mazowieckie Zachod,pilawa mazowieckie,1988
+344,zelechow mazowieckie Polnoc,zelechow mazowieckie,1901
+345,gostynin mazowieckie Glowny,gostynin mazowieckie,2018
+346,milanowek mazowieckie Lesny,milanowek mazowieckie,2009
+347,podkowa lesna mazowieckie Lesny,podkowa lesna mazowieckie,1989
+348,grodzisk mazowiecki mazowieckie Zachod,grodzisk mazowiecki mazowieckie,1939
+349,grojec mazowieckie Glowny,grojec mazowieckie,1958
+350,mogielnica mazowieckie Miasto,mogielnica mazowieckie,2017
+351,nowe miasto nad pilica mazowieckie Miasto,nowe miasto nad pilica mazowieckie,1954
+352,warka mazowieckie Glowny,warka mazowieckie,1900
+353,kozienice mazowieckie Glowny,kozienice mazowieckie,1956
+354,legionowo mazowieckie Glowny,legionowo mazowieckie,1912
+355,serock mazowieckie Polnoc,serock mazowieckie,2007
+356,lipsko mazowieckie Miasto,lipsko mazowieckie,1908
+357,losice mazowieckie Polnoc,losice mazowieckie,1953
+358,makow mazowiecki mazowieckie Lesny,makow mazowiecki mazowieckie,1961
+359,rozan mazowieckie Lesny,rozan mazowieckie,1960
+360,minsk mazowiecki mazowieckie Miasto,minsk mazowiecki mazowieckie,1907
+361,halinow mazowieckie Poludnie,halinow mazowieckie,1913
+362,kaluszyn mazowieckie Miasto,kaluszyn mazowieckie,2006
+363,mrozy mazowieckie Glowny,mrozy mazowieckie,1993
+364,sulejowek mazowieckie Lesny,sulejowek mazowieckie,2001
+365,mlawa mazowieckie Glowny,mlawa mazowieckie,1959
+366,nowy dwor mazowiecki mazowieckie Polnoc,nowy dwor mazowiecki mazowieckie,1933
+367,nasielsk mazowieckie Poludnie,nasielsk mazowieckie,1904
+368,zakroczym mazowieckie Glowny,zakroczym mazowieckie,1950
+369,myszyniec mazowieckie Zachod,myszyniec mazowieckie,2010
+370,ostrow mazowiecka mazowieckie Miasto,ostrow mazowiecka mazowieckie,1933
+371,brok mazowieckie Glowny,brok mazowieckie,1933
+372,jozefow mazowieckie Miasto,jozefow mazowieckie,1900
+373,otwock mazowieckie Wschod,otwock mazowieckie,1965
+374,karczew mazowieckie Glowny,karczew mazowieckie,1959
+375,gora kalwaria mazowieckie Miasto,gora kalwaria mazowieckie,1987
+376,konstancin-jeziorna mazowieckie Wschod,konstancin-jeziorna mazowieckie,2004
+377,piaseczno mazowieckie Glowny,piaseczno mazowieckie,1933
+378,tarczyn mazowieckie Miasto,tarczyn mazowieckie,1901
+379,drobin mazowieckie Miasto,drobin mazowieckie,1960
+380,gabin mazowieckie Lesny,gabin mazowieckie,1928
+381,wyszogrod mazowieckie Lesny,wyszogrod mazowieckie,1962
+382,plonsk mazowieckie Glowny,plonsk mazowieckie,1989
+383,raciaz mazowieckie Lesny,raciaz mazowieckie,1967
+384,piastow mazowieckie Glowny,piastow mazowieckie,1992
+385,pruszkow mazowieckie Lesny,pruszkow mazowieckie,1903
+386,brwinow mazowieckie Glowny,brwinow mazowieckie,1968
+387,przasnysz mazowieckie Zachod,przasnysz mazowieckie,1901
+388,chorzele mazowieckie Polnoc,chorzele mazowieckie,1965
+389,przysucha mazowieckie Miasto,przysucha mazowieckie,1987
+390,pultusk mazowieckie Polnoc,pultusk mazowieckie,1969
+391,pionki mazowieckie Zachod,pionki mazowieckie,1929
+392,ilza mazowieckie Miasto,ilza mazowieckie,1913
+393,skaryszew mazowieckie Polnoc,skaryszew mazowieckie,1930
+394,mordy mazowieckie Miasto,mordy mazowieckie,2009
+395,sierpc mazowieckie Poludnie,sierpc mazowieckie,1998
+396,sochaczew mazowieckie Lesny,sochaczew mazowieckie,1953
+397,sokolow podlaski mazowieckie Wschod,sokolow podlaski mazowieckie,1948
+398,kosow lacki mazowieckie Polnoc,kosow lacki mazowieckie,1922
+399,szydlowiec mazowieckie Wschod,szydlowiec mazowieckie,1944
+400,blonie mazowieckie Glowny,blonie mazowieckie,1939
+401,lomianki mazowieckie Poludnie,lomianki mazowieckie,1904
+402,ozarow mazowiecki mazowieckie Glowny,ozarow mazowiecki mazowieckie,1952
+403,wegrow mazowieckie Polnoc,wegrow mazowieckie,1958
+404,lochow mazowieckie Lesny,lochow mazowieckie,1956
+405,kobylka mazowieckie Wschod,kobylka mazowieckie,1965
+406,marki mazowieckie Wschod,marki mazowieckie,1955
+407,zabki mazowieckie Glowny,zabki mazowieckie,1902
+408,zielonka mazowieckie Miasto,zielonka mazowieckie,2016
+409,radzymin mazowieckie Poludnie,radzymin mazowieckie,2014
+410,tluszcz mazowieckie Lesny,tluszcz mazowieckie,1943
+411,wolomin mazowieckie Lesny,wolomin mazowieckie,1952
+412,wyszkow mazowieckie Glowny,wyszkow mazowieckie,1953
+413,zwolen mazowieckie Glowny,zwolen mazowieckie,1916
+414,biezun mazowieckie Poludnie,biezun mazowieckie,1988
+415,zuromin mazowieckie Wschod,zuromin mazowieckie,1903
+416,zyrardow mazowieckie Zachod,zyrardow mazowieckie,1964
+417,mszczonow mazowieckie Wschod,mszczonow mazowieckie,1970
+418,ostroleka mazowieckie Wschod,ostroleka mazowieckie,1970
+419,plock mazowieckie Lesny,plock mazowieckie,2000
+420,radom mazowieckie Glowny,radom mazowieckie,1948
+421,siedlce mazowieckie Zachod,siedlce mazowieckie,1954
+422,brzeg opolskie Miasto,brzeg opolskie,1965
+423,grodkow opolskie Lesny,grodkow opolskie,1997
+424,lewin brzeski opolskie Polnoc,lewin brzeski opolskie,2013
+425,baborow opolskie Zachod,baborow opolskie,1953
+426,glubczyce opolskie Zachod,glubczyce opolskie,1924
+427,kietrz opolskie Lesny,kietrz opolskie,1918
+428,kedzierzyn-kozle opolskie Miasto,kedzierzyn-kozle opolskie,1949
+429,byczyna opolskie Zachod,byczyna opolskie,1957
+430,kluczbork opolskie Lesny,kluczbork opolskie,1934
+431,wolczyn opolskie Zachod,wolczyn opolskie,2011
+432,gogolin opolskie Glowny,gogolin opolskie,1902
+433,krapkowice opolskie Poludnie,krapkowice opolskie,1956
+434,zdzieszowice opolskie Poludnie,zdzieszowice opolskie,1917
+435,namyslow opolskie Zachod,namyslow opolskie,2001
+436,glucholazy opolskie Miasto,glucholazy opolskie,2018
+437,korfantow opolskie Glowny,korfantow opolskie,1961
+438,nysa opolskie Poludnie,nysa opolskie,1900
+439,otmuchow opolskie Polnoc,otmuchow opolskie,2008
+440,paczkow opolskie Lesny,paczkow opolskie,1995
+441,dobrodzien opolskie Polnoc,dobrodzien opolskie,1959
+442,gorzow slaski opolskie Miasto,gorzow slaski opolskie,1957
+443,olesno opolskie Zachod,olesno opolskie,1935
+444,praszka opolskie Miasto,praszka opolskie,1964
+445,niemodlin opolskie Wschod,niemodlin opolskie,1951
+446,ozimek opolskie Miasto,ozimek opolskie,1983
+447,proszkow opolskie Polnoc,proszkow opolskie,1965
+448,biala opolskie Glowny,biala opolskie,1987
+449,glogowek opolskie Miasto,glogowek opolskie,1954
+450,prudnik opolskie Wschod,prudnik opolskie,1982
+451,kolonowskie opolskie Lesny,kolonowskie opolskie,1953
+452,lesnica opolskie Miasto,lesnica opolskie,2012
+453,strzelce opolskie opolskie Polnoc,strzelce opolskie opolskie,1981
+454,ujazd opolskie Miasto,ujazd opolskie,1916
+455,zawadzkie opolskie Wschod,zawadzkie opolskie,1950
+456,opole opolskie Poludnie,opole opolskie,1967
+457,ustrzyki dolne podkarpackie Lesny,ustrzyki dolne podkarpackie,1940
+458,brzozow podkarpackie Zachod,brzozow podkarpackie,1978
+459,debica podkarpackie Lesny,debica podkarpackie,1964
+460,brzostek podkarpackie Miasto,brzostek podkarpackie,1967
+461,pilzno podkarpackie Miasto,pilzno podkarpackie,1971
+462,jaroslaw podkarpackie Miasto,jaroslaw podkarpackie,1984
+463,radymno podkarpackie Wschod,radymno podkarpackie,1954
+464,pruchnik podkarpackie Wschod,pruchnik podkarpackie,1930
+465,jaslo podkarpackie Polnoc,jaslo podkarpackie,1978
+466,kolaczyce podkarpackie Glowny,kolaczyce podkarpackie,2003
+467,kolbuszowa podkarpackie Miasto,kolbuszowa podkarpackie,1966
+468,dukla podkarpackie Miasto,dukla podkarpackie,1916
+469,iwonicz-zdroj podkarpackie Lesny,iwonicz-zdroj podkarpackie,1929
+470,jedlicze podkarpackie Miasto,jedlicze podkarpackie,1993
+471,rymanow podkarpackie Miasto,rymanow podkarpackie,1983
+472,lezajsk podkarpackie Zachod,lezajsk podkarpackie,1984
+473,nowa sarzyna podkarpackie Poludnie,nowa sarzyna podkarpackie,1930
+474,lubaczow podkarpackie Miasto,lubaczow podkarpackie,1918
+475,cieszanow podkarpackie Wschod,cieszanow podkarpackie,1917
+476,narol podkarpackie Glowny,narol podkarpackie,1941
+477,oleszyce podkarpackie Wschod,oleszyce podkarpackie,1958
+478,lancut podkarpackie Polnoc,lancut podkarpackie,2004
+479,mielec podkarpackie Polnoc,mielec podkarpackie,1945
+480,przeclaw podkarpackie Lesny,przeclaw podkarpackie,1962
+481,radomysl wielki podkarpackie Poludnie,radomysl wielki podkarpackie,1996
+482,nisko podkarpackie Poludnie,nisko podkarpackie,1973
+483,rudnik nad sanem podkarpackie Lesny,rudnik nad sanem podkarpackie,1952
+484,ulanow podkarpackie Lesny,ulanow podkarpackie,1908
+485,przeworsk podkarpackie Polnoc,przeworsk podkarpackie,1946
+486,kanczuga podkarpackie Polnoc,kanczuga podkarpackie,1915
+487,sieniawa podkarpackie Miasto,sieniawa podkarpackie,1972
+488,ropczyce podkarpackie Poludnie,ropczyce podkarpackie,1935
+489,sedziszow malopolski podkarpackie Poludnie,sedziszow malopolski podkarpackie,1941
+490,dynow podkarpackie Lesny,dynow podkarpackie,1926
+491,blazowa podkarpackie Poludnie,blazowa podkarpackie,1939
+492,boguchwala podkarpackie Wschod,boguchwala podkarpackie,1927
+493,glogow malopolski podkarpackie Wschod,glogow malopolski podkarpackie,1995
+494,sokolow malopolski podkarpackie Zachod,sokolow malopolski podkarpackie,1900
+495,tyczyn podkarpackie Zachod,tyczyn podkarpackie,1926
+496,sanok podkarpackie Glowny,sanok podkarpackie,2013
+497,zagorz podkarpackie Zachod,zagorz podkarpackie,1928
+498,stalowa wola podkarpackie Lesny,stalowa wola podkarpackie,1911
+499,zaklikow podkarpackie Lesny,zaklikow podkarpackie,1946
+500,strzyzow podkarpackie Polnoc,strzyzow podkarpackie,1994
+501,baranow sandomierski podkarpackie Poludnie,baranow sandomierski podkarpackie,1956
+502,nowa deba podkarpackie Poludnie,nowa deba podkarpackie,1931
+503,lesko podkarpackie Lesny,lesko podkarpackie,1979
+504,krosno podkarpackie Polnoc,krosno podkarpackie,2008
+505,przemysl podkarpackie Zachod,przemysl podkarpackie,1904
+506,rzeszow podkarpackie Zachod,rzeszow podkarpackie,1958
+507,tarnobrzeg podkarpackie Wschod,tarnobrzeg podkarpackie,2012
+508,augustow podlaskie Glowny,augustow podlaskie,2010
+509,lipsk podlaskie Lesny,lipsk podlaskie,1954
+510,choroszcz podlaskie Wschod,choroszcz podlaskie,1978
+511,czarna bialostocka podlaskie Lesny,czarna bialostocka podlaskie,1964
+512,lapy podlaskie Miasto,lapy podlaskie,1905
+513,michalowo podlaskie Polnoc,michalowo podlaskie,1985
+514,suprasl podlaskie Miasto,suprasl podlaskie,1989
+515,suraz podlaskie Polnoc,suraz podlaskie,1958
+516,tykocin podlaskie Zachod,tykocin podlaskie,1978
+517,wasilkow podlaskie Zachod,wasilkow podlaskie,1925
+518,zabludow podlaskie Zachod,zabludow podlaskie,1918
+519,bielsk podlaski podlaskie Poludnie,bielsk podlaski podlaskie,2000
+520,bransk podlaskie Wschod,bransk podlaskie,1989
+521,grajewo podlaskie Lesny,grajewo podlaskie,2001
+522,rajgrod podlaskie Polnoc,rajgrod podlaskie,2003
+523,szczuczyn podlaskie Poludnie,szczuczyn podlaskie,1967
+524,hajnowka podlaskie Miasto,hajnowka podlaskie,1922
+525,kleszczele podlaskie Glowny,kleszczele podlaskie,1996
+526,kolno podlaskie Wschod,kolno podlaskie,1932
+527,stawiski podlaskie Polnoc,stawiski podlaskie,1972
+528,jedwabne podlaskie Wschod,jedwabne podlaskie,1955
+529,nowogrod podlaskie Glowny,nowogrod podlaskie,1904
+530,goniadz podlaskie Glowny,goniadz podlaskie,1956
+531,knyszyn podlaskie Lesny,knyszyn podlaskie,1961
+532,monki podlaskie Glowny,monki podlaskie,1901
+533,sejny podlaskie Poludnie,sejny podlaskie,1943
+534,siemiatycze podlaskie Zachod,siemiatycze podlaskie,1969
+535,drohiczyn podlaskie Wschod,drohiczyn podlaskie,1908
+536,dabrowa bialostocka podlaskie Zachod,dabrowa bialostocka podlaskie,2020
+537,krynki podlaskie Wschod,krynki podlaskie,1987
+538,sokolka podlaskie Miasto,sokolka podlaskie,2020
+539,suchowola podlaskie Miasto,suchowola podlaskie,2012
+540,wysokie mazowieckie podlaskie Poludnie,wysokie mazowieckie podlaskie,1994
+541,ciechanowiec podlaskie Wschod,ciechanowiec podlaskie,1967
+542,czyzew podlaskie Polnoc,czyzew podlaskie,1965
+543,szepietowo podlaskie Glowny,szepietowo podlaskie,2018
+544,zambrow podlaskie Lesny,zambrow podlaskie,1948
+545,bialystok podlaskie Glowny,bialystok podlaskie,1938
+546,lomza podlaskie Zachod,lomza podlaskie,1993
+547,suwalki podlaskie Zachod,suwalki podlaskie,1960
+548,bytow pomorskie Glowny,bytow pomorskie,2001
+549,miastko pomorskie Glowny,miastko pomorskie,1963
+550,chojnice pomorskie Polnoc,chojnice pomorskie,2000
+551,brusy pomorskie Lesny,brusy pomorskie,2007
+552,czersk pomorskie Poludnie,czersk pomorskie,1903
+553,czluchow pomorskie Glowny,czluchow pomorskie,1931
+554,czarne pomorskie Lesny,czarne pomorskie,1940
+555,debrzno pomorskie Lesny,debrzno pomorskie,1916
+556,pruszcz gdanski pomorskie Wschod,pruszcz gdanski pomorskie,2011
+557,kartuzy pomorskie Wschod,kartuzy pomorskie,1942
+558,zukowo pomorskie Lesny,zukowo pomorskie,1971
+559,koscierzyna pomorskie Zachod,koscierzyna pomorskie,1957
+560,kwidzyn pomorskie Zachod,kwidzyn pomorskie,1998
+561,prabuty pomorskie Zachod,prabuty pomorskie,1991
+562,lebork pomorskie Polnoc,lebork pomorskie,1982
+563,leba pomorskie Wschod,leba pomorskie,1956
+564,malbork pomorskie Wschod,malbork pomorskie,2010
+565,nowy staw pomorskie Miasto,nowy staw pomorskie,1977
+566,krynica morska pomorskie Lesny,krynica morska pomorskie,1987
+567,nowy dwor gdanski pomorskie Zachod,nowy dwor gdanski pomorskie,1998
+568,hel pomorskie Polnoc,hel pomorskie,2011
+569,jastarnia pomorskie Wschod,jastarnia pomorskie,1999
+570,puck pomorskie Zachod,puck pomorskie,1986
+571,wladyslawowo pomorskie Zachod,wladyslawowo pomorskie,1984
+572,ustka pomorskie Wschod,ustka pomorskie,1953
+573,kepice pomorskie Zachod,kepice pomorskie,1914
+574,czarna woda pomorskie Lesny,czarna woda pomorskie,1966
+575,skorcz pomorskie Lesny,skorcz pomorskie,1969
+576,starogard gdanski pomorskie Lesny,starogard gdanski pomorskie,2003
+577,skarszewy pomorskie Wschod,skarszewy pomorskie,1960
+578,tczew pomorskie Zachod,tczew pomorskie,1999
+579,gniew pomorskie Zachod,gniew pomorskie,1945
+580,pelplin pomorskie Wschod,pelplin pomorskie,1929
+581,reda pomorskie Zachod,reda pomorskie,1931
+582,rumia pomorskie Zachod,rumia pomorskie,2011
+583,wejherowo pomorskie Wschod,wejherowo pomorskie,1969
+584,dzierzgon pomorskie Poludnie,dzierzgon pomorskie,1926
+585,sztum pomorskie Poludnie,sztum pomorskie,1990
+586,gdansk pomorskie Glowny,gdansk pomorskie,1902
+587,gdynia pomorskie Wschod,gdynia pomorskie,2006
+588,slupsk pomorskie Polnoc,slupsk pomorskie,1933
+589,sopot pomorskie Polnoc,sopot pomorskie,1987
+590,bedzin slaskie Lesny,bedzin slaskie,1943
+591,czeladz slaskie Lesny,czeladz slaskie,1961
+592,wojkowice slaskie Wschod,wojkowice slaskie,1997
+593,siewierz slaskie Glowny,siewierz slaskie,1921
+594,slawkow slaskie Wschod,slawkow slaskie,1932
+595,szczyrk slaskie Polnoc,szczyrk slaskie,1903
+596,czechowice-dziedzice slaskie Polnoc,czechowice-dziedzice slaskie,2012
+597,wilamowice slaskie Miasto,wilamowice slaskie,2009
+598,cieszyn slaskie Polnoc,cieszyn slaskie,1951
+599,ustron slaskie Zachod,ustron slaskie,1926
+600,wisla slaskie Lesny,wisla slaskie,1934
+601,skoczow slaskie Glowny,skoczow slaskie,2005
+602,strumien slaskie Poludnie,strumien slaskie,1994
+603,blachownia slaskie Glowny,blachownia slaskie,2019
+604,koniecpol slaskie Poludnie,koniecpol slaskie,2016
+605,knurow slaskie Miasto,knurow slaskie,1943
+606,pyskowice slaskie Lesny,pyskowice slaskie,2014
+607,sosnicowice slaskie Wschod,sosnicowice slaskie,2018
+608,toszek slaskie Lesny,toszek slaskie,1997
+609,klobuck slaskie Wschod,klobuck slaskie,1910
+610,krzepice slaskie Glowny,krzepice slaskie,1956
+611,lubliniec slaskie Zachod,lubliniec slaskie,1999
+612,wozniki slaskie Wschod,wozniki slaskie,2017
+613,laziska gorne slaskie Glowny,laziska gorne slaskie,2015
+614,mikolow slaskie Zachod,mikolow slaskie,1909
+615,orzesze slaskie Wschod,orzesze slaskie,1952
+616,myszkow slaskie Lesny,myszkow slaskie,1925
+617,kozieglowy slaskie Poludnie,kozieglowy slaskie,1957
+618,zarki slaskie Poludnie,zarki slaskie,1907
+619,pszczyna slaskie Miasto,pszczyna slaskie,1953
+620,raciborz slaskie Wschod,raciborz slaskie,2015
+621,krzanowice slaskie Poludnie,krzanowice slaskie,1908
+622,kuznia raciborska slaskie Glowny,kuznia raciborska slaskie,1933
+623,czerwionka-leszczyny slaskie Glowny,czerwionka-leszczyny slaskie,2006
+624,kalety slaskie Poludnie,kalety slaskie,2003
+625,miasteczko slaskie slaskie Glowny,miasteczko slaskie slaskie,1980
+626,radzionkow slaskie Polnoc,radzionkow slaskie,1936
+627,tarnowskie gory slaskie Poludnie,tarnowskie gory slaskie,1971
+628,bierun slaskie Zachod,bierun slaskie,1927
+629,imielin slaskie Lesny,imielin slaskie,2003
+630,ledziny slaskie Zachod,ledziny slaskie,1954
+631,pszow slaskie Miasto,pszow slaskie,2005
+632,radlin slaskie Miasto,radlin slaskie,1909
+633,rydultowy slaskie Wschod,rydultowy slaskie,1940
+634,wodzislaw slaski slaskie Poludnie,wodzislaw slaski slaskie,1925
+635,poreba slaskie Zachod,poreba slaskie,1969
+636,zawiercie slaskie Polnoc,zawiercie slaskie,2013
+637,lazy slaskie Glowny,lazy slaskie,1909
+638,ogrodzieniec slaskie Wschod,ogrodzieniec slaskie,1979
+639,pilica slaskie Zachod,pilica slaskie,1947
+640,szczekociny slaskie Miasto,szczekociny slaskie,1903
+641,zywiec slaskie Lesny,zywiec slaskie,2010
+642,bielsko-biala slaskie Lesny,bielsko-biala slaskie,1942
+643,bytom slaskie Poludnie,bytom slaskie,1966
+644,chorzow slaskie Glowny,chorzow slaskie,1923
+645,czestochowa slaskie Zachod,czestochowa slaskie,1981
+646,dabrowa gornicza slaskie Glowny,dabrowa gornicza slaskie,2012
+647,gliwice slaskie Zachod,gliwice slaskie,1945
+648,jastrzebie-zdroj slaskie Wschod,jastrzebie-zdroj slaskie,1913
+649,jaworzno slaskie Wschod,jaworzno slaskie,2003
+650,katowice slaskie Miasto,katowice slaskie,1971
+651,myslowice slaskie Wschod,myslowice slaskie,1915
+652,piekary slaskie slaskie Poludnie,piekary slaskie slaskie,2012
+653,ruda slaska slaskie Wschod,ruda slaska slaskie,2008
+654,rybnik slaskie Miasto,rybnik slaskie,1918
+655,siemianowice slaskie slaskie Lesny,siemianowice slaskie slaskie,1984
+656,sosnowiec slaskie Lesny,sosnowiec slaskie,1940
+657,swietochlowice slaskie Lesny,swietochlowice slaskie,2000
+658,tychy slaskie Polnoc,tychy slaskie,2012
+659,zabrze slaskie Polnoc,zabrze slaskie,2002
+660,zory slaskie Poludnie,zory slaskie,1910
+661,busko-zdroj swietokrzyskie Poludnie,busko-zdroj swietokrzyskie,2005
+662,stopnica swietokrzyskie Lesny,stopnica swietokrzyskie,1980
+663,jedrzejow swietokrzyskie Miasto,jedrzejow swietokrzyskie,1924
+664,malogoszcz swietokrzyskie Lesny,malogoszcz swietokrzyskie,1963
+665,sedziszow swietokrzyskie Polnoc,sedziszow swietokrzyskie,1990
+666,kazimierza wielka swietokrzyskie Poludnie,kazimierza wielka swietokrzyskie,1998
+667,skalbmierz swietokrzyskie Wschod,skalbmierz swietokrzyskie,2013
+668,bodzentyn swietokrzyskie Poludnie,bodzentyn swietokrzyskie,1955
+669,checiny swietokrzyskie Lesny,checiny swietokrzyskie,1938
+670,chmielnik swietokrzyskie Poludnie,chmielnik swietokrzyskie,1983
+671,daleszyce swietokrzyskie Lesny,daleszyce swietokrzyskie,1971
+672,konskie swietokrzyskie Zachod,konskie swietokrzyskie,1945
+673,staporkow swietokrzyskie Lesny,staporkow swietokrzyskie,2009
+674,opatow swietokrzyskie Zachod,opatow swietokrzyskie,1956
+675,ozarow swietokrzyskie Wschod,ozarow swietokrzyskie,1910
+676,ostrowiec swietokrzyski swietokrzyskie Poludnie,ostrowiec swietokrzyski swietokrzyskie,1975
+677,cmielow swietokrzyskie Polnoc,cmielow swietokrzyskie,1963
+678,kunow swietokrzyskie Glowny,kunow swietokrzyskie,1904
+679,dzialoszyce swietokrzyskie Polnoc,dzialoszyce swietokrzyskie,1971
+680,pinczow swietokrzyskie Poludnie,pinczow swietokrzyskie,1974
+681,sandomierz swietokrzyskie Zachod,sandomierz swietokrzyskie,1988
+682,koprzywnica swietokrzyskie Poludnie,koprzywnica swietokrzyskie,1989
+683,zawichost swietokrzyskie Poludnie,zawichost swietokrzyskie,1906
+684,skarzysko-kamienna swietokrzyskie Poludnie,skarzysko-kamienna swietokrzyskie,1932
+685,suchedniow swietokrzyskie Glowny,suchedniow swietokrzyskie,1954
+686,starachowice swietokrzyskie Glowny,starachowice swietokrzyskie,1914
+687,wachock swietokrzyskie Poludnie,wachock swietokrzyskie,1993
+688,osiek swietokrzyskie Polnoc,osiek swietokrzyskie,1931
+689,polaniec swietokrzyskie Miasto,polaniec swietokrzyskie,1943
+690,staszow swietokrzyskie Wschod,staszow swietokrzyskie,1962
+691,wloszczowa swietokrzyskie Lesny,wloszczowa swietokrzyskie,1922
+692,kielce swietokrzyskie Poludnie,kielce swietokrzyskie,1950
+693,bartoszyce warminsko-mazurskie Glowny,bartoszyce warminsko-mazurskie,1912
+694,gorowo ilaweckie warminsko-mazurskie Wschod,gorowo ilaweckie warminsko-mazurskie,1978
+695,bisztynek warminsko-mazurskie Glowny,bisztynek warminsko-mazurskie,1937
+696,sepopol warminsko-mazurskie Zachod,sepopol warminsko-mazurskie,1918
+697,braniewo warminsko-mazurskie Poludnie,braniewo warminsko-mazurskie,1980
+698,frombork warminsko-mazurskie Zachod,frombork warminsko-mazurskie,1972
+699,pieniezno warminsko-mazurskie Lesny,pieniezno warminsko-mazurskie,2008
+700,dzialdowo warminsko-mazurskie Poludnie,dzialdowo warminsko-mazurskie,2002
+701,lidzbark warminsko-mazurskie Zachod,lidzbark warminsko-mazurskie,1942
+702,mlynary warminsko-mazurskie Zachod,mlynary warminsko-mazurskie,1973
+703,paslek warminsko-mazurskie Glowny,paslek warminsko-mazurskie,1960
+704,tolkmicko warminsko-mazurskie Glowny,tolkmicko warminsko-mazurskie,2003
+705,elk warminsko-mazurskie Polnoc,elk warminsko-mazurskie,1940
+706,gizycko warminsko-mazurskie Polnoc,gizycko warminsko-mazurskie,1972
+707,ryn warminsko-mazurskie Wschod,ryn warminsko-mazurskie,1984
+708,ilawa warminsko-mazurskie Zachod,ilawa warminsko-mazurskie,1992
+709,lubawa warminsko-mazurskie Polnoc,lubawa warminsko-mazurskie,2006
+710,kisielice warminsko-mazurskie Poludnie,kisielice warminsko-mazurskie,1988
+711,susz warminsko-mazurskie Lesny,susz warminsko-mazurskie,1940
+712,zalewo warminsko-mazurskie Zachod,zalewo warminsko-mazurskie,1948
+713,ketrzyn warminsko-mazurskie Wschod,ketrzyn warminsko-mazurskie,1932
+714,korsze warminsko-mazurskie Polnoc,korsze warminsko-mazurskie,1976
+715,reszel warminsko-mazurskie Lesny,reszel warminsko-mazurskie,2009
+716,lidzbark warminski warminsko-mazurskie Glowny,lidzbark warminski warminsko-mazurskie,1936
+717,orneta warminsko-mazurskie Wschod,orneta warminsko-mazurskie,1955
+718,mragowo warminsko-mazurskie Poludnie,mragowo warminsko-mazurskie,1936
+719,mikolajki warminsko-mazurskie Lesny,mikolajki warminsko-mazurskie,1955
+720,nidzica warminsko-mazurskie Lesny,nidzica warminsko-mazurskie,2008
+721,nowe miasto lubawskie warminsko-mazurskie Polnoc,nowe miasto lubawskie warminsko-mazurskie,1959
+722,olecko warminsko-mazurskie Poludnie,olecko warminsko-mazurskie,1957
+723,barczewo warminsko-mazurskie Polnoc,barczewo warminsko-mazurskie,1955
+724,biskupiec warminsko-mazurskie Zachod,biskupiec warminsko-mazurskie,1982
+725,dobre miasto warminsko-mazurskie Wschod,dobre miasto warminsko-mazurskie,1939
+726,jeziorany warminsko-mazurskie Lesny,jeziorany warminsko-mazurskie,1906
+727,olsztynek warminsko-mazurskie Wschod,olsztynek warminsko-mazurskie,1953
+728,ostroda warminsko-mazurskie Miasto,ostroda warminsko-mazurskie,1934
+729,milakowo warminsko-mazurskie Wschod,milakowo warminsko-mazurskie,1979
+730,milomlyn warminsko-mazurskie Zachod,milomlyn warminsko-mazurskie,1938
+731,morag warminsko-mazurskie Wschod,morag warminsko-mazurskie,1934
+732,biala piska warminsko-mazurskie Polnoc,biala piska warminsko-mazurskie,1993
+733,orzysz warminsko-mazurskie Polnoc,orzysz warminsko-mazurskie,1927
+734,pisz warminsko-mazurskie Polnoc,pisz warminsko-mazurskie,1991
+735,ruciane-nida warminsko-mazurskie Poludnie,ruciane-nida warminsko-mazurskie,1939
+736,szczytno warminsko-mazurskie Polnoc,szczytno warminsko-mazurskie,1908
+737,pasym warminsko-mazurskie Miasto,pasym warminsko-mazurskie,2001
+738,goldap warminsko-mazurskie Glowny,goldap warminsko-mazurskie,1994
+739,wegorzewo warminsko-mazurskie Zachod,wegorzewo warminsko-mazurskie,1959
+740,elblag warminsko-mazurskie Zachod,elblag warminsko-mazurskie,1983
+741,olsztyn warminsko-mazurskie Glowny,olsztyn warminsko-mazurskie,1982
+742,chodziez wielkopolskie Glowny,chodziez wielkopolskie,1968
+743,margonin wielkopolskie Glowny,margonin wielkopolskie,1983
+744,szamocin wielkopolskie Miasto,szamocin wielkopolskie,2019
+745,czarnkow wielkopolskie Glowny,czarnkow wielkopolskie,1993
+746,krzyz wielkopolski wielkopolskie Poludnie,krzyz wielkopolski wielkopolskie,2005
+747,trzcianka wielkopolskie Lesny,trzcianka wielkopolskie,2010
+748,wielen wielkopolskie Poludnie,wielen wielkopolskie,2009
+749,gniezno wielkopolskie Miasto,gniezno wielkopolskie,1959
+750,czerniejewo wielkopolskie Glowny,czerniejewo wielkopolskie,1910
+751,klecko wielkopolskie Glowny,klecko wielkopolskie,1906
+752,trzemeszno wielkopolskie Miasto,trzemeszno wielkopolskie,2002
+753,witkowo wielkopolskie Glowny,witkowo wielkopolskie,1925
+754,borek wielkopolski wielkopolskie Miasto,borek wielkopolski wielkopolskie,1911
+755,gostyn wielkopolskie Poludnie,gostyn wielkopolskie,2003
+756,krobia wielkopolskie Glowny,krobia wielkopolskie,1925
+757,pogorzela wielkopolskie Polnoc,pogorzela wielkopolskie,2002
+758,poniec wielkopolskie Polnoc,poniec wielkopolskie,1965
+759,grodzisk wielkopolski wielkopolskie Lesny,grodzisk wielkopolski wielkopolskie,1978
+760,rakoniewice wielkopolskie Poludnie,rakoniewice wielkopolskie,1957
+761,wielichowo wielkopolskie Lesny,wielichowo wielkopolskie,2001
+762,jaraczewo wielkopolskie Poludnie,jaraczewo wielkopolskie,1940
+763,jarocin wielkopolskie Poludnie,jarocin wielkopolskie,1987
+764,zerkow wielkopolskie Poludnie,zerkow wielkopolskie,1973
+765,stawiszyn wielkopolskie Wschod,stawiszyn wielkopolskie,2000
+766,kepno wielkopolskie Poludnie,kepno wielkopolskie,1901
+767,kolo wielkopolskie Lesny,kolo wielkopolskie,1952
+768,dabie wielkopolskie Miasto,dabie wielkopolskie,1979
+769,klodawa wielkopolskie Poludnie,klodawa wielkopolskie,2015
+770,przedecz wielkopolskie Miasto,przedecz wielkopolskie,1944
+771,golina wielkopolskie Zachod,golina wielkopolskie,1968
+772,kleczew wielkopolskie Wschod,kleczew wielkopolskie,1929
+773,rychwal wielkopolskie Zachod,rychwal wielkopolskie,1994
+774,sompolno wielkopolskie Miasto,sompolno wielkopolskie,1920
+775,slesin wielkopolskie Lesny,slesin wielkopolskie,1953
+776,koscian wielkopolskie Polnoc,koscian wielkopolskie,1997
+777,czempin wielkopolskie Miasto,czempin wielkopolskie,1965
+778,krzywin wielkopolskie Glowny,krzywin wielkopolskie,1973
+779,smigiel wielkopolskie Lesny,smigiel wielkopolskie,1975
+780,sulmierzyce wielkopolskie Zachod,sulmierzyce wielkopolskie,1973
+781,kobylin wielkopolskie Polnoc,kobylin wielkopolskie,1909
+782,kozmin wielkopolski wielkopolskie Lesny,kozmin wielkopolski wielkopolskie,1935
+783,krotoszyn wielkopolskie Miasto,krotoszyn wielkopolskie,1942
+784,zduny wielkopolskie Glowny,zduny wielkopolskie,1913
+785,osieczna wielkopolskie Lesny,osieczna wielkopolskie,1935
+786,rydzyna wielkopolskie Miasto,rydzyna wielkopolskie,1903
+787,miedzychod wielkopolskie Wschod,miedzychod wielkopolskie,1986
+788,sierakow wielkopolskie Glowny,sierakow wielkopolskie,1987
+789,lwowek wielkopolskie Lesny,lwowek wielkopolskie,1924
+790,nowy tomysl wielkopolskie Lesny,nowy tomysl wielkopolskie,1923
+791,opalenica wielkopolskie Poludnie,opalenica wielkopolskie,1960
+792,zbaszyn wielkopolskie Polnoc,zbaszyn wielkopolskie,2009
+793,oborniki wielkopolskie Poludnie,oborniki wielkopolskie,1979
+794,rogozno wielkopolskie Poludnie,rogozno wielkopolskie,1932
+795,ostrow wielkopolski wielkopolskie Glowny,ostrow wielkopolski wielkopolskie,1929
+796,nowe skalmierzyce wielkopolskie Zachod,nowe skalmierzyce wielkopolskie,2019
+797,odolanow wielkopolskie Poludnie,odolanow wielkopolskie,1975
+798,raszkow wielkopolskie Glowny,raszkow wielkopolskie,1995
+799,grabow nad prosna wielkopolskie Miasto,grabow nad prosna wielkopolskie,1936
+800,mikstat wielkopolskie Glowny,mikstat wielkopolskie,1912
+801,ostrzeszow wielkopolskie Wschod,ostrzeszow wielkopolskie,2013
+802,pila wielkopolskie Polnoc,pila wielkopolskie,2020
+803,lobzenica wielkopolskie Zachod,lobzenica wielkopolskie,2001
+804,ujscie wielkopolskie Poludnie,ujscie wielkopolskie,1911
+805,wyrzysk wielkopolskie Zachod,wyrzysk wielkopolskie,1934
+806,wysoka wielkopolskie Polnoc,wysoka wielkopolskie,1937
+807,chocz wielkopolskie Miasto,chocz wielkopolskie,1954
+808,dobrzyca wielkopolskie Miasto,dobrzyca wielkopolskie,1952
+809,pleszew wielkopolskie Wschod,pleszew wielkopolskie,2010
+810,lubon wielkopolskie Lesny,lubon wielkopolskie,1971
+811,puszczykowo wielkopolskie Polnoc,puszczykowo wielkopolskie,1916
+812,buk wielkopolskie Poludnie,buk wielkopolskie,1939
+813,kostrzyn wielkopolskie Wschod,kostrzyn wielkopolskie,2017
+814,kornik wielkopolskie Wschod,kornik wielkopolskie,1969
+815,mosina wielkopolskie Glowny,mosina wielkopolskie,1949
+816,murowana goslina wielkopolskie Zachod,murowana goslina wielkopolskie,1927
+817,pobiedziska wielkopolskie Polnoc,pobiedziska wielkopolskie,2008
+818,steszew wielkopolskie Glowny,steszew wielkopolskie,1984
+819,swarzedz wielkopolskie Wschod,swarzedz wielkopolskie,1910
+820,bojanowo wielkopolskie Glowny,bojanowo wielkopolskie,1962
+821,jutrosin wielkopolskie Zachod,jutrosin wielkopolskie,1954
+822,miejska gorka wielkopolskie Wschod,miejska gorka wielkopolskie,1914
+823,rawicz wielkopolskie Miasto,rawicz wielkopolskie,1910
+824,slupca wielkopolskie Lesny,slupca wielkopolskie,1991
+825,zagorow wielkopolskie Zachod,zagorow wielkopolskie,2018
+826,obrzycko wielkopolskie Zachod,obrzycko wielkopolskie,1994
+827,ostrorog wielkopolskie Wschod,ostrorog wielkopolskie,1952
+828,pniewy wielkopolskie Miasto,pniewy wielkopolskie,1939
+829,szamotuly wielkopolskie Wschod,szamotuly wielkopolskie,1929
+830,wronki wielkopolskie Lesny,wronki wielkopolskie,1916
+831,sroda wielkopolska wielkopolskie Zachod,sroda wielkopolska wielkopolskie,1905
+832,dolsk wielkopolskie Wschod,dolsk wielkopolskie,1929
+833,ksiaz wielkopolski wielkopolskie Wschod,ksiaz wielkopolski wielkopolskie,1998
+834,srem wielkopolskie Lesny,srem wielkopolskie,1946
+835,turek wielkopolskie Lesny,turek wielkopolskie,1945
+836,dobra wielkopolskie Poludnie,dobra wielkopolskie,1928
+837,tuliszkow wielkopolskie Lesny,tuliszkow wielkopolskie,1964
+838,wagrowiec wielkopolskie Glowny,wagrowiec wielkopolskie,1966
+839,golancz wielkopolskie Lesny,golancz wielkopolskie,1965
+840,skoki wielkopolskie Poludnie,skoki wielkopolskie,1920
+841,wolsztyn wielkopolskie Glowny,wolsztyn wielkopolskie,2002
+842,miloslaw wielkopolskie Miasto,miloslaw wielkopolskie,1931
+843,nekla wielkopolskie Poludnie,nekla wielkopolskie,1995
+844,pyzdry wielkopolskie Miasto,pyzdry wielkopolskie,1960
+845,wrzesnia wielkopolskie Lesny,wrzesnia wielkopolskie,1948
+846,zlotow wielkopolskie Wschod,zlotow wielkopolskie,1943
+847,jastrowie wielkopolskie Polnoc,jastrowie wielkopolskie,1991
+848,krajenka wielkopolskie Glowny,krajenka wielkopolskie,1917
+849,okonek wielkopolskie Wschod,okonek wielkopolskie,1955
+850,kalisz wielkopolskie Wschod,kalisz wielkopolskie,1927
+851,konin wielkopolskie Lesny,konin wielkopolskie,1986
+852,leszno wielkopolskie Wschod,leszno wielkopolskie,1927
+853,poznan wielkopolskie Miasto,poznan wielkopolskie,1940
+854,bialogard zachodniopomorskie Poludnie,bialogard zachodniopomorskie,1982
+855,karlino zachodniopomorskie Polnoc,karlino zachodniopomorskie,1966
+856,tychowo zachodniopomorskie Zachod,tychowo zachodniopomorskie,1964
+857,choszczno zachodniopomorskie Zachod,choszczno zachodniopomorskie,1990
+858,drawno zachodniopomorskie Glowny,drawno zachodniopomorskie,1944
+859,pelczyce zachodniopomorskie Poludnie,pelczyce zachodniopomorskie,1952
+860,recz zachodniopomorskie Glowny,recz zachodniopomorskie,1994
+861,czaplinek zachodniopomorskie Lesny,czaplinek zachodniopomorskie,1974
+862,drawsko pomorskie zachodniopomorskie Zachod,drawsko pomorskie zachodniopomorskie,1991
+863,kalisz pomorski zachodniopomorskie Glowny,kalisz pomorski zachodniopomorskie,1909
+864,zlocieniec zachodniopomorskie Poludnie,zlocieniec zachodniopomorskie,1972
+865,goleniow zachodniopomorskie Polnoc,goleniow zachodniopomorskie,1980
+866,maszewo zachodniopomorskie Poludnie,maszewo zachodniopomorskie,2020
+867,nowogard zachodniopomorskie Wschod,nowogard zachodniopomorskie,1905
+868,stepnica zachodniopomorskie Wschod,stepnica zachodniopomorskie,1983
+869,gryfice zachodniopomorskie Polnoc,gryfice zachodniopomorskie,1965
+870,ploty zachodniopomorskie Wschod,ploty zachodniopomorskie,1991
+871,trzebiatow zachodniopomorskie Zachod,trzebiatow zachodniopomorskie,1944
+872,cedynia zachodniopomorskie Lesny,cedynia zachodniopomorskie,2017
+873,chojna zachodniopomorskie Zachod,chojna zachodniopomorskie,1966
+874,gryfino zachodniopomorskie Miasto,gryfino zachodniopomorskie,1970
+875,mieszkowice zachodniopomorskie Zachod,mieszkowice zachodniopomorskie,2015
+876,moryn zachodniopomorskie Glowny,moryn zachodniopomorskie,1994
+877,trzcinsko-zdroj zachodniopomorskie Lesny,trzcinsko-zdroj zachodniopomorskie,2004
+878,dziwnow zachodniopomorskie Miasto,dziwnow zachodniopomorskie,1944
+879,golczewo zachodniopomorskie Poludnie,golczewo zachodniopomorskie,2000
+880,kamien pomorski zachodniopomorskie Zachod,kamien pomorski zachodniopomorskie,1957
+881,miedzyzdroje zachodniopomorskie Poludnie,miedzyzdroje zachodniopomorskie,1944
+882,wolin zachodniopomorskie Zachod,wolin zachodniopomorskie,2000
+883,kolobrzeg zachodniopomorskie Polnoc,kolobrzeg zachodniopomorskie,1948
+884,goscino zachodniopomorskie Lesny,goscino zachodniopomorskie,1988
+885,bobolice zachodniopomorskie Miasto,bobolice zachodniopomorskie,1909
+886,polanow zachodniopomorskie Wschod,polanow zachodniopomorskie,1920
+887,sianow zachodniopomorskie Glowny,sianow zachodniopomorskie,1933
+888,barlinek zachodniopomorskie Miasto,barlinek zachodniopomorskie,2020
+889,debno zachodniopomorskie Poludnie,debno zachodniopomorskie,1962
+890,mysliborz zachodniopomorskie Polnoc,mysliborz zachodniopomorskie,1918
+891,nowe warpno zachodniopomorskie Lesny,nowe warpno zachodniopomorskie,1964
+892,police zachodniopomorskie Wschod,police zachodniopomorskie,1903
+893,lipiany zachodniopomorskie Glowny,lipiany zachodniopomorskie,2020
+894,pyrzyce zachodniopomorskie Glowny,pyrzyce zachodniopomorskie,1911
+895,darlowo zachodniopomorskie Miasto,darlowo zachodniopomorskie,1922
+896,slawno zachodniopomorskie Glowny,slawno zachodniopomorskie,2005
+897,stargard zachodniopomorskie Lesny,stargard zachodniopomorskie,1941
+898,chociwel zachodniopomorskie Lesny,chociwel zachodniopomorskie,1918
+899,dobrzany zachodniopomorskie Poludnie,dobrzany zachodniopomorskie,1913
+900,insko zachodniopomorskie Miasto,insko zachodniopomorskie,1926
+901,suchan zachodniopomorskie Glowny,suchan zachodniopomorskie,1916
+902,szczecinek zachodniopomorskie Miasto,szczecinek zachodniopomorskie,2014
+903,barwice zachodniopomorskie Miasto,barwice zachodniopomorskie,2005
+904,bialy bor zachodniopomorskie Glowny,bialy bor zachodniopomorskie,1916
+905,borne sulinowo zachodniopomorskie Miasto,borne sulinowo zachodniopomorskie,1936
+906,swidwin zachodniopomorskie Zachod,swidwin zachodniopomorskie,1938
+907,polczyn-zdroj zachodniopomorskie Polnoc,polczyn-zdroj zachodniopomorskie,1917
+908,walcz zachodniopomorskie Poludnie,walcz zachodniopomorskie,1984
+909,czlopa zachodniopomorskie Polnoc,czlopa zachodniopomorskie,1924
+910,miroslawiec zachodniopomorskie Poludnie,miroslawiec zachodniopomorskie,2017
+911,tuczno zachodniopomorskie Polnoc,tuczno zachodniopomorskie,1974
+912,dobra zachodniopomorskie Zachod,dobra zachodniopomorskie,1960
+913,lobez zachodniopomorskie Zachod,lobez zachodniopomorskie,1934
+914,resko zachodniopomorskie Zachod,resko zachodniopomorskie,2007
+915,wegorzyno zachodniopomorskie Glowny,wegorzyno zachodniopomorskie,1936
+916,koszalin zachodniopomorskie Poludnie,koszalin zachodniopomorskie,1927
+917,szczecin zachodniopomorskie Polnoc,szczecin zachodniopomorskie,2008
+918,swinoujscie zachodniopomorskie Miasto,swinoujscie zachodniopomorskie,2017

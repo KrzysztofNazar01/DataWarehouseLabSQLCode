@@ -10,16 +10,17 @@ CREATE TABLE Stacje(
 use Trains_3_schema
 CREATE TABLE Trasy(
    Id_trasy int PRIMARY KEY,
-   Id_stacji_poczatkowej int FOREIGN KEY REFERENCES Stacje(Id_stacji),
-   Id_stacji_koncowej int FOREIGN KEY REFERENCES Stacje(Id_stacji),
-   Odleglosc int 
+   Id_stacji_poczatkowej int FOREIGN KEY REFERENCES Stacje(Id_stacji) NOT NULL,
+   Id_stacji_koncowej int FOREIGN KEY REFERENCES Stacje(Id_stacji) NOT NULL,
+   Odleglosc int NOT NULL,
  );
 
 use Trains_3_schema
 CREATE TABLE Maszynisci
 (
 	PESEL bigint CHECK(PESEL LIKE '[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]') PRIMARY KEY,
-    -- In DW you should concatanate Imie and Nazwisko to one variable called "Imie_naziwsko"
+	Id_maszynisty int NOT NULL,
+   -- In DW you should concatanate Imie and Nazwisko to one variable called "Imie_naziwsko"
 	Imie varchar(50) NOT NULL,
 	Nazwisko varchar(50) NOT NULL,
     Plec varchar(20) CHECK(Plec='Kobieta' OR Plec='Mezczyzna') NOT NULL,
@@ -32,8 +33,12 @@ CREATE TABLE Maszynisci
 use Trains_3_schema
 CREATE TABLE Pociagi(
     Id_pociagu int PRIMARY KEY,
-    Typ varchar(10) CHECK(Typ IN ('Intercity','Regio','Arriva','EIP','SKM')) NOT NULL,
-    Typ_towaru varchar(20) CHECK(Typ_towaru In('Elektronika','Wegiel','Paliwo','Poczta')) NOT NULL,
+    --Typ varchar(10) CHECK(Typ IN ('Intercity','Regio','Arriva','EIP','SKM')) NOT NULL,
+    --Typ_towaru varchar(20) CHECK(Typ_towaru In('Elektronika','Wegiel','Paliwo','Poczta')) NOT NULL,
+	Typ varchar(10) NOT NULL,
+    Typ_towaru varchar(20) NOT NULL,
+    Miejsca int NOT NULL,
+	Ladownosc int NOT NULL,
 );
 
 

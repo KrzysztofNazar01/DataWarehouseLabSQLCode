@@ -7,7 +7,9 @@ AS
 SELECT DISTINCT
 	[Id_pociagu],
 	[Typ], 
-	[Typ_towaru]
+	[Typ_towaru],
+	[Ladownosc],
+	[Miejsca]
 	FROM Trains_3_schema.dbo.Pociagi
 go
 
@@ -22,7 +24,9 @@ MERGE INTO Pociagi as DW
 				INSERT
 				Values (
 					DB.Typ,
-					DB.Typ_towaru
+					DB.Typ_towaru,
+					DB.Ladownosc,
+					DB.Miejsca
 				)
 
 			;
