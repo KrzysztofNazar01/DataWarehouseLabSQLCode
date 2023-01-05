@@ -1,5 +1,4 @@
-﻿
-USE Trains_3
+﻿USE Trains_3
 GO 
 If (object_id('vETLDimAwarie') is not null) Drop View vETLDimAwarie;
 go
@@ -17,8 +16,19 @@ SELECT DISTINCT
 	JOIN Trains_3_schema.dbo.AwarieSheet as A_SH ON A_DB.Id_awarii = A_SH.Id_awarii
 	
 	JOIN Trains_3_schema.[dbo].PrzejazdyDB as P_DB ON P_DB.Id_przejazdu = A_DB.Id_przejazdu --wyszukc przejazd w bazie danych
-	JOIN [Trains_3].[dbo].[Przejazdy] as P_DW ON P_DW.Id_pociagu = P_DB.Id_pociagu 
 	
+	JOIN Trains_3_schema.[dbo].[Maszynisci] as M_DB ON P_DB.Id_maszynisty = M_DB.PESEL --wyszukc masyzniste w bazie danych
+	JOIN [Trains_3].[dbo].[Maszynisci] as M_DW ON M_DW.PESEL = M_DB.PESEL  -- a tutaj wyszukac masyzniste po atrubtyach ktore nie sa kluczem glownym, a na koniec pobrac jego klucz glowny
+	
+	JOIN Trains_3_schema.[dbo].[Pociagi] as Poc_DB ON P_DB.Id_pociagu = Poc_DB.Id_pociagu --wyszukc pociag w bazie danych
+	JOIN [Trains_3].[dbo].[Pociagi] as Poc_DW ON Poc_DW.Typ = Poc_DB.Typ AND Poc_DW.Typ_towaru = Poc_DB.Typ_towaru AND Poc_DW.Ladownosc = Poc_DB.Ladownosc AND Poc_DW.Miejsca = Poc_DB.Miejsca -- a tutaj wyszukac pociag po atrubtyach ktore nie sa kluczem glowny, a na koniec pobrac jego klucz glowny
+	
+	JOIN Trains_3_schema.[dbo].[Trasy] as T_DB ON P_DB.Id_trasy = T_DB.Id_trasy --wyszukc trase w bazie danych
+	JOIN [Trains_3].[dbo].[Trasy] as T_DW ON T_DW.Id_stacji_koncowej = T_DB.Id_stacji_koncowej AND T_DW.Id_stacji_poczatkowej = T_DB.Id_stacji_poczatkowej  -- a tutaj wyszukac trase po atrubtyach ktore nie sa kluczem glowny, a na koniec pobrac jego klucz glowny
+
+	--zlaczyc 
+	JOIN [Trains_3].[dbo].[Przejazdy] as P_DW ON P_DW.Id_maszynisty = M_DW.Id_maszynisty AND P_DW.Id_pociagu = Poc_DW.Id_pociagu AND P_DW.Id_trasy = T_DW.Id_trasy 
+
 	
 	JOIN dbo.Czas as G ON G.Godzina = DATEPART(HOUR, A_DB.Data_awarii)
 	JOIN dbo.Czas as M ON M.Minuta = DATEPART(MINUTE, A_DB.Data_awarii)

@@ -11,7 +11,7 @@ If (object_id('dbo.Data_temp') is not null) DROP TABLE dbo.Data_temp;
 CREATE TABLE Data_temp(
     Id_daty int identity(1,1) PRIMARY KEY,
 	Data datetime,
-    Rok int check(Rok>=1990 AND Rok<=2022) not NULL,
+    Rok int check(Rok>=2020 AND Rok<=2023) not NULL,
     Miesiac varchar(15) NOT NULL,
     Numer_miesiaca int CHECK(Numer_miesiaca>=1 AND Numer_miesiaca<=12) NOT NULL,
     Dzien int Check(Dzien>=1 AND Dzien<=31) not NULL,
@@ -27,7 +27,7 @@ Declare @StartDate date;
 Declare @EndDate date;
 
 -- Step b:  Fill the variable with values for the range of years needed
-SELECT @StartDate = '2000-01-01', @EndDate = '2022-12-31';
+SELECT @StartDate = '2021-01-01', @EndDate = '2022-06-30';
 
 -- Step c:  Use a while loop to add dates to the table
 Declare @DateInProcess datetime = @StartDate;
