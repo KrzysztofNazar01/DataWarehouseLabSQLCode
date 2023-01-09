@@ -1,6 +1,7 @@
 // 1. Jaka jest różnica w całkowitym opóźnieniu pociągów między tym,
 // a poprzednim miesiącem?
 // GOTOWE
+/*
 WITH MEMBER [Prev month amount] AS
 '(
 	ParallelPeriod(
@@ -28,17 +29,18 @@ SELECT
 	ON ROWS,
 	{
 		([Measures].[Suma opoznien]),
-		[Prev month amount],
+		([Prev month amount]),
 		[Difference between months]
 	}
 	ON COLUMNS
 FROM [Trains 3];
 
-
+*/
 
 // 2. Na jakiej trasie najbardziej zmniejszyło się
 // sumaryczne opóźnienie w porównaniu z miesiącem poprzednim?
-// brakuje odwolania sie do trasy 
+// czy powinnismy sie odnosic do stacji poczatkowej oraz stacji koncowej? --> jeśli nie to gotowe
+/*
 WITH MEMBER [Prev month amount] AS
 '(
 	ParallelPeriod(
@@ -48,24 +50,26 @@ WITH MEMBER [Prev month amount] AS
 				  ),
 		[Measures].[Suma opoznien]
 )'
+ MEMBER [Difference between months] AS
+'(
+	[Measures].[Suma opoznien] - [Prev month amount]
+)'
 SELECT
 	{
-		(
-			[Data].[HierarchiaDaty].[Rok].[2021].Children
-		)
-	}
+		topcount(order([Trasy].[Id Trasy].Children, [Difference between months] , desc), 1)
+}
 	ON ROWS,
 	{
-		([Measures].[Suma opoznien]),
-		[Prev month amount]
-		
-	}
+		([Difference between months])
+		}
+
 	ON COLUMNS
 FROM [Trains 3];
 
-
+*/
 // 3. Jaki typ pociągu ma najmniejsze średnie opóźnienie w poszczególnych miesiącach?
-// brakuje odwolania sie do typu pociagu
+// gotowe
+/*
 WITH MEMBER [Prev month amount] AS
 '(
 	ParallelPeriod(
@@ -76,26 +80,27 @@ WITH MEMBER [Prev month amount] AS
 		[Measures].[Srednie opoznienie]
 )'
 SELECT
-	{
-		(
-			[Data].[HierarchiaDaty].[Rok].[2021].[Luty]
-		)
-	}
+	topcount( 
+			order(
+				[Pociagi].[Typ].Children
+				, ([Prev month amount]
+				, [Data].[HierarchiaDaty].[Rok].[2021].[Marzec])
+				, desc
+				)
+			, 1
+			)
 	ON ROWS,
-	{
 	
-		([Measures].[Srednie opoznienie]),
-		[Prev month amount]
-		
-	}
+	([Prev month amount], [Data].[HierarchiaDaty].[Rok].[2021].[Marzec])	
+	
 	ON COLUMNS
 FROM [Trains 3];
-
+*/
 
 // 4. Jak na przestrzeni miesięcy zmienia się średni czas opóźnienia
 // dla pociągów wiozących dany typ towaru?
 // GOTOWE
-
+/*
 SELECT
 	{
 		[Data].[HierarchiaDaty].[Rok].[2021].[Luty]
@@ -108,7 +113,7 @@ ON ROWS,
 ON COLUMNS
 
 FROM [Trains 3];
-
+*/
 
 // 5. Jaka jest różnica pomiędzy miesiącami w ilości przejazdów,
 // na których nie wystąpiło żadne opóźnienie?
@@ -118,30 +123,47 @@ FROM [Trains 3];
 
 // 6. Jak na przestrzeni miesięcy zmienia się liczba przejazdów,
 // gdzie opóźnienie nie przekracza 30 minut, pomimo wystąpienia awarii?
-// trzeba uzyc funkcji filter do sprwadzenia, czy opoznienie przekracza 30 minut
+// trzeba dodac count, żeby policzyło ilość kolumn
+WITH MEMBER [Prev month amount] AS
+'(
+	ParallelPeriod(
+					[Data].[HierarchiaDaty].[Miesiac],
+					1,
+					[Data].[HierarchiaDaty].CurrentMember
+				  ),
+		[Measures].[Przejazdy Count]
+)'
+
+MEMBER [przejazdy z malym spoznieniem] as 
+'
+count (
+Filter(
+		[Przejazdy].[Id Przejazdu].Children,
+		[Przejazdy].[Opoznienie] <= 30)
+		)
+'
 
 SELECT
-	{
-		//[Data].[HierarchiaDaty].[Rok].[2021].[Luty]
+
 		(
-		[Przejazdy].[Id Przejazdu].Children,
-		[Przejazdy].[Opoznienie].Children,
-		[Przejazdy].[Masa Towaru].Children
+		 [Prev month amount]
 		)
-		
-	}
 ON ROWS,
 	{
-		//[Measures].[Ilosc przejazdow]
+		
 
-	} //HAVING [Measures].[Male opoznienie]
+Filter(
+		[Przejazdy].[Id Przejazdu].Children,
+		[Przejazdy].[Opoznienie] <= 30
+		)
+		
+	
+	
+	}
+
+	
 ON COLUMNS
-FROM [Trains 3]
-WHERE { 
-//[Przejazdy].[Czy Wystapila Awaria].[False]
-		}
-;
-
+FROM [Trains 3];
 
 
 /*
@@ -166,7 +188,7 @@ FROM [Trains 3]
 // 7. Jak zmieniła się średnia liczba pasażerów
 // przewożonych na danej trasie w tym i poprzednim miesiącu?
 // DODAĆ MERGE PO ID TRASY
-
+/*
 WITH MEMBER [Prev month amount] AS
 '(ParallelPeriod([Data].[HierarchiaDaty].[Miesiac],
 1,
@@ -184,28 +206,93 @@ SELECT
 	ON COLUMNS
 FROM [Trains 3];
 
-
+*/
 
 // 8. Jaki typ towaru był najczęściej przewożony w poszczególnych miesiącach?
+/*
+WITH MEMBER [Prev month amount] AS
+'(ParallelPeriod([Data].[HierarchiaDaty].[Miesiac],
+1,
+[Data].[HierarchiaDaty].CurrentMember),
+[Measures].[Suma przewozonego towaru])'
+MEMBER [Typ w danym miesiacu] AS // tutaj zmien miesiac
+'(
+	[Data].[HierarchiaDaty].[Rok].[2021].[Marzec]
+	, [Prev month amount]
+)'
+SELECT
+		topcount(
+				ORDER(
+						  [Pociagi].[Typ Towaru].Children
+						, [Typ w danym miesiacu]
+						, DESC
+					)
+				, 1
+				)
+	ON ROWS,
+		[Typ w danym miesiacu]
+	ON COLUMNS
+FROM [Trains 3];
 
-
-
-
+*/
 
 // 9. Jak zmienia się masa przewożonego towaru na danej trasie w tym i poprzednim miesiącu?
+// chyba git
 
+/*
+WITH MEMBER [Prev month amount] AS
+'(ParallelPeriod([Data].[HierarchiaDaty].[Miesiac],
+1,
+[Data].[HierarchiaDaty].CurrentMember),
+[Measures].[Suma przewozonego towaru])'
+MEMBER [Difference between months] AS
+'(
+	[Measures].[Suma przewozonego towaru] - [Prev month amount]
+)'
+SELECT
+		[Trasy].[Id Trasy].Children
+	ON ROWS,
+	
+		(
+			[Data].[HierarchiaDaty].[Rok].[2021].Children
+			, [Difference between months]
+		)
+	
+	ON COLUMNS
+FROM [Trains 3];
 
-
-
+*/
 
 // 10. Na jakiej trasie w poszczególnych miesiącach przewiezionych zostało najwięcej osób?
-
-
-
-
+// gotowe
+/*
+WITH MEMBER [Prev month amount] AS
+'(ParallelPeriod([Data].[HierarchiaDaty].[Miesiac],
+1,
+[Data].[HierarchiaDaty].CurrentMember),
+[Measures].[Suma przewiezionych pasazerow])'
+MEMBER [Difference between months] AS
+'(
+	[Measures].[Suma przewiezionych pasazerow] - [Prev month amount]
+)'
+SELECT
+		topcount(
+				order( [Trasy].[Id Trasy].Children
+					, ([Data].[HierarchiaDaty].[Rok].[2021].[Luty], [Difference between months]) 
+					, desc
+					)
+				, 1)
+	ON ROWS,
+	
+		([Data].[HierarchiaDaty].[Rok].[2021].[Luty], [Difference between months])
+	
+	ON COLUMNS
+FROM [Trains 3];
+*/
 
 // 11. Ile w poszczególnych miesiącach było pociągów, 
 // które miały zapełnione więcej niż 50% miejsc siedzących?
+
 
 
 
