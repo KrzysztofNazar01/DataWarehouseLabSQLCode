@@ -117,7 +117,7 @@ FROM [Trains 3];
 
 // 5. Jaka jest różnica pomiędzy miesiącami w ilości przejazdów,
 // na których nie wystąpiło żadne opóźnienie?
-// warto by dodać filrtowanie żeby wyszukiwać opóźnienia równego zero
+// warto by dodać filrtowanie żeby wyszukiwać opóźnienia równego zero; jeśli nie trzeba to gotowe
 /*
 WITH MEMBER [Prev month amount] AS
 '(
@@ -229,6 +229,7 @@ FROM [Trains 3];
 */
 
 // 8. Jaki typ towaru był najczęściej przewożony w poszczególnych miesiącach?
+//gotowe
 /*
 WITH MEMBER [Prev month amount] AS
 '(ParallelPeriod([Data].[HierarchiaDaty].[Miesiac],
