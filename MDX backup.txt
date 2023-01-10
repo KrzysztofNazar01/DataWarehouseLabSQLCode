@@ -56,16 +56,16 @@ WITH MEMBER [Prev month amount] AS
 )'
 SELECT
 	{
-		topcount(order([Trasy].[Id Trasy].Children, [Difference between months] , desc), 1)
+		topcount(order(([Trasy].[Id Trasy].children,[Stacja Poczatkowa].[Nazwa].children,[Stacja Koncowa].[Nazwa].children), [Difference between months] , desc), 10)
 }
+//[Trasy].[Id Trasy].Children
 	ON ROWS,
 	{
-		([Difference between months])
+		([Difference between months], [Data].[HierarchiaDaty].[Rok].[2021].Children)
 		}
 
 	ON COLUMNS
 FROM [Trains 3];
-
 */
 // 3. Jaki typ pociągu ma najmniejsze średnie opóźnienie w poszczególnych miesiącach?
 // gotowe
@@ -103,7 +103,7 @@ FROM [Trains 3];
 /*
 SELECT
 	{
-		[Data].[HierarchiaDaty].[Rok].[2021].[Luty]
+		[Data].[HierarchiaDaty].[Rok].[2021].[Luty] // mozna dac children
 	}
 ON ROWS,
 	{
@@ -140,18 +140,20 @@ SELECT
 	}
 	ON ROWS,
 	{
-		-- ([Difference between months],[Przejazdy].[Opoznienie].Children) //wszystkie przejazdy ze spoznieniem
-		([Difference between months],[Przejazdy].[Opoznienie].[0]) //przejazdy ze spoznieniem o danej wartości
+		--([Difference between months],[Przejazdy].[Opoznienie].Children) //wszystkie przejazdy ze spoznieniem
+		--([Difference between months],[Przejazdy].[Opoznienie].[0]) //przejazdy ze spoznieniem o danej wartości
+		([Difference between months])
 
 	}
 	ON COLUMNS
-FROM [Trains 3];
+FROM [Trains 3]
+where [Przejazdy].[Opoznienie].[0];
 
 */
 
 // 6. Jak na przestrzeni miesięcy zmienia się liczba przejazdów,
 // gdzie opóźnienie nie przekracza 30 minut, pomimo wystąpienia awarii?
-// trzeba dodac count, żeby policzyło ilość kolumn
+//GOTOWE
 /*
 WITH MEMBER [Prev month amount] AS
 '(
@@ -160,72 +162,49 @@ WITH MEMBER [Prev month amount] AS
 					1,
 					[Data].[HierarchiaDaty].CurrentMember
 				  ),
-		[Measures].[Przejazdy Count]
+		[Measures].[Ilosc przejazdow]
 )'
-
-MEMBER [przejazdy z malym spoznieniem] as 
-'(
-count (
-Filter(
-		[Przejazdy].[Id Przejazdu].Children,
-		[Przejazdy].[Opoznienie] <= 30)
-		)
-)'
-SELECT
-		(
-		 [Prev month amount]
-		)
-ON ROWS,
-	{	
-	Filter(
-		[Przejazdy].[Id Przejazdu].Children,
-		[Przejazdy].[Opoznienie] <= 30
-		)
-	}
-ON COLUMNS
-FROM [Trains 3];
-*/
-
-/*
 SELECT
 	{
 		(
-		[Przejazdy].[Id Przejazdu].Children,
-		[Przejazdy].[Opoznienie].Children,
-		[Przejazdy].[Masa Towaru].Children
+			[Data].[HierarchiaDaty].[Rok].&[2021].children
 		)
 	}
 ON ROWS,
 	{
-		[Measures].[Male opoznienie]
-	} 
+		[Measures].[Ilosc przejazdow]
+	}
 ON COLUMNS
 FROM [Trains 3]
-
+where crossjoin([Przejazdy].[Czy Wystapila Awaria].&[True], { [Przejazdy].[Opoznienie].[0] : [Przejazdy].[Opoznienie].[30]} )
 ;
 */
 
 // 7. Jak zmieniła się średnia liczba pasażerów
 // przewożonych na danej trasie w tym i poprzednim miesiącu?
-// DODAĆ MERGE PO ID TRASY
+// gotowe
 /*
 WITH MEMBER [Prev month amount] AS
 '(ParallelPeriod([Data].[HierarchiaDaty].[Miesiac],
 1,
 [Data].[HierarchiaDaty].CurrentMember),
 [Measures].[Srednia ilosc pasazerow])'
+ MEMBER [Difference between months] AS
+'(
+	[Measures].[Srednia ilosc pasazerow] - [Prev month amount]
+)'
 SELECT
 	{
-		[Data].[HierarchiaDaty].[Rok].[2021].[Luty]
+		[Data].[HierarchiaDaty].[Rok].[2021].[Kwiecien]
 	}
 	ON ROWS,
 	{
-		[Measures].[Srednia ilosc pasazerow],
-		[Prev month amount]
+		--([Difference between months], [Trasy].[Id Trasy].children) //wypisze zmiany dla tras o danych Id
+		([Difference between months], ([Stacja Poczatkowa].[Nazwa].&[bielawa dolnoslaskie], [Stacja Koncowa].[Nazwa].&[lobez zachodniopomorskie])) //ustawic nazwe stacji poczatkowej i koncowej)
+
 	}
 	ON COLUMNS
 FROM [Trains 3];
-
 */
 
 // 8. Jaki typ towaru był najczęściej przewożony w poszczególnych miesiącach?
@@ -258,8 +237,7 @@ FROM [Trains 3];
 */
 
 // 9. Jak zmienia się masa przewożonego towaru na danej trasie w tym i poprzednim miesiącu?
-// chyba git
-
+// gotowe
 /*
 WITH MEMBER [Prev month amount] AS
 '(ParallelPeriod([Data].[HierarchiaDaty].[Miesiac],
@@ -271,7 +249,7 @@ MEMBER [Difference between months] AS
 	[Measures].[Suma przewozonego towaru] - [Prev month amount]
 )'
 SELECT
-		[Trasy].[Id Trasy].Children
+		([Stacja Poczatkowa].[Nazwa].&[bielawa dolnoslaskie], [Stacja Koncowa].[Nazwa].&[lobez zachodniopomorskie]) //ustawic nazwe stacji poczatkowej i koncowej
 	ON ROWS,
 	
 		(
@@ -283,7 +261,6 @@ SELECT
 FROM [Trains 3];
 
 */
-
 // 10. Na jakiej trasie w poszczególnych miesiącach przewiezionych zostało najwięcej osób?
 // gotowe
 /*
@@ -299,10 +276,11 @@ MEMBER [Difference between months] AS
 SELECT
 		topcount(
 				order( [Trasy].[Id Trasy].Children
+				--([Stacja Poczatkowa].[Nazwa].children, [Stacja Koncowa].[Nazwa].children) //ustawic nazwe stacji poczatkowej i koncowej
 					, ([Data].[HierarchiaDaty].[Rok].[2021].[Luty], [Difference between months]) 
 					, desc
 					)
-				, 1)
+				, 10)
 	ON ROWS,
 	
 		([Data].[HierarchiaDaty].[Rok].[2021].[Luty], [Difference between months])
@@ -313,31 +291,21 @@ FROM [Trains 3];
 
 // 11. Ile w poszczególnych miesiącach było przejazdów, 
 // które miały zapełnione więcej niż 50% miejsc siedzących?
-// trzeba dodać filtrowanie, że procent zajetych miejsc byl wiekszy niz 50
+// gotowe
+
 /*
-WITH MEMBER [Prev month amount] AS
-'(
-	ParallelPeriod(
-					[Data].[HierarchiaDaty].[Miesiac],
-					1,
-					[Data].[HierarchiaDaty].CurrentMember
-				  ),
-		[Measures].[Przejazdy Count]
-)'
 SELECT
 	{
-		[Data].[HierarchiaDaty].[Rok].[2021].Children
+		[Measures].[Ilosc przejazdow]
 	}
 	ON COLUMNS,
 	{
-			
-				([Prev month amount], [Przejazdy].[Procent Zajetych Miejsc].children)
-		
-			
-
+		[Data].[HierarchiaDaty].[Rok].[2021].Children
 	}
 	ON ROWS
-FROM [Trains 3];
-*/
+FROM [Trains 3]
+where {[Przejazdy].[Procent Zajetych Miejsc].[51] : [Przejazdy].[Procent Zajetych Miejsc].[100]}
+;
 
+*/
 
