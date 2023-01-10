@@ -117,13 +117,42 @@ FROM [Trains 3];
 
 // 5. Jaka jest różnica pomiędzy miesiącami w ilości przejazdów,
 // na których nie wystąpiło żadne opóźnienie?
+// warto by dodać filrtowanie żeby wyszukiwać opóźnienia równego zero
+/*
+WITH MEMBER [Prev month amount] AS
+'(
+	ParallelPeriod(
+					[Data].[HierarchiaDaty].[Miesiac],
+					1,
+					[Data].[HierarchiaDaty].CurrentMember
+				  ),
+		[Measures].[Przejazdy Count]
+)'
+ MEMBER [Difference between months] AS
+'(
+	[Measures].[Przejazdy Count] - [Prev month amount]
+)'
+SELECT
+	{
+		(
+			[Data].[HierarchiaDaty].[Rok].[2021].Children
+		)
+	}
+	ON ROWS,
+	{
+		-- ([Difference between months],[Przejazdy].[Opoznienie].Children) //wszystkie przejazdy ze spoznieniem
+		([Difference between months],[Przejazdy].[Opoznienie].[0]) //przejazdy ze spoznieniem o danej wartości
 
+	}
+	ON COLUMNS
+FROM [Trains 3];
 
-
+*/
 
 // 6. Jak na przestrzeni miesięcy zmienia się liczba przejazdów,
 // gdzie opóźnienie nie przekracza 30 minut, pomimo wystąpienia awarii?
 // trzeba dodac count, żeby policzyło ilość kolumn
+/*
 WITH MEMBER [Prev month amount] AS
 '(
 	ParallelPeriod(
@@ -135,36 +164,27 @@ WITH MEMBER [Prev month amount] AS
 )'
 
 MEMBER [przejazdy z malym spoznieniem] as 
-'
+'(
 count (
 Filter(
 		[Przejazdy].[Id Przejazdu].Children,
 		[Przejazdy].[Opoznienie] <= 30)
 		)
-'
-
+)'
 SELECT
-
 		(
 		 [Prev month amount]
 		)
 ON ROWS,
-	{
-		
-
-Filter(
+	{	
+	Filter(
 		[Przejazdy].[Id Przejazdu].Children,
 		[Przejazdy].[Opoznienie] <= 30
 		)
-		
-	
-	
 	}
-
-	
 ON COLUMNS
 FROM [Trains 3];
-
+*/
 
 /*
 SELECT
@@ -290,10 +310,33 @@ SELECT
 FROM [Trains 3];
 */
 
-// 11. Ile w poszczególnych miesiącach było pociągów, 
+// 11. Ile w poszczególnych miesiącach było przejazdów, 
 // które miały zapełnione więcej niż 50% miejsc siedzących?
+// trzeba dodać filtrowanie, że procent zajetych miejsc byl wiekszy niz 50
+/*
+WITH MEMBER [Prev month amount] AS
+'(
+	ParallelPeriod(
+					[Data].[HierarchiaDaty].[Miesiac],
+					1,
+					[Data].[HierarchiaDaty].CurrentMember
+				  ),
+		[Measures].[Przejazdy Count]
+)'
+SELECT
+	{
+		[Data].[HierarchiaDaty].[Rok].[2021].Children
+	}
+	ON COLUMNS,
+	{
+			
+				([Prev month amount], [Przejazdy].[Procent Zajetych Miejsc].children)
+		
+			
 
-
-
+	}
+	ON ROWS
+FROM [Trains 3];
+*/
 
 
